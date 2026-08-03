@@ -1,2 +1,2 @@
 # pmpi-embudasartes
-Plano Municipal pela Primeira Infância (PMPI) de Embu das Artes (2026–2035): portal colaborativo para diagnóstico, planejamento, monitoramento de indicadores e participação social.
+Observatório da Primeira Infância de Embu das Artes — plataforma pública de dados, participação social e monitoramento do Plano Municipal pela Primeira Infância (PMPI 2026–2035).
