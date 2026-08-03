@@ -1,0 +1,152 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Indicadores do Observatório da Primeira Infância",
+  "type": "object",
+  "required": [
+    "metadados",
+    "indicadores"
+  ],
+  "properties": {
+    "metadados": {
+      "type": "object",
+      "required": [
+        "projeto",
+        "versao",
+        "atualizado_em",
+        "status_geral"
+      ],
+      "properties": {
+        "projeto": {
+          "type": "string"
+        },
+        "versao": {
+          "type": "string"
+        },
+        "atualizado_em": {
+          "type": "string",
+          "format": "date"
+        },
+        "status_geral": {
+          "type": "string"
+        },
+        "observacao": {
+          "type": "string"
+        }
+      }
+    },
+    "indicadores": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "codigo",
+          "eixo",
+          "tema",
+          "nome",
+          "valor_formatado",
+          "unidade",
+          "ano_base",
+          "fonte_primaria",
+          "secretaria_responsavel",
+          "situacao",
+          "prioridade"
+        ],
+        "properties": {
+          "codigo": {
+            "type": "string"
+          },
+          "eixo": {
+            "type": "string"
+          },
+          "tema": {
+            "type": "string"
+          },
+          "nome": {
+            "type": "string"
+          },
+          "nome_curto": {
+            "type": "string"
+          },
+          "definicao": {
+            "type": "string"
+          },
+          "valor": {
+            "type": [
+              "number",
+              "integer",
+              "null"
+            ]
+          },
+          "valor_formatado": {
+            "type": "string"
+          },
+          "unidade": {
+            "type": "string"
+          },
+          "ano_base": {
+            "type": "integer"
+          },
+          "fonte_apresentada": {
+            "type": "string"
+          },
+          "fonte_primaria": {
+            "type": "string"
+          },
+          "secretaria_responsavel": {
+            "type": "string"
+          },
+          "periodicidade": {
+            "type": "string"
+          },
+          "abrangencia": {
+            "type": "string"
+          },
+          "desagregacoes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "qualidade": {
+            "enum": [
+              "A",
+              "B",
+              "C",
+              "D"
+            ]
+          },
+          "situacao": {
+            "enum": [
+              "disponivel",
+              "disponivel_com_limitacao",
+              "divergente",
+              "a_validar",
+              "solicitar",
+              "a_construir"
+            ]
+          },
+          "prioridade": {
+            "enum": [
+              "critica",
+              "alta",
+              "media",
+              "baixa"
+            ]
+          },
+          "publicar_home": {
+            "type": "boolean"
+          },
+          "visualizacao": {
+            "type": "string"
+          },
+          "pagina": {
+            "type": "string"
+          },
+          "nota": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}
