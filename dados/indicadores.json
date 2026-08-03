@@ -1,0 +1,56 @@
+[
+  {
+    "codigo": "DEM-01",
+    "eixo": "Transversal",
+    "nome": "Crianças de 0 a 6 anos",
+    "valor": "22.959",
+    "ano": 2025,
+    "status": "informacao",
+    "fonte": "FMCSV"
+  },
+  {
+    "codigo": "ASS-01",
+    "eixo": "Assistência Social",
+    "nome": "Crianças no CadÚnico",
+    "valor": "16.173",
+    "ano": 2025,
+    "status": "critico",
+    "fonte": "CadÚnico/FMCSV"
+  },
+  {
+    "codigo": "EDU-01",
+    "eixo": "Educação e Aprendizagem",
+    "nome": "Atendimento em creche",
+    "valor": "42,05%",
+    "ano": 2025,
+    "status": "critico",
+    "fonte": "Censo Escolar/IBGE"
+  },
+  {
+    "codigo": "EDU-02",
+    "eixo": "Educação e Aprendizagem",
+    "nome": "Atendimento na pré-escola",
+    "valor": "87,81%",
+    "ano": 2025,
+    "status": "critico",
+    "fonte": "Censo Escolar/IBGE"
+  },
+  {
+    "codigo": "SAU-01",
+    "eixo": "Saúde e Nutrição",
+    "nome": "Óbitos infantis evitáveis",
+    "valor": "50%",
+    "ano": 2024,
+    "status": "critico",
+    "fonte": "SIM/SINASC"
+  },
+  {
+    "codigo": "CID-01",
+    "eixo": "O Brincar e a Cidade",
+    "nome": "Famílias que pedem mais lazer no bairro",
+    "valor": "75,9%",
+    "ano": 2026,
+    "status": "atencao",
+    "fonte": "Pesquisa PMPI"
+  }
+]
