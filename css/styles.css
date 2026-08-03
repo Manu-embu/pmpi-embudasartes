@@ -1,0 +1,17 @@
+:root{--azul-900:#173d50;--azul-700:#175a7a;--verde-700:#2f7d62;--amarelo-500:#f2bf4a;--vermelho-600:#b94646;--cinza-100:#f5f3ee;--cinza-300:#dce3e7;--texto:#24343d}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,Segoe UI,Arial,sans-serif;background:var(--cinza-100);color:var(--texto);line-height:1.55}
+header{background:var(--azul-900);color:#fff}.container{max-width:1180px;margin:auto;padding:0 20px}
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:18px 0;gap:20px}
+nav{display:flex;gap:14px;flex-wrap:wrap}nav a{color:#fff;text-decoration:none;font-size:14px}
+.hero{padding:74px 0;background:linear-gradient(135deg,var(--azul-900),var(--azul-700),var(--verde-700))}
+.hero h1{font-size:clamp(38px,6vw,66px);line-height:1.04;margin:8px 0 18px}.hero p{font-size:20px;max-width:760px;color:#e7f0f3}
+.eyebrow{text-transform:uppercase;letter-spacing:.12em;color:#ffe2a1;font-weight:800;font-size:12px}
+main section{padding:58px 0}h2{font-size:36px;margin-bottom:8px}.sub{color:#6b7a82;max-width:760px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px}
+.card{background:#fff;border:1px solid var(--cinza-300);border-radius:18px;padding:20px;box-shadow:0 7px 20px rgba(20,50,65,.06)}
+.card .eixo{font-size:11px;text-transform:uppercase;letter-spacing:.08em;color:#6b7a82;font-weight:800}.card .valor{font-size:34px;font-weight:900;color:var(--azul-700);margin:4px 0}
+.card.critico{border-left:6px solid var(--vermelho-600)}.card.atencao{border-left:6px solid var(--amarelo-500)}.card.informacao{border-left:6px solid var(--azul-700)}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.panel{background:#fff;border-radius:20px;padding:24px;border:1px solid var(--cinza-300)}
+.fonte{font-size:12px;color:#6b7a82;margin-top:8px}footer{background:var(--azul-900);color:#dbe9ee;padding:40px 0;margin-top:40px}
+@media(max-width:850px){.cards{grid-template-columns:1fr 1fr}.grid{grid-template-columns:1fr}nav{display:none}}
+@media(max-width:560px){.cards{grid-template-columns:1fr}.hero{padding:48px 0}}
