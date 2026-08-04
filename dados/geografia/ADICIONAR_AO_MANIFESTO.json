@@ -1,0 +1,9 @@
+{
+  "cartografia_oficial": [
+    "dados/geografia/limite-municipal-oficial.geojson",
+    "dados/geografia/regioes-oficiais.geojson",
+    "dados/geografia/unidades-administrativas.geojson",
+    "dados/geografia/bairros-oficiais.geojson",
+    "dados/geografia/metadados-cartografia.json"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "titulo": "Cartografia oficial incorporada ao Atlas Territorial",
+  "versao": "7.2",
+  "data_processamento": "2026-08-04",
+  "sistema_referencia_origem": "EPSG:31983 — SIRGAS 2000 / UTM zone 23S",
+  "sistema_referencia_publicacao": "EPSG:4326 — WGS 84",
+  "camadas": {
+    "limite-municipal-oficial.geojson": {
+      "feicoes": 1,
+      "campos": [
+        "nome",
+        "vegetacao_m2",
+        "populacao_2009",
+        "taxa_vegetacao",
+        "area_km2",
+        "fonte_cartografica",
+        "crs_origem",
+        "status_geometria"
+      ],
+      "tamanho_kb": 167.5
+    },
+    "regioes-oficiais.geojson": {
+      "feicoes": 3,
+      "campos": [
+        "nome",
+        "populacao_2000",
+        "populacao_2010",
+        "mulheres_2010",
+        "homens_2010",
+        "domicilios",
+        "populacao_2015",
+        "fonte_cartografica",
+        "crs_origem",
+        "status_geometria",
+        "nota_demografica"
+      ],
+      "tamanho_kb": 288.2
+    },
+    "unidades-administrativas.geojson": {
+      "feicoes": 20,
+      "campos": [
+        "nome",
+        "codigo",
+        "regiao",
+        "populacao_2010",
+        "mulheres_2010",
+        "homens_2010",
+        "domicilios",
+        "populacao_2015",
+        "area_km2",
+        "densidade_2015",
+        "fonte_cartografica",
+        "crs_origem",
+        "status_geometria",
+        "nota_demografica"
+      ],
+      "tamanho_kb": 626.7
+    },
+    "bairros-oficiais.geojson": {
+      "feicoes": 114,
+      "campos": [
+        "nome",
+        "nome_abreviado",
+        "codigo",
+        "unidade_administrativa",
+        "codigo_unidade_administrativa",
+        "regiao",
+        "populacao_2010",
+        "mulheres_2010",
+        "homens_2010",
+        "domicilios",
+        "densidade_2010",
+        "populacao_2015",
+        "densidade_2015",
+        "area_km2",
+        "fonte_cartografica",
+        "crs_origem",
+        "status_geometria",
+        "nota_demografica"
+      ],
+      "tamanho_kb": 1686.7
+    }
+  },
+  "alertas": [
+    "As geometrias foram convertidas para GeoJSON sem desenho manual.",
+    "Os atributos demográficos disponíveis na base são históricos, sobretudo 2010 e 2015.",
+    "As camadas de Regiões e Unidades Administrativas não equivalem automaticamente aos territórios de CRAS.",
+    "A vinculação com os territórios do PMPI deverá ser pactuada e documentada."
+  ]
+}
