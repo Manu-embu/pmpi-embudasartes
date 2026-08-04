@@ -382,3 +382,34 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
     grid-template-columns:1fr;
   }
 }
+/* Sprint 7.1 — Consolidação e qualidade dos dados */
+.status-data-list{
+  display:grid;
+  gap:14px;
+  margin-top:24px;
+}
+.status-data-card{
+  display:flex;
+  justify-content:space-between;
+  gap:20px;
+  background:#fff;
+  border:1px solid var(--borda);
+  border-radius:16px;
+  padding:20px;
+  box-shadow:0 8px 22px rgba(20,50,65,.05);
+}
+.status-data-card h3{margin:10px 0 4px}
+.status-data-card code{
+  display:inline-block;
+  background:#f5f3ee;
+  border-radius:7px;
+  padding:5px 8px;
+  font-size:12px;
+}
+.status-data-card p{margin-bottom:5px}
+.status-data-card small{color:#6b7a82}
+.status-data-ok{border-left:6px solid #2f7d62}
+.status-data-error{border-left:6px solid #b94646}
+@media(max-width:650px){
+  .status-data-card{flex-direction:column}
+}
