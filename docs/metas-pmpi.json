@@ -1,0 +1,94 @@
+{
+  "metadados": {
+    "titulo": "Metas iniciais do PMPI",
+    "status": "propostas para discussão da Comissão",
+    "atualizado_em": "2026-08-04"
+  },
+  "metas": [
+    {
+      "codigo": "EDU-01",
+      "eixo": "Educação e Aprendizagem",
+      "titulo": "Ampliar o atendimento em creche",
+      "linha_base": "42,05%",
+      "ano_base": 2025,
+      "meta_2035": "A pactuar",
+      "responsavel": "Secretaria Municipal de Educação",
+      "ods": [
+        4,
+        5,
+        10
+      ],
+      "ppa": [
+        "1005",
+        "1010",
+        "2036",
+        "2067"
+      ],
+      "status": "em_construcao"
+    },
+    {
+      "codigo": "EDU-02",
+      "eixo": "Educação e Aprendizagem",
+      "titulo": "Universalizar o atendimento na pré-escola",
+      "linha_base": "87,81%",
+      "ano_base": 2025,
+      "meta_2035": "100%",
+      "responsavel": "Secretaria Municipal de Educação",
+      "ods": [
+        4,
+        10
+      ],
+      "ppa": [
+        "2035",
+        "2036"
+      ],
+      "status": "em_construcao"
+    },
+    {
+      "codigo": "SAU-01",
+      "eixo": "Saúde e Nutrição",
+      "titulo": "Reduzir os óbitos infantis por causas evitáveis",
+      "linha_base": "50%",
+      "ano_base": 2024,
+      "meta_2035": "A pactuar",
+      "responsavel": "Secretaria Municipal de Saúde",
+      "ods": [
+        3,
+        10
+      ],
+      "ppa": [],
+      "status": "em_construcao"
+    },
+    {
+      "codigo": "SAU-02",
+      "eixo": "Saúde e Nutrição",
+      "titulo": "Ampliar a cobertura da segunda dose da tríplice viral",
+      "linha_base": "83,86%",
+      "ano_base": 2025,
+      "meta_2035": "A pactuar",
+      "responsavel": "Secretaria Municipal de Saúde",
+      "ods": [
+        3,
+        10
+      ],
+      "ppa": [],
+      "status": "em_construcao"
+    },
+    {
+      "codigo": "CID-01",
+      "eixo": "O Brincar e a Cidade",
+      "titulo": "Qualificar espaços públicos para brincar",
+      "linha_base": "Inventário a construir",
+      "ano_base": 2026,
+      "meta_2035": "A pactuar",
+      "responsavel": "Obras, Cultura, Esportes e Meio Ambiente",
+      "ods": [
+        10,
+        11,
+        16
+      ],
+      "ppa": [],
+      "status": "em_construcao"
+    }
+  ]
+}
