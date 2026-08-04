@@ -21,3 +21,11 @@ footer{background:var(--azulesc);color:#dbe9ee;padding:38px 0}.footer{display:gr
 @media(max-width:900px){.grid4{grid-template-columns:1fr 1fr}.grid3{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){nav{display:none}.grid2,.footer{grid-template-columns:1fr}.bar-row{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}}
 @media(max-width:520px){.grid3,.grid4,.gallery{grid-template-columns:1fr}.hero{padding:42px 0 48px}h2{font-size:30px}}
+/* Sprint 4.1 — Galeria infantil e documentos */
+.gallery-featured{grid-template-columns:repeat(3,1fr);align-items:stretch}
+.drawing-featured{margin:0;display:flex;flex-direction:column;overflow:hidden}
+.drawing-featured img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:12px;display:block;background:#fff}
+.drawing-featured figcaption{display:grid;gap:4px;padding:14px 4px 2px}
+.drawing-featured figcaption strong{font-size:18px;color:var(--azulesc)}
+.drawing-featured figcaption span{color:#6b7a82;font-size:14px}
+@media(max-width:760px){.gallery-featured{grid-template-columns:1fr}}
