@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rede de Educação Infantil | PMPI</title>
+<link rel="stylesheet" href="css/styles.css">
+</head><body>
+<header>
+<div class="container topbar">
+  <strong>Plataforma de Monitoramento do PMPI</strong>
+  <nav>
+    <a href="index.html">Início</a>
+    <a href="diagnostico.html">Diagnóstico</a>
+    <a href="rede-educacao-infantil.html">Rede de Educação Infantil</a>
+    <a href="mapa.html">Mapa</a>
+    <a href="planejamento-orcamento.html">Planejamento</a>
+    <a href="participacao.html">Participação</a>
+    <a href="matriz-decisoes.html">Matriz</a>
+  </nav>
+</div>
+<div class="hero small"><div class="container">
+<div class="eyebrow">Equipamentos e capacidade instalada</div>
+<h1>Rede de Educação Infantil</h1>
+<p>Unidades diretas e conveniadas, atendimentos informados, lista de espera, serviços e desafios.</p>
+</div></div></header>
+<main>
+<section><div class="container">
+<div class="kpi-five">
+<div class="compact-kpi"><strong id="kpi-total">—</strong><span>unidades mapeadas</span></div>
+<div class="compact-kpi"><strong id="kpi-diretas">—</strong><span>unidades diretas</span></div>
+<div class="compact-kpi"><strong id="kpi-conveniadas">—</strong><span>creches conveniadas</span></div>
+<div class="compact-kpi"><strong id="kpi-atendimentos">—</strong><span>atendimentos informados</span></div>
+<div class="compact-kpi"><strong id="kpi-espera">—</strong><span>unidades com lista de espera</span></div>
+</div>
+<div class="note"><strong>Atenção:</strong> o número de unidades com lista de espera não corresponde ao total de crianças aguardando vaga. O levantamento deve ser validado e complementado.</div>
+
+<div class="filters">
+<input id="busca" type="search" placeholder="Buscar unidade, endereço, bairro ou desafio">
+<select id="filtro-rede"><option value="">Todas as redes</option><option>Direta</option><option>Conveniada</option></select>
+<select id="filtro-modalidade"><option value="">Todas as modalidades</option><option>Creche</option><option>Pré-escola</option><option>Creche e pré-escola</option><option>Educação Infantil</option></select>
+<select id="filtro-espera"><option value="">Lista de espera: todas</option><option value="sim">Com lista de espera</option><option value="nao">Sem lista de espera</option></select>
+</div>
+
+<p id="total-filtrado" class="sub"></p>
+<div class="table-wrap"><table>
+<thead><tr><th>Unidade</th><th>Rede</th><th>Modalidade</th><th>Bairro</th><th>Atendimentos</th><th>Lista de espera</th><th>Desafios</th><th>Ficha</th></tr></thead>
+<tbody id="tabela-unidades"></tbody>
+</table></div>
+<div class="actions">
+<a class="btn secondary" href="dados/coordenadas-equipamentos.csv">Baixar base para coordenadas</a>
+<a class="btn secondary" href="docs/levantamento-equipamentos-educacao-infantil.ods">Consultar levantamento original</a>
+<a class="btn primary" href="mapa.html">Abrir mapa</a>
+</div>
+</div></section>
+</main>
+<dialog id="ficha-modal"><div id="ficha-conteudo" class="modal-content"></div></dialog>
+
+<footer>
+  <div class="container footer">
+    <div><strong>Plataforma de Monitoramento do PMPI</strong><p>Observatório da Primeira Infância de Embu das Artes.</p></div>
+    <div><strong>Sprint 5</strong><p>Rede, território e planejamento.</p></div>
+  </div>
+</footer>
+
+<script src="js/rede-educacao.js"></script>
+</body></html>
