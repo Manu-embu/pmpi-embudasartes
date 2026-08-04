@@ -181,10 +181,33 @@ function renderizarTerritorio() {
 }
 
 async function iniciarTerritorios() {
-  const response = await fetch("./dados/territorios.json", { cache: "no-store" });
-  if (!response.ok) throw new Error(`HTTP ${response.status}`);
-  const data = await response.json();
-  TERRITORIOS = data.territorios || [];
+  const caminho = "./dados/territorios.json";
+  const response = await fetch(caminho, { cache: "no-store" });
+
+  if (!response.ok) {
+    throw new Error(
+      `Arquivo obrigatório não encontrado: ${caminho} (HTTP ${response.status}). ` +
+      "Envie o arquivo territorios.json para a pasta dados do repositório."
+    );
+  }
+
+  let data;
+  try {
+    data = await response.json();
+  } catch (erro) {
+    throw new Error(
+      `O arquivo ${caminho} foi encontrado, mas não contém JSON válido.`
+    );
+  }
+
+  TERRITORIOS = Array.isArray(data.territorios) ? data.territorios : [];
+
+  if (!TERRITORIOS.length) {
+    throw new Error(
+      `O arquivo ${caminho} foi carregado, mas não possui territórios cadastrados.`
+    );
+  }
+
   renderizarIndice();
   renderizarTerritorio();
 }
@@ -195,7 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const main = document.querySelector("main");
     if (main) {
       main.insertAdjacentHTML("afterbegin",
-        `<section><div class="container"><div class="note"><strong>Erro:</strong> não foi possível carregar os dados territoriais.</div></div></section>`);
+        `<section><div class="container"><div class="note"><strong>Erro de dados:</strong> ${error.message}</div></div></section>`);
     }
   });
 });

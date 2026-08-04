@@ -5,6 +5,20 @@ function parseNumero(valor) {
   return Number.isFinite(convertido) ? convertido : null;
 }
 
+
+function statusCoordenada(item) {
+  const valor = String(
+    item.status_geocodificacao ||
+    item.status_georreferenciamento ||
+    item.status ||
+    ""
+  ).trim().toUpperCase();
+
+  if (valor.includes("REVISAR") || valor.includes("ERRO")) return "revisar";
+  if (valor.includes("VALIDADO")) return "validado";
+  return "a-validar";
+}
+
 function parseCsv(texto) {
   const linhas = texto.split(/\r?\n/).filter(l => l.trim() !== "");
   if (linhas.length < 2) return [];
@@ -99,6 +113,7 @@ async function iniciarMapa() {
   const camadas = {
     "Educação Infantil — direta": L.layerGroup().addTo(mapa),
     "Educação Infantil — conveniada": L.layerGroup().addTo(mapa),
+    "Coordenadas para revisar": L.layerGroup().addTo(mapa),
     "Saúde": L.layerGroup(),
     "Assistência Social": L.layerGroup(),
     "Cultura": L.layerGroup(),
@@ -113,7 +128,8 @@ async function iniciarMapa() {
     "Assistência Social": "#7b4ea3",
     "Cultura": "#d94e8f",
     "Esporte": "#2f7d62",
-    "Espaços para brincar": "#f2bf4a"
+    "Espaços para brincar": "#f2bf4a",
+    "Coordenadas para revisar": "#b94646"
   };
 
   const coordenadas = new Map(
@@ -121,20 +137,30 @@ async function iniciarMapa() {
       .filter(item => item.id)
       .map(item => [String(item.id).trim(), {
         latitude: parseNumero(item.latitude),
-        longitude: parseNumero(item.longitude)
+        longitude: parseNumero(item.longitude),
+        status: statusCoordenada(item),
+        endereco_encontrado: item.endereco_encontrado || ""
       }])
   );
 
   const pontos = [];
+  const statusResumo = { validado: 0, revisar: 0, "a-validar": 0 };
   (equipamentosData.equipamentos || []).forEach(item => {
     const coord = coordenadas.get(String(item.id).trim());
     const lat = parseNumero(item.latitude) ?? coord?.latitude ?? null;
     const lng = parseNumero(item.longitude) ?? coord?.longitude ?? null;
     if (lat === null || lng === null) return;
 
-    const layerName = item.rede === "Conveniada"
+    const status = coord?.status || statusCoordenada(item);
+    statusResumo[status] = (statusResumo[status] || 0) + 1;
+
+    const redeLayer = item.rede === "Conveniada"
       ? "Educação Infantil — conveniada"
       : "Educação Infantil — direta";
+
+    const layerName = status === "revisar"
+      ? "Coordenadas para revisar"
+      : redeLayer;
 
     L.marker([lat, lng], { icon: criarIcone(cores[layerName]) })
       .addTo(camadas[layerName])
@@ -145,6 +171,9 @@ async function iniciarMapa() {
           <p><strong>Atendimentos:</strong> ${item.atendimentos ?? "A informar"}</p>
           <p><strong>Lista de espera:</strong> ${item.lista_espera ? "Sim" : "Não"}</p>
           <p><strong>Endereço:</strong> ${item.endereco || "A informar"}</p>
+          <p><strong>Status da coordenada:</strong> ${status === "validado" ? "Validado" : status === "revisar" ? "Revisar" : "A validar"}</p>
+          ${coord?.endereco_encontrado ? `<p><strong>Endereço localizado:</strong> ${coord.endereco_encontrado}</p>` : ""}
+          <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank" rel="noopener">Conferir no Google Maps</a><br>
           <a href="rede-educacao-infantil.html">Consultar rede completa</a>
         </div>`);
     pontos.push([lat, lng]);
@@ -226,7 +255,12 @@ async function iniciarMapa() {
 
   document.querySelector("#mapa-resumo").innerHTML = `
     <strong>${pontos.length} equipamentos georreferenciados no Atlas.</strong>
-    <span>${pendingDetails ? `Camadas territoriais aguardando coordenadas — ${pendingDetails}.` : "Todas as camadas cadastradas possuem coordenadas."}</span>
+    <span>
+      Educação Infantil: ${statusResumo.validado} validado(s) •
+      ${statusResumo["a-validar"]} a validar •
+      ${statusResumo.revisar} para revisar.
+      ${pendingDetails ? ` Outras camadas aguardando coordenadas — ${pendingDetails}.` : ""}
+    </span>
   `;
 
   const territoryStatus = document.querySelector("#territory-boundary-status");
