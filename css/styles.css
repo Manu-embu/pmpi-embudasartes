@@ -413,3 +413,40 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 @media(max-width:650px){
   .status-data-card{flex-direction:column}
 }
+/* Sprint 7.2 — Atlas Territorial Oficial */
+.official-map-summary{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:12px;
+  margin:16px 0;
+}
+.official-map-summary>div{
+  background:#fff;
+  border:1px solid var(--borda);
+  border-radius:14px;
+  padding:14px;
+  box-shadow:0 8px 22px rgba(20,50,65,.05);
+}
+.official-map-summary strong{
+  display:block;
+  color:var(--azul);
+  font-size:28px;
+}
+.official-map-summary span{
+  color:#6b7a82;
+  font-size:12px;
+}
+.map-data-warning{
+  background:#fff9ed;
+  border-left:4px solid #f2bf4a;
+  border-radius:6px;
+  padding:6px 8px;
+  font-size:11px !important;
+}
+.leaflet-popup-content{
+  max-height:360px;
+  overflow:auto;
+}
+@media(max-width:760px){
+  .official-map-summary{grid-template-columns:1fr 1fr}
+}
