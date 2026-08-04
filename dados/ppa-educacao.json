@@ -1,0 +1,113 @@
+{
+  "metadados": {
+    "titulo": "PPA da Secretaria Municipal de Educação 2026–2029",
+    "orgao": "Secretaria Municipal de Educação",
+    "fonte": "Anexo III — Demonstrativo de PPA Físico e Financeiro",
+    "status": "planejamento aprovado/programado; não representa execução financeira"
+  },
+  "programas": [
+    {
+      "codigo": "0009",
+      "nome": "Cresce Embu — Cidade que Educa",
+      "objetivo": "Consolidar Embu das Artes como cidade educadora por meio de políticas integradas de educação, cultura, cidadania, infraestrutura, equidade e participação social.",
+      "totais": {
+        "2026": 115970465.93,
+        "2027": 121272823.67,
+        "2028": 127457737.68,
+        "2029": 133958082.3
+      },
+      "acoes_relacionadas_pmpi": [
+        {
+          "codigo": "1005",
+          "acao": "Construção, ampliação e reforma de unidades de ensino",
+          "produto": "Reformas/novas obras",
+          "meta_2026": 28,
+          "meta_2029": 48
+        },
+        {
+          "codigo": "1010",
+          "acao": "Construção de creches e escolas de período integral",
+          "produto": "Unidades entregues",
+          "meta_2026": 0,
+          "meta_2029": 1
+        },
+        {
+          "codigo": "2036",
+          "acao": "Garantia do acesso e permanência",
+          "produto": "Estudantes mantidos",
+          "meta_2026": 100,
+          "meta_2029": 100
+        },
+        {
+          "codigo": "2037",
+          "acao": "Atendimento Educacional Especializado",
+          "produto": "Estudantes AEE atendidos",
+          "meta_2026": 75,
+          "meta_2029": 100
+        },
+        {
+          "codigo": "2043",
+          "acao": "Emissão do AVCB",
+          "produto": "AVCB emitido",
+          "meta_2026": 10,
+          "meta_2029": 56
+        },
+        {
+          "codigo": "2067",
+          "acao": "Fortalecimento das creches conveniadas",
+          "produto": "Creches conveniadas fortalecidas",
+          "meta_2026": 100,
+          "meta_2029": 121
+        }
+      ]
+    },
+    {
+      "codigo": "0010",
+      "nome": "Primeiros Passos — Educação Infantil com Qualidade",
+      "objetivo": "Expandir o acesso e qualificar o atendimento à Educação Infantil, garantindo equidade, acolhimento e desenvolvimento integral.",
+      "totais": {
+        "2026": 107229218.07,
+        "2027": 112697908.19,
+        "2028": 118445511.51,
+        "2029": 124486222.09
+      },
+      "acoes_relacionadas_pmpi": [
+        {
+          "codigo": "2031",
+          "acao": "Gestão municipal da Educação",
+          "produto": "Atividades de funcionamento mantidas",
+          "meta_2026": 200,
+          "meta_2029": 200
+        },
+        {
+          "codigo": "2035",
+          "acao": "Funcionamento de unidades de ensino",
+          "produto": "Unidades em funcionamento mantidas",
+          "meta_2026": 100,
+          "meta_2029": 100
+        },
+        {
+          "codigo": "2044",
+          "acao": "Manutenção e conservação de unidades de ensino",
+          "produto": "Atividades executadas",
+          "meta_2026": 100,
+          "meta_2029": 100
+        },
+        {
+          "codigo": "2045",
+          "acao": "Fornecimento de merenda",
+          "produto": "Alunos atendidos",
+          "meta_2026": 100,
+          "meta_2029": 100
+        },
+        {
+          "codigo": "2049",
+          "acao": "Modernização da infraestrutura tecnológica",
+          "produto": "Escolas modernizadas",
+          "meta_2026": 2,
+          "meta_2029": 10
+        }
+      ]
+    }
+  ]
+}
