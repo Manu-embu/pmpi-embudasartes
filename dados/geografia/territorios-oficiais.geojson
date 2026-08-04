@@ -1,0 +1,9 @@
+{
+  "type": "FeatureCollection",
+  "name": "territorios-oficiais-pendentes",
+  "metadata": {
+    "status": "aguardando arquivo oficial da Prefeitura",
+    "observacao": "Não utilizar limites aproximados como oficiais."
+  },
+  "features": []
+}
