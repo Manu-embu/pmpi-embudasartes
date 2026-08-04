@@ -26,17 +26,26 @@
 <div class="hero small"><div class="container">
 <div class="eyebrow">Territorialização</div>
 <h1>Atlas Territorial da Primeira Infância</h1>
-<p>Mapa interativo dos equipamentos de Educação Infantil, com camadas por rede, fichas das unidades e base para indicadores territoriais.</p>
+<p>Mapa interativo com cartografia oficial do município, regiões, unidades administrativas, bairros e equipamentos da primeira infância.</p>
 </div></div></header>
 <main><section><div class="container">
 <div id="mapa-resumo" class="map-summary"></div>
 <div id="mapa" role="application" aria-label="Atlas dos equipamentos e territórios da primeira infância"></div>
 <div id="territory-boundary-status" class="note"></div>
+<div class="official-map-summary">
+  <div><strong>1</strong><span>limite municipal oficial</span></div>
+  <div><strong>3</strong><span>regiões</span></div>
+  <div><strong>20</strong><span>unidades administrativas</span></div>
+  <div><strong>114</strong><span>bairros</span></div>
+</div>
+<div class="note">
+  <strong>Nota metodológica:</strong> as geometrias são oficiais. Os atributos populacionais da base cartográfica são históricos, principalmente de 2010 e 2015, e não substituem os indicadores atuais do PMPI.
+</div>
 <div class="kicker" style="margin-top:28px">Camadas territoriais da imersão</div>
 <h2>Inventário em preparação para georreferenciamento</h2>
 <p class="sub">Os equipamentos foram incorporados ao banco do Atlas. Os marcadores aparecerão após a validação de endereço e coordenadas.</p>
 <div id="atlas-layer-catalog" class="atlas-layer-catalog"></div>
-<div class="note"><strong>Próxima etapa:</strong> incorporar o limite municipal, os territórios oficiais e novas camadas de Saúde, Assistência Social, Cultura, Esportes e espaços para brincar.</div>
+<div class="note"><strong>Próxima etapa:</strong> relacionar cada equipamento ao bairro, à unidade administrativa e à região oficial; depois incorporar os territórios de CRAS quando a base geográfica correspondente for validada.</div>
 <div class="actions">
 <a class="btn secondary" href="dados/coordenadas-equipamentos.csv">Baixar planilha de coordenadas</a>
 <a class="btn primary" href="rede-educacao-infantil.html">Consultar rede completa</a>
@@ -47,7 +56,7 @@
 <footer>
   <div class="container footer">
     <div><strong>Plataforma de Monitoramento do PMPI</strong><p>Observatório da Primeira Infância de Embu das Artes.</p></div>
-    <div><strong>Sprint 5</strong><p>Rede, território e planejamento.</p></div>
+    <div><strong>Sprint 7.2</strong><p>Atlas Territorial Oficial.</p></div>
   </div>
 </footer>
 
