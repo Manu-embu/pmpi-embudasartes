@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Territórios da Primeira Infância | PMPI</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+<div class="container topbar">
+  <a class="brand-link" href="index.html">Plataforma de Monitoramento do PMPI</a>
+  <nav class="main-nav" aria-label="Navegação principal">
+    <a href="index.html">Início</a>
+    <a href="diagnostico.html">Diagnóstico</a>
+    <a href="rede-educacao-infantil.html">Rede de EI</a>
+    <a href="mapa.html">Atlas</a>
+    <a href="territorios.html">Territórios</a>
+    <a href="planejamento-orcamento.html">Planejamento</a>
+    <a href="participacao.html">Participação</a>
+    <a href="matriz-decisoes.html">Decisão pública</a>
+    <a href="ods-metas.html">ODS e Metas</a>
+    <a href="consulta-publica.html">Consulta</a>
+    <a href="componentes.html">Área técnica</a>
+  </nav>
+</div>
+<div class="hero small">
+  <div class="container">
+    <div class="eyebrow">Diagnóstico territorial participativo</div>
+    <h1>Territórios da Primeira Infância</h1>
+    <p>Potencialidades, problemas, propostas e equipamentos registrados nas oficinas de imersão do PMPI.</p>
+  </div>
+</div>
+</header>
+<main>
+<section>
+  <div class="container">
+    <div class="territory-summary">
+      <div class="compact-kpi"><strong id="total-territorios">—</strong><span>territórios de CRAS</span></div>
+      <div class="compact-kpi"><strong id="total-potencialidades">—</strong><span>potencialidades registradas</span></div>
+      <div class="compact-kpi"><strong id="total-problemas">—</strong><span>problemas identificados</span></div>
+      <div class="compact-kpi"><strong id="total-propostas">—</strong><span>propostas registradas</span></div>
+      <div class="compact-kpi"><strong id="total-equipamentos-territoriais">—</strong><span>equipamentos inventariados</span></div>
+    </div>
+
+    <div class="note">
+      <strong>Natureza dos dados:</strong> conteúdo produzido nas oficinas de imersão. Os registros devem ser validados, complementados e territorializados pelas secretarias responsáveis.
+    </div>
+
+    <div class="filters territory-filter">
+      <input id="buscar-territorio" type="search" placeholder="Buscar território, problema, proposta ou equipamento">
+      <select id="filtro-conteudo">
+        <option value="">Todos os territórios</option>
+        <option value="equipamentos">Com equipamentos inventariados</option>
+        <option value="problemas">Com problemas registrados</option>
+        <option value="propostas">Com propostas registradas</option>
+      </select>
+    </div>
+
+    <p id="resultado-territorios" class="sub"></p>
+    <div id="territory-cards" class="territory-cards"></div>
+  </div>
+</section>
+</main>
+<footer>
+  <div class="container footer">
+    <div><strong>Plataforma de Monitoramento do PMPI</strong><p>Diagnóstico territorial participativo.</p></div>
+    <div><strong>Versão</strong><p>Sprint 7 • Diagnóstico Territorial</p></div>
+  </div>
+</footer>
+<script src="js/territorios.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Território | PMPI</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header>
+<div class="container topbar">
+  <a class="brand-link" href="index.html">Plataforma de Monitoramento do PMPI</a>
+  <nav class="main-nav" aria-label="Navegação principal">
+    <a href="index.html">Início</a>
+    <a href="diagnostico.html">Diagnóstico</a>
+    <a href="rede-educacao-infantil.html">Rede de EI</a>
+    <a href="mapa.html">Atlas</a>
+    <a href="territorios.html">Territórios</a>
+    <a href="planejamento-orcamento.html">Planejamento</a>
+    <a href="participacao.html">Participação</a>
+    <a href="matriz-decisoes.html">Decisão pública</a>
+    <a href="ods-metas.html">ODS e Metas</a>
+    <a href="consulta-publica.html">Consulta</a>
+    <a href="componentes.html">Área técnica</a>
+  </nav>
+</div>
+<div class="hero small territory-hero">
+  <div class="container">
+    <div class="eyebrow">Diagnóstico territorial participativo</div>
+    <h1 id="territory-title">Carregando território...</h1>
+    <p id="territory-intro">Potencialidades, problemas, propostas e equipamentos.</p>
+  </div>
+</div>
+</header>
+
+<main id="territory-main">
+<section>
+  <div class="container">
+    <div id="territory-kpis" class="territory-summary"></div>
+    <div id="territory-note" class="note" hidden></div>
+
+    <div class="territory-columns">
+      <article class="territory-section strengths-section">
+        <div class="kicker">Ativos territoriais</div>
+        <h2>Potencialidades</h2>
+        <div id="strengths-list" class="thematic-list"></div>
+      </article>
+
+      <article class="territory-section problems-section">
+        <div class="kicker">Diagnóstico participativo</div>
+        <h2>Problemas identificados</h2>
+        <div id="problems-list" class="thematic-list"></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="kicker">Agenda territorial</div>
+    <h2>Propostas registradas</h2>
+    <div id="proposals-list" class="proposal-grid"></div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="kicker">Rede existente</div>
+    <h2>Equipamentos inventariados</h2>
+    <p class="sub">Os equipamentos estão organizados conforme a planilha da imersão. Endereços e coordenadas ainda precisam ser complementados em parte da base.</p>
+    <div id="equipment-groups" class="equipment-groups"></div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="kicker">Integração ao planejamento</div>
+    <h2>Próximas vinculações</h2>
+    <div class="grid3">
+      <article class="panel"><h3>Indicadores</h3><p>Associar indicadores municipais e territoriais ao diagnóstico.</p><a href="diagnostico.html">Consultar diagnóstico →</a></article>
+      <article class="panel"><h3>ODS e Metas</h3><p>Relacionar propostas às metas do PMPI e à Agenda 2030.</p><a href="ods-metas.html">Consultar metas →</a></article>
+      <article class="panel"><h3>PPA e Orçamento</h3><p>Identificar programas, ações, recursos e responsáveis.</p><a href="planejamento-orcamento.html">Consultar planejamento →</a></article>
+    </div>
+    <div class="actions">
+      <a class="btn primary" href="mapa.html">Abrir Atlas Territorial</a>
+      <a class="btn secondary" href="territorios.html">Voltar aos territórios</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>Plataforma de Monitoramento do PMPI</strong><p id="territory-footer">Diagnóstico territorial.</p></div>
+    <div><strong>Fonte</strong><p>Imersão territorial do PMPI.</p></div>
+  </div>
+</footer>
+<script src="js/territorios.js"></script>
+</body>
+</html>
