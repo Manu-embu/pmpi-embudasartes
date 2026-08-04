@@ -219,3 +219,166 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 @media(max-width:760px){
   .ods-grid,.metas-monitoramento{grid-template-columns:1fr}
 }
+/* Sprint 7 — Diagnóstico Territorial */
+.territory-summary{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:14px;
+  margin-bottom:22px;
+}
+.territory-filter{grid-template-columns:2fr 1fr}
+.territory-cards{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:16px;
+}
+.territory-card{
+  background:#fff;
+  border:1px solid var(--borda);
+  border-radius:18px;
+  padding:22px;
+  box-shadow:0 10px 28px rgba(20,50,65,.07);
+  display:flex;
+  flex-direction:column;
+  min-height:330px;
+}
+.territory-card-top{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+.territory-card-top>strong{font-size:24px;color:var(--azulesc)}
+.territory-card-summary{color:#6b7a82;font-size:13px}
+.territory-highlights{
+  background:#f5f3ee;
+  padding:14px;
+  border-radius:13px;
+  margin:6px 0 18px;
+  flex:1;
+}
+.territory-highlights small{
+  text-transform:uppercase;
+  letter-spacing:.08em;
+  font-weight:800;
+  color:#6b7a82;
+}
+.territory-highlights ul{padding-left:18px}
+.territory-columns{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:20px;
+}
+.territory-section{
+  background:#fff;
+  border:1px solid var(--borda);
+  border-radius:18px;
+  padding:24px;
+  box-shadow:0 10px 28px rgba(20,50,65,.06);
+}
+.strengths-section{border-top:7px solid #2f7d62}
+.problems-section{border-top:7px solid #b94646}
+.thematic-list{display:grid;gap:10px}
+.thematic-item{
+  background:#f5f3ee;
+  padding:12px 14px;
+  border-radius:11px;
+  border-left:4px solid #175a7a;
+}
+.strengths-section .thematic-item{border-left-color:#2f7d62}
+.problems-section .thematic-item{border-left-color:#b94646}
+.proposal-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:14px;
+}
+.proposal-card{
+  background:#fff;
+  border:1px solid var(--borda);
+  border-left:6px solid #f2bf4a;
+  border-radius:15px;
+  padding:18px;
+  box-shadow:0 8px 22px rgba(20,50,65,.05);
+}
+.proposal-card>span{
+  font-weight:900;
+  color:#725408;
+  font-size:12px;
+}
+.proposal-card p{margin-bottom:0}
+.equipment-groups{display:grid;gap:22px}
+.equipment-category{
+  background:#fff;
+  border:1px solid var(--borda);
+  border-radius:18px;
+  padding:20px;
+}
+.equipment-category-title{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.equipment-category-title span{
+  background:#e5eef5;
+  color:#175a7a;
+  border-radius:999px;
+  padding:5px 9px;
+  font-weight:900;
+  font-size:12px;
+}
+.equipment-card-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:12px;
+}
+.equipment-territory-card{
+  background:#f5f3ee;
+  border-radius:13px;
+  padding:15px;
+}
+.equipment-territory-card p{
+  color:#6b7a82;
+  font-size:13px;
+}
+.empty-state{
+  background:#fff9ed;
+  border:1px dashed #d6bb76;
+  border-radius:14px;
+  padding:20px;
+  color:#665326;
+}
+.atlas-layer-catalog{
+  display:grid;
+  grid-template-columns:repeat(5,1fr);
+  gap:12px;
+  margin-top:18px;
+}
+.atlas-layer-item{
+  background:#fff;
+  border:1px solid var(--borda);
+  border-radius:14px;
+  padding:14px;
+  display:grid;
+  grid-template-columns:16px 1fr;
+  column-gap:9px;
+  align-items:center;
+}
+.atlas-layer-item>span{
+  width:14px;
+  height:14px;
+  border-radius:50%;
+}
+.atlas-layer-item small{
+  grid-column:2;
+  color:#6b7a82;
+}
+@media(max-width:1050px){
+  .territory-summary{grid-template-columns:repeat(3,1fr)}
+  .territory-cards,.proposal-grid,.equipment-card-grid{grid-template-columns:repeat(2,1fr)}
+  .atlas-layer-catalog{grid-template-columns:repeat(3,1fr)}
+}
+@media(max-width:760px){
+  .territory-summary,.territory-cards,.territory-columns,.proposal-grid,
+  .equipment-card-grid,.atlas-layer-catalog,.territory-filter{
+    grid-template-columns:1fr;
+  }
+}
