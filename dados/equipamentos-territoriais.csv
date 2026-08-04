@@ -1,0 +1,94 @@
+﻿id,territorio_id,territorio,categoria,nome,bairro,endereco,latitude,longitude,status_georreferenciamento,origem
+T-001,vazame,CRAS Vazame,Saúde,UBS Valo Verde,Valo Verde,,,,PENDENTE,equipamento listado na imersão
+T-002,vazame,CRAS Vazame,Saúde,Centro de Referencia em Saúde Irmã Annete,Valo verde,,,,PENDENTE,equipamento listado na imersão
+T-003,vazame,CRAS Vazame,Saúde,Hospital Leito Vazame,Vazame,,,,PENDENTE,equipamento listado na imersão
+T-004,vazame,CRAS Vazame,Saúde,Ambulatório de feridas,Valo Verde,,,,PENDENTE,equipamento listado na imersão
+T-005,vazame,CRAS Vazame,Educação,Em Amílton Suga - Fund I Eja,Valo Verde,,,,PENDENTE,equipamento listado na imersão
+T-006,vazame,CRAS Vazame,Educação,Em Ipê - Pré Escola,Jd. Jurema,,,,PENDENTE,equipamento listado na imersão
+T-007,vazame,CRAS Vazame,Educação,Em José Salvador Julianelli – Fund I,Novo Campo Limpo,,,,PENDENTE,equipamento listado na imersão
+T-008,vazame,CRAS Vazame,Educação,Em Vazame - Pré Escola,Vazame,,,,PENDENTE,equipamento listado na imersão
+T-009,vazame,CRAS Vazame,Educação,Nei Valo Verde - Pré Escola,Valo Verde,,,,PENDENTE,equipamento listado na imersão
+T-010,vazame,CRAS Vazame,Educação,Creche Josefa Rodrigues de Queiroz – Creche,Jd. Marina,,,,PENDENTE,equipamento listado na imersão
+T-011,vazame,CRAS Vazame,Educação,Em Milton Santos – Creche,Valo Verde,,,,PENDENTE,equipamento listado na imersão
+T-012,vazame,CRAS Vazame,Espaços para brincar,Praças,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-013,vazame,CRAS Vazame,Espaços para brincar,Campos,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-014,vazame,CRAS Vazame,Espaços para brincar,Quadras,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-015,vista-alegre,CRAS Vista Alegre,Saúde,UBS PQ Esplanada,Pq. Esplanada,,,,PENDENTE,equipamento listado na imersão
+T-016,vista-alegre,CRAS Vista Alegre,Saúde,UBS Vista Alegre,Vista Alegre,,,,PENDENTE,equipamento listado na imersão
+T-017,vista-alegre,CRAS Vista Alegre,Saúde,UBS Mimás,Mimas,,,,PENDENTE,equipamento listado na imersão
+T-018,vista-alegre,CRAS Vista Alegre,Educação,Em Rosa Cirelli – Pré Escola e Fund I,Santa Barbara,,,,PENDENTE,equipamento listado na imersão
+T-019,vista-alegre,CRAS Vista Alegre,Educação,Em Mundo Da Criança - Creche Pré Escola,Esplanada,,,,PENDENTE,equipamento listado na imersão
+T-020,vista-alegre,CRAS Vista Alegre,Educação,Nei Jd. De Lourdes - Pré Escola,Jd. Lourdes,,,,PENDENTE,equipamento listado na imersão
+T-021,vista-alegre,CRAS Vista Alegre,Educação,Em Astrolgilda - Pré e Escola e Fund I,Vista Alegre,,,,PENDENTE,equipamento listado na imersão
+T-022,vista-alegre,CRAS Vista Alegre,Educação,Em Janaína - Pré Escola e Fund I,Jd. Mimas,,,,PENDENTE,equipamento listado na imersão
+T-023,vista-alegre,CRAS Vista Alegre,Educação,Em Murilo Ferreira - Pré Escola,Vista Alegre,,,,PENDENTE,equipamento listado na imersão
+T-024,vista-alegre,CRAS Vista Alegre,Educação,Em Maria Das Graças – Creche,Vista Alegre,,,,PENDENTE,equipamento listado na imersão
+T-025,vista-alegre,CRAS Vista Alegre,Educação,Em Vista Alegre( Em Clóvis Tenório Ap) - Pré Escola,Vista Alegre,,,,PENDENTE,equipamento listado na imersão
+T-026,vista-alegre,CRAS Vista Alegre,Educação,Creche Betel – Creche,Pq. Esplanada,,,,PENDENTE,equipamento listado na imersão
+T-027,vista-alegre,CRAS Vista Alegre,Educação,Creche Jardim De Lourdes – Creche,Jd. Lourdes,,,,PENDENTE,equipamento listado na imersão
+T-028,vista-alegre,CRAS Vista Alegre,Esporte,"Campo Jd. Vista Alegre Rua Montenegro, 748",Jardim Vista Alegre,,,,PENDENTE,equipamento listado na imersão
+T-029,vista-alegre,CRAS Vista Alegre,Esporte,"Campo do Jardim Mimás - Rua Austrália, 75",Jardim Mimás,,,,PENDENTE,equipamento listado na imersão
+T-030,vista-alegre,CRAS Vista Alegre,Espaços para brincar,Parquinho ao lado da UBS,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-031,vista-alegre,CRAS Vista Alegre,Espaços para brincar,Praça,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-032,vista-alegre,CRAS Vista Alegre,Espaços para brincar,Campos e quadras,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-033,itatuba,CRAS Itatuba,Educação,Em Mikio Umeda - Pré Escola,Itatuba,,,,PENDENTE,equipamento listado na imersão
+T-034,itatuba,CRAS Itatuba,Educação,Nei Capuava - Pré Escola,Capuava,,,,PENDENTE,equipamento listado na imersão
+T-035,itatuba,CRAS Itatuba,Educação,Em Pastor Américo – Creche,Pedreira ( Itatuba),,,,PENDENTE,equipamento listado na imersão
+T-036,itatuba,CRAS Itatuba,Esporte,"Campo do Itatuba - Estrada Velha de Cotia, 336",Jardim Itatuba,,,,PENDENTE,equipamento listado na imersão
+T-037,itatuba,CRAS Itatuba,Espaços para brincar,Áreas verdes,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-038,pinheirinho,CRAS Pinheirinho,Educação,Em Santo Antônio - Creche Pré Escola,Santo Antônio,,,,PENDENTE,equipamento listado na imersão
+T-039,pinheirinho,CRAS Pinheirinho,Educação,Em Marajoara - Fund I,Santa Clara,,,,PENDENTE,equipamento listado na imersão
+T-040,pinheirinho,CRAS Pinheirinho,Educação,Em Jequitibá - Fund I,Pinheirinho,,,,PENDENTE,equipamento listado na imersão
+T-041,pinheirinho,CRAS Pinheirinho,Educação,Em Jossei Toda – Creche,Pinheirinho,,,,PENDENTE,equipamento listado na imersão
+T-042,pinheirinho,CRAS Pinheirinho,Educação,Nei Francisco Marcatto,Pinheirinho,,,,PENDENTE,equipamento listado na imersão
+T-043,pinheirinho,CRAS Pinheirinho,Educação,Em Maria Iluminata - Creche Pré Escola,Santa Clara,,,,PENDENTE,equipamento listado na imersão
+T-044,pinheirinho,CRAS Pinheirinho,Esporte,Campo de grama sintética,,,,,PENDENTE,equipamento listado na imersão
+T-045,pinheirinho,CRAS Pinheirinho,Esporte,Quadra do Santa Clara,,,,,PENDENTE,equipamento listado na imersão
+T-046,pinheirinho,CRAS Pinheirinho,Espaços para brincar,Praças,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-047,pinheirinho,CRAS Pinheirinho,Espaços para brincar,Campo / áreas verdes,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-048,santa-tereza,CRAS Santa Tereza,Saúde,UBS Independência,Independência,,,,PENDENTE,equipamento listado na imersão
+T-049,santa-tereza,CRAS Santa Tereza,Saúde,UBS Santa Tereza,Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-050,santa-tereza,CRAS Santa Tereza,Saúde,UBS Santa Tereza II,Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-051,santa-tereza,CRAS Santa Tereza,Saúde,Casa Família Embuense - Ubs Sta Tereza II,Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-052,santa-tereza,CRAS Santa Tereza,Saúde,Serviço de Atendimento Psicossocial Infanto Juvenil,Independência,,,,PENDENTE,equipamento listado na imersão
+T-053,santa-tereza,CRAS Santa Tereza,Saúde,CEO Independência,Independência,,,,PENDENTE,equipamento listado na imersão
+T-054,santa-tereza,CRAS Santa Tereza,Saúde,Policlínica Jardim Independência,Independência,,,,PENDENTE,equipamento listado na imersão
+T-055,santa-tereza,CRAS Santa Tereza,Saúde,Centro de especialidades medicas ( Casa da Família Embuense),Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-056,santa-tereza,CRAS Santa Tereza,Saúde,Centro de Referencia da saúde da Mulher ( casa da Família embuense ),Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-057,santa-tereza,CRAS Santa Tereza,Educação,Em Inês Cardoso - Pré Escola,Casa Branca,,,,PENDENTE,equipamento listado na imersão
+T-058,santa-tereza,CRAS Santa Tereza,Educação,Em Estela – Creche,Vila Olinda,,,,PENDENTE,equipamento listado na imersão
+T-059,santa-tereza,CRAS Santa Tereza,Educação,Em Hermínio Espósito - Fund I,Vila Olinda,,,,PENDENTE,equipamento listado na imersão
+T-060,santa-tereza,CRAS Santa Tereza,Educação,Em Jornalista - Pré Escola Fund I Eja,Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-061,santa-tereza,CRAS Santa Tereza,Educação,Em Cinara (Primavera) – Pré Escola Fund I,Vila Olinda,,,,PENDENTE,equipamento listado na imersão
+T-062,santa-tereza,CRAS Santa Tereza,Educação,Em Girassol ( Edna) – Pré Escola,Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-063,santa-tereza,CRAS Santa Tereza,Educação,Creche Estrela Da Manhã – Creche,Vila Regina,,,,PENDENTE,equipamento listado na imersão
+T-064,santa-tereza,CRAS Santa Tereza,Educação,Em Sueli Maria Hipólito – Creche,Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-065,santa-tereza,CRAS Santa Tereza,Educação,Creche Asmoreji – Creche,Fabiana,,,,PENDENTE,equipamento listado na imersão
+T-066,santa-tereza,CRAS Santa Tereza,Esporte,"Ginásio José Anacleto – Rua Belgrado, s/nº",Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-067,santa-tereza,CRAS Santa Tereza,Esporte,"Centro Esportivo João Marreta - R José Mendes Ferreira, 340",Santa Tereza,,,,PENDENTE,equipamento listado na imersão
+T-068,santa-tereza,CRAS Santa Tereza,Esporte,"Ginásio Poliesportivo Amauri Severo dos Santos - R Nilo, 1611",Casa Branca,,,,PENDENTE,equipamento listado na imersão
+T-069,santa-tereza,CRAS Santa Tereza,Esporte,Centro Poli esportivo do Jd. Independência,Independência,,,,PENDENTE,equipamento listado na imersão
+T-070,santa-tereza,CRAS Santa Tereza,Esporte,"Quadra Jd. Laila - Bom Retiro, s/nº",Jd. Laila,,,,PENDENTE,equipamento listado na imersão
+T-071,santa-tereza,CRAS Santa Tereza,Cultura,Biblioteca,Casa Branca,,,,PENDENTE,equipamento listado na imersão
+T-072,santa-tereza,CRAS Santa Tereza,Espaços para brincar,quadra,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-073,colegio,CRAS Colégio,Educação,Em Elza Marreiro - Fund I Eja,Jardim Dos Moraes,,,,PENDENTE,equipamento listado na imersão
+T-074,colegio,CRAS Colégio,Educação,Nei Ísis Cristina - Pré Escola,Ísis Cristina,,,,PENDENTE,equipamento listado na imersão
+T-075,colegio,CRAS Colégio,Educação,Creche Ísis Cristina – Creche,Ísis Cristina,,,,PENDENTE,equipamento listado na imersão
+T-076,colegio,CRAS Colégio,Educação,Em Florestan – Creche,Jd. Dos Moraes,,,,PENDENTE,equipamento listado na imersão
+T-077,colegio,CRAS Colégio,Esporte,"Céu Jd. Do Colégio - Rua Ursa Maior, s/nº",Jd. do Colégio,,,,PENDENTE,equipamento listado na imersão
+T-078,colegio,CRAS Colégio,Cultura,Estação Cidadania (antigo Céu das Artes),Colégio,,,,PENDENTE,equipamento listado na imersão
+T-079,colegio,CRAS Colégio,Espaços para brincar,"CÉU Parquinho, Cursos e espaço Kids",,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-080,colegio,CRAS Colégio,Espaços para brincar,"Praças > Praça da Juventude,",,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-081,colegio,CRAS Colégio,Espaços para brincar,Campo do Ísis Cristina,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-082,dom-jose,CRAS Dom José,Espaços para brincar,parquinho,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-083,dom-jose,CRAS Dom José,Espaços para brincar,quadra,,,,,VALIDAR CADASTRO,potencialidade registrada na imersão
+T-084,vazame,CRAS Vazame,Assistência Social,CRAS Vazame,,,,,PENDENTE,território de referência
+T-085,centro,CRAS Centro,Assistência Social,CRAS Centro,,,,,PENDENTE,território de referência
+T-086,vista-alegre,CRAS Vista Alegre,Assistência Social,CRAS Vista Alegre,,,,,PENDENTE,território de referência
+T-087,fatima,CRAS Fátima,Assistência Social,CRAS Fátima,,,,,PENDENTE,território de referência
+T-088,itatuba,CRAS Itatuba,Assistência Social,CRAS Itatuba,,,,,PENDENTE,território de referência
+T-089,pinheirinho,CRAS Pinheirinho,Assistência Social,CRAS Pinheirinho,,,,,PENDENTE,território de referência
+T-090,santa-tereza,CRAS Santa Tereza,Assistência Social,CRAS Santa Tereza,,,,,PENDENTE,território de referência
+T-091,sao-marcos,CRAS São Marcos,Assistência Social,CRAS São Marcos,,,,,PENDENTE,território de referência
+T-092,colegio,CRAS Colégio,Assistência Social,CRAS Colégio,,,,,PENDENTE,território de referência
+T-093,dom-jose,CRAS Dom José,Assistência Social,CRAS Dom José,,,,,PENDENTE,território de referência

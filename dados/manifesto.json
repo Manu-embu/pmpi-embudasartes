@@ -1,0 +1,84 @@
+{
+  "titulo": "Manifesto de dados da Plataforma de Monitoramento do PMPI",
+  "versao": "7.1",
+  "atualizado_em": "2026-08-04",
+  "arquivos": [
+    {
+      "id": "territorios",
+      "nome": "Diagnóstico territorial",
+      "caminho": "dados/territorios.json",
+      "obrigatorio": true,
+      "modulos": [
+        "Territórios",
+        "Página do território",
+        "Atlas"
+      ]
+    },
+    {
+      "id": "equipamentos-educacao",
+      "nome": "Equipamentos de Educação Infantil",
+      "caminho": "dados/equipamentos-educacao-infantil.json",
+      "obrigatorio": true,
+      "modulos": [
+        "Rede de Educação Infantil",
+        "Atlas"
+      ]
+    },
+    {
+      "id": "coordenadas-educacao",
+      "nome": "Coordenadas dos equipamentos educacionais",
+      "caminho": "dados/coordenadas-equipamentos.csv",
+      "obrigatorio": true,
+      "modulos": [
+        "Atlas"
+      ]
+    },
+    {
+      "id": "equipamentos-territoriais",
+      "nome": "Inventário territorial de equipamentos",
+      "caminho": "dados/equipamentos-territoriais.csv",
+      "obrigatorio": true,
+      "modulos": [
+        "Territórios",
+        "Atlas"
+      ]
+    },
+    {
+      "id": "ods",
+      "nome": "ODS relacionados ao PMPI",
+      "caminho": "dados/ods.json",
+      "obrigatorio": true,
+      "modulos": [
+        "ODS e Metas"
+      ]
+    },
+    {
+      "id": "metas",
+      "nome": "Metas iniciais do PMPI",
+      "caminho": "dados/metas-pmpi.json",
+      "obrigatorio": true,
+      "modulos": [
+        "ODS e Metas",
+        "Matriz de decisão"
+      ]
+    },
+    {
+      "id": "ppa",
+      "nome": "Planejamento e orçamento da Educação",
+      "caminho": "dados/ppa-educacao.json",
+      "obrigatorio": false,
+      "modulos": [
+        "Planejamento e Orçamento"
+      ]
+    },
+    {
+      "id": "territorios-geograficos",
+      "nome": "Polígonos oficiais dos territórios de CRAS",
+      "caminho": "dados/geografia/territorios-oficiais.geojson",
+      "obrigatorio": false,
+      "modulos": [
+        "Atlas"
+      ]
+    }
+  ]
+}

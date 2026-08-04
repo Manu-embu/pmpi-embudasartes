@@ -1,0 +1,980 @@
+{
+  "metadados": {
+    "titulo": "Diagnóstico Territorial Participativo do PMPI",
+    "fonte": "Planilha de resultado da imersão — potencialidades e equipamentos por território",
+    "atualizado_em": "2026-08-04",
+    "status": "conteúdo preliminar sujeito à validação da Comissão e das secretarias responsáveis",
+    "total_territorios": 10
+  },
+  "territorios": [
+    {
+      "id": "vazame",
+      "nome": "CRAS Vazame",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "Creche Josefa Rodrigues período Integral",
+        "Centro de Referencia da Assistência Social – CRAS",
+        "Pronto Socorro",
+        "Unidade Básica de saúde – UBS",
+        "Centro de especialidades",
+        "Pastoral da Criança",
+        "Associações",
+        "Praças",
+        "Campos",
+        "Quadras",
+        "Escolas",
+        "Trabalho de voluntários da escolinha de futebol",
+        "Igrejas",
+        "Transporte público"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ],
+      "observacao": "Problemas e propostas registrados em oficina conjunta com o CRAS Centro.",
+      "equipamentos": [
+        {
+          "categoria": "Saúde",
+          "nome": "UBS Valo Verde",
+          "bairro": "Valo Verde",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Centro de Referencia em Saúde Irmã Annete",
+          "bairro": "Valo verde",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Hospital Leito Vazame",
+          "bairro": "Vazame",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Ambulatório de feridas",
+          "bairro": "Valo Verde",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Amílton Suga - Fund I Eja",
+          "bairro": "Valo Verde",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Ipê - Pré Escola",
+          "bairro": "Jd. Jurema",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em José Salvador Julianelli – Fund I",
+          "bairro": "Novo Campo Limpo",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Vazame - Pré Escola",
+          "bairro": "Vazame",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Nei Valo Verde - Pré Escola",
+          "bairro": "Valo Verde",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Creche Josefa Rodrigues de Queiroz – Creche",
+          "bairro": "Jd. Marina",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Milton Santos – Creche",
+          "bairro": "Valo Verde",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "centro",
+      "nome": "CRAS Centro",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "creche integral ( três unidades )",
+        "Serviço de convivência e fortalecimento de vínculos - SCFV - Amigo Mirim - 4e5 anos Projeto em parceria com CMDCA",
+        "CRAS Centro"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ],
+      "observacao": "Problemas e propostas registrados em oficina conjunta com o CRAS Vazame. A planilha não apresenta inventário próprio de equipamentos para o Centro.",
+      "equipamentos": []
+    },
+    {
+      "id": "vista-alegre",
+      "nome": "CRAS Vista Alegre",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "Creches em período Integral",
+        "As escolas são muito Boas",
+        "UBS's",
+        "ONG's",
+        "CRAS",
+        "Parquinho ao lado da UBS",
+        "Praça",
+        "Campos e quadras",
+        "Transporte escolar porta a porta"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ],
+      "observacao": "Problemas e propostas registrados em oficina conjunta com o CRAS Fátima.",
+      "equipamentos": [
+        {
+          "categoria": "Saúde",
+          "nome": "UBS PQ Esplanada",
+          "bairro": "Pq. Esplanada",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "UBS Vista Alegre",
+          "bairro": "Vista Alegre",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "UBS Mimás",
+          "bairro": "Mimas",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Rosa Cirelli – Pré Escola e Fund I",
+          "bairro": "Santa Barbara",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Mundo Da Criança - Creche Pré Escola",
+          "bairro": "Esplanada",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Nei Jd. De Lourdes - Pré Escola",
+          "bairro": "Jd. Lourdes",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Astrolgilda - Pré e Escola e Fund I",
+          "bairro": "Vista Alegre",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Janaína - Pré Escola e Fund I",
+          "bairro": "Jd. Mimas",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Murilo Ferreira - Pré Escola",
+          "bairro": "Vista Alegre",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Maria Das Graças – Creche",
+          "bairro": "Vista Alegre",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Vista Alegre( Em Clóvis Tenório Ap) - Pré Escola",
+          "bairro": "Vista Alegre",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Creche Betel – Creche",
+          "bairro": "Pq. Esplanada",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Creche Jardim De Lourdes – Creche",
+          "bairro": "Jd. Lourdes",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Campo Jd. Vista Alegre Rua Montenegro, 748",
+          "bairro": "Jardim Vista Alegre",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Campo do Jardim Mimás - Rua Austrália, 75",
+          "bairro": "Jardim Mimás",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "fatima",
+      "nome": "CRAS Fátima",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "Unidade Básica de saúde – UBS",
+        "Associações"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ],
+      "observacao": "Problemas e propostas registrados em oficina conjunta com o CRAS Vista Alegre. A planilha não apresenta inventário próprio de equipamentos para Fátima.",
+      "equipamentos": []
+    },
+    {
+      "id": "itatuba",
+      "nome": "CRAS Itatuba",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "Áreas verdes",
+        "CRAS"
+      ],
+      "problemas": [
+        "Falta de Lazer",
+        "Falta de saúde",
+        "falta saúde",
+        "Atenção ao meio ambiente",
+        "Ampliação do transporte da educação",
+        "Pouca oferta de Transporte publico",
+        "Iluminação publica",
+        "segurança",
+        "Infraestrutura em geral"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância",
+        "Contratação de especialistas por região",
+        "Implementação/ cobertura do programa da saúde da família",
+        "Atenção ao saneamento básico",
+        "Aumento das rotas do porta a porta",
+        "Aumento da frota do transporte publico",
+        "Melhoria da iluminação pública"
+      ],
+      "observacao": "",
+      "equipamentos": [
+        {
+          "categoria": "Educação",
+          "nome": "Em Mikio Umeda - Pré Escola",
+          "bairro": "Itatuba",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Nei Capuava - Pré Escola",
+          "bairro": "Capuava",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Pastor Américo – Creche",
+          "bairro": "Pedreira ( Itatuba)",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Campo do Itatuba - Estrada Velha de Cotia, 336",
+          "bairro": "Jardim Itatuba",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "pinheirinho",
+      "nome": "CRAS Pinheirinho",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "UBS Pinheirinho",
+        "Praças",
+        "Campo / áreas verdes",
+        "CRAS"
+      ],
+      "problemas": [
+        "Ampliação de vagas da Educação infantil",
+        "Ampliação de vagas da Educação infantil",
+        "Ampliação do transporte da educação",
+        "segurança",
+        "Falta de médicos especialista saúde",
+        "Falta de Lazer"
+      ],
+      "propostas": [
+        "Novas creches período integral",
+        "Novas parcerias na educação integral",
+        "Reorganização do porta porta",
+        "Aumento da patrulha escolar ( Ronda)",
+        "base fixa da Guarda civil municipal – GCM",
+        "Contratação de especialistas por região",
+        "Construção de área de lazer voltados para a primeira infância"
+      ],
+      "observacao": "",
+      "equipamentos": [
+        {
+          "categoria": "Educação",
+          "nome": "Em Santo Antônio - Creche Pré Escola",
+          "bairro": "Santo Antônio",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Marajoara - Fund I",
+          "bairro": "Santa Clara",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Jequitibá - Fund I",
+          "bairro": "Pinheirinho",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Jossei Toda – Creche",
+          "bairro": "Pinheirinho",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Nei Francisco Marcatto",
+          "bairro": "Pinheirinho",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Maria Iluminata - Creche Pré Escola",
+          "bairro": "Santa Clara",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Campo de grama sintética",
+          "bairro": "",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Quadra do Santa Clara",
+          "bairro": "",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "santa-tereza",
+      "nome": "CRAS Santa Tereza",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "CRAS",
+        "Conselho Tutelar",
+        "UBS",
+        "quadra",
+        "Creches",
+        "Biblioteca Casa Branca",
+        "Associação de Moradores Assoc. do Wilson - Leite assoc. Begali- sacolinha Crisalida - sacolinha Assoc. Casa Branca- sacolinha e leite Asmoreje- Creche e sócio educativo Nova República Mulheres do Embu Aventureiros - Igreja Adventista"
+      ],
+      "problemas": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ],
+      "observacao": "Problemas e propostas registrados em oficina conjunta com o CRAS São Marcos.",
+      "equipamentos": [
+        {
+          "categoria": "Saúde",
+          "nome": "UBS Independência",
+          "bairro": "Independência",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "UBS Santa Tereza",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "UBS Santa Tereza II",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Casa Família Embuense - Ubs Sta Tereza II",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Serviço de Atendimento Psicossocial Infanto Juvenil",
+          "bairro": "Independência",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "CEO Independência",
+          "bairro": "Independência",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Policlínica Jardim Independência",
+          "bairro": "Independência",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Centro de especialidades medicas ( Casa da Família Embuense)",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Saúde",
+          "nome": "Centro de Referencia da saúde da Mulher ( casa da Família embuense )",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Inês Cardoso - Pré Escola",
+          "bairro": "Casa Branca",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Estela – Creche",
+          "bairro": "Vila Olinda",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Hermínio Espósito - Fund I",
+          "bairro": "Vila Olinda",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Jornalista - Pré Escola Fund I Eja",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Cinara (Primavera) – Pré Escola Fund I",
+          "bairro": "Vila Olinda",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Girassol ( Edna) – Pré Escola",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Creche Estrela Da Manhã – Creche",
+          "bairro": "Vila Regina",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Sueli Maria Hipólito – Creche",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Creche Asmoreji – Creche",
+          "bairro": "Fabiana",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Ginásio José Anacleto – Rua Belgrado, s/nº",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Centro Esportivo João Marreta - R José Mendes Ferreira, 340",
+          "bairro": "Santa Tereza",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Ginásio Poliesportivo Amauri Severo dos Santos - R Nilo, 1611",
+          "bairro": "Casa Branca",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Centro Poli esportivo do Jd. Independência",
+          "bairro": "Independência",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Quadra Jd. Laila - Bom Retiro, s/nº",
+          "bairro": "Jd. Laila",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Cultura",
+          "nome": "Biblioteca",
+          "bairro": "Casa Branca",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "sao-marcos",
+      "nome": "CRAS São Marcos",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "Pracinhas",
+        "Shopping",
+        "Terminal de ônibus",
+        "Escolas municipais",
+        "CRAS",
+        "Delegacia",
+        "Comercio Local - Farmácia, academia, mercado etc."
+      ],
+      "problemas": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ],
+      "observacao": "Problemas e propostas registrados em oficina conjunta com o CRAS Santa Tereza. A planilha não apresenta inventário próprio de equipamentos para São Marcos.",
+      "equipamentos": []
+    },
+    {
+      "id": "colegio",
+      "nome": "CRAS Colégio",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "CÉU Parquinho, Cursos e espaço Kids",
+        "Praças > Praça da Juventude,",
+        "Associação dos Morais e Organizações sociais",
+        "Campo do Ísis Cristina",
+        "Creches",
+        "Biblioteca",
+        "CBS",
+        "Ass. São Marcos",
+        "Igreja Católica – Mova",
+        "Arte Marciais - “ Nossa Cara”",
+        "Projeto Enfrente",
+        "CRAS – Colégio"
+      ],
+      "problemas": [],
+      "propostas": [
+        "ampliação de vagas em período integral",
+        "Implantação de UTI Infantil",
+        "Unidade Básica Saúde – UBS com pediatra",
+        "Melhoria da Infraestrutura : calçadas, iluminação e faixas de pedestres",
+        "Acessibilidade"
+      ],
+      "observacao": "A planilha não registra uma coluna específica de problemas para esta oficina.",
+      "equipamentos": [
+        {
+          "categoria": "Educação",
+          "nome": "Em Elza Marreiro - Fund I Eja",
+          "bairro": "Jardim Dos Moraes",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Nei Ísis Cristina - Pré Escola",
+          "bairro": "Ísis Cristina",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Creche Ísis Cristina – Creche",
+          "bairro": "Ísis Cristina",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Educação",
+          "nome": "Em Florestan – Creche",
+          "bairro": "Jd. Dos Moraes",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Esporte",
+          "nome": "Céu Jd. Do Colégio - Rua Ursa Maior, s/nº",
+          "bairro": "Jd. do Colégio",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        },
+        {
+          "categoria": "Cultura",
+          "nome": "Estação Cidadania (antigo Céu das Artes)",
+          "bairro": "Colégio",
+          "latitude": null,
+          "longitude": null,
+          "fonte": "Inventário territorial da imersão do PMPI",
+          "status_georreferenciamento": "pendente"
+        }
+      ]
+    },
+    {
+      "id": "dom-jose",
+      "nome": "CRAS Dom José",
+      "fonte": "Imersão territorial para elaboração do PMPI",
+      "status": "diagnóstico participativo preliminar",
+      "potencialidades": [
+        "parquinho",
+        "berçário integral",
+        "creche integral",
+        "quadra"
+      ],
+      "problemas": [],
+      "propostas": [
+        "Construção de creches no território do Jd. Batista em período integral com berçário e auxiliar de PCD",
+        "Ampliação de vagas em período integral em locais já existentes",
+        "Contratação de profissionais de saúde que contemplem as crianças de 0 a6 anos com ou deficiência : Pediatra, neurologista,fonoaudióloga Psicólogos, Terapeutas ocupacionais e psiquiatras",
+        "Investimentos em infra estruturas, manutenção e acessibilidade em espaços públicos voltados à primeira infância: parquinhos, praças, brinquedoteca e bibliotecas",
+        "Contratação de profissionais especializados em atendimento ás crianças atípica/PCD para creches conveniadas e diretas e auxiliares",
+        "Nas praças e parquinho fazer a manutenção dos brinquedos e ampliação com novos brinquedos",
+        "contratação de profissionais especialistas Pediatra, neurologista, fono, Psico",
+        "Oferta de Serviço de Convivência fortalecimento de Vínculos – ECFV",
+        "Buscar recursos nas esferas competentes para a construção de creches e UTI infantil",
+        "Implantação de brinquedoteca",
+        "Implantação de biblioteca"
+      ],
+      "observacao": "A planilha não registra uma coluna específica de problemas nem inventário próprio de equipamentos para Dom José.",
+      "equipamentos": []
+    }
+  ]
+}
