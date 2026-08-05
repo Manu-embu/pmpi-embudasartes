@@ -1,0 +1,27 @@
+<!doctype html><html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Auditoria Territorial | PMPI</title><link rel="stylesheet" href="css/styles.css"></head>
+<body><header><div class="container topbar">
+<a class="brand-link" href="index.html">Plataforma de Monitoramento do PMPI</a>
+<nav class="main-nav"><a href="index.html">Início</a><a href="mapa.html">Atlas</a>
+<a href="bairros.html">Bairros</a><a href="auditoria-territorial.html">Auditoria</a>
+<a href="status-plataforma.html">Status</a><a href="componentes.html">Área técnica</a></nav>
+</div><div class="hero small"><div class="container"><div class="eyebrow">Qualidade geográfica</div>
+<h1>Auditoria Territorial</h1><p>Conferência automática entre coordenadas e a cartografia oficial.</p>
+</div></div></header><main><section><div class="container">
+<div id="auditoria-resumo" class="territory-summary"></div>
+<div class="note"><strong>Como interpretar:</strong> registros para revisão devem ser conferidos no Google Maps e na base cadastral.</div>
+<div class="filters audit-filters"><input id="auditoria-busca" type="search" placeholder="Buscar equipamento, bairro ou região">
+<select id="auditoria-status"><option value="">Todas as situações</option><option value="coerente">Coerentes</option>
+<option value="a-validar">A validar</option><option value="revisar">Revisar</option>
+<option value="fora-do-municipio">Fora do município</option><option value="sem-coordenada">Sem coordenada</option></select>
+<button id="baixar-auditoria" class="btn primary" type="button">Baixar auditoria CSV</button></div>
+<p id="auditoria-total" class="sub"></p><div class="table-wrap"><table><thead><tr>
+<th>Equipamento</th><th>Bairro informado</th><th>Bairro oficial</th>
+<th>Unidade administrativa</th><th>Região</th><th>Situação</th><th>Mapa</th>
+</tr></thead><tbody id="auditoria-corpo"></tbody></table></div>
+</div></section></main><footer><div class="container footer">
+<div><strong>Plataforma de Monitoramento do PMPI</strong><p>Auditoria da base geográfica.</p></div>
+<div><strong>Versão</strong><p>Sprint 7.3 • Inteligência Territorial</p></div></div></footer>
+<script src="js/inteligencia-territorial.js"></script><script src="js/auditoria-territorial.js"></script>
+</body></html>
