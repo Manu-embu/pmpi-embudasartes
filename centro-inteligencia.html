@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Centro de Inteligência | PMPI</title><link rel="stylesheet" href="css/styles.css">
+</head><body><header><div class="container topbar">
+  <a class="brand-link" href="index.html">Plataforma de Monitoramento do PMPI</a>
+  <nav class="main-nav" aria-label="Navegação principal">
+    <a href="index.html">Início</a>
+    <a href="painel-executivo.html">Painel</a>
+    <a href="mapa.html">Atlas</a>
+    <a href="bairros.html">Bairros</a>
+    <a href="territorios.html">Territórios</a>
+    <a href="diagnostico.html">Diagnóstico</a>
+    <a href="planejamento-orcamento.html">Planejamento</a>
+    <a href="ods-metas.html">ODS e Metas</a>
+    <a href="centro-inteligencia.html">Inteligência</a>
+    <a href="participacao.html">Participação</a>
+    <a href="consulta-publica.html">Consulta</a>
+    <a href="status-plataforma.html">Status</a>
+  </nav>
+</div>
+<div class="hero small"><div class="container"><div class="eyebrow">Consultas orientadas por evidências</div>
+<h1>Centro de Inteligência Territorial</h1>
+<p>Faça perguntas estruturadas aos dados já publicados. As respostas são calculadas no navegador e indicam claramente as limitações das bases.</p>
+</div></div></header>
+<main><section><div class="container">
+<div class="intelligence-query">
+<label for="consulta-inteligencia"><strong>Selecione uma pergunta</strong></label>
+<select id="consulta-inteligencia">
+<option value="espera">Quais bairros possuem unidades que informaram lista de espera?</option>
+<option value="sem-ei">Quais bairros não possuem unidade de Educação Infantil cadastrada?</option>
+<option value="revisar">Quais equipamentos precisam de revisão geográfica?</option>
+<option value="regioes">Como as unidades e atendimentos se distribuem pelas regiões?</option>
+<option value="problemas">Quais problemas aparecem com mais frequência nas oficinas territoriais?</option>
+<option value="propostas">Quais propostas aparecem com mais frequência nas oficinas territoriais?</option>
+</select>
+<button id="executar-consulta" class="btn primary" type="button">Executar consulta</button>
+</div>
+<div class="note"><strong>Escopo:</strong> esta versão consulta Educação Infantil, cartografia oficial e diagnóstico participativo. Saúde, Assistência, Cultura, Esporte e dados demográficos atuais serão integrados em etapas seguintes.</div>
+<div id="intelligence-answer" class="intelligence-answer"></div>
+</div></section></main>
+<footer><div class="container footer"><div><strong>Centro de Inteligência Territorial</strong>
+<p>Consultas transparentes sobre as bases estruturadas.</p></div>
+<div><strong>Versão</strong><p>Sprint 8 • Centro de Inteligência Territorial</p></div></div></footer>
+<script src="js/inteligencia-territorial.js"></script>
+<script src="js/centro-inteligencia.js"></script>
+</body></html>

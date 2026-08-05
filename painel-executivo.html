@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Painel Executivo | PMPI</title><link rel="stylesheet" href="css/styles.css">
+</head><body><header><div class="container topbar">
+  <a class="brand-link" href="index.html">Plataforma de Monitoramento do PMPI</a>
+  <nav class="main-nav" aria-label="Navegação principal">
+    <a href="index.html">Início</a>
+    <a href="painel-executivo.html">Painel</a>
+    <a href="mapa.html">Atlas</a>
+    <a href="bairros.html">Bairros</a>
+    <a href="territorios.html">Territórios</a>
+    <a href="diagnostico.html">Diagnóstico</a>
+    <a href="planejamento-orcamento.html">Planejamento</a>
+    <a href="ods-metas.html">ODS e Metas</a>
+    <a href="centro-inteligencia.html">Inteligência</a>
+    <a href="participacao.html">Participação</a>
+    <a href="consulta-publica.html">Consulta</a>
+    <a href="status-plataforma.html">Status</a>
+  </nav>
+</div>
+<div class="hero small"><div class="container">
+<div class="eyebrow">PMPI 2026–2035 • versão demonstrativa</div>
+<h1>Painel Executivo</h1>
+<p>Visão integrada dos dados já estruturados, das lacunas de informação e das prioridades para a Comissão Intersetorial.</p>
+</div></div></header>
+<main>
+<section><div class="container">
+<div id="executivo-kpis" class="executive-kpis"></div>
+<div id="executivo-alerta" class="note"></div>
+</div></section>
+
+<section class="soft"><div class="container">
+<div class="kicker">Leitura territorial</div><h2>Educação Infantil por região oficial</h2>
+<p class="sub">Agregação automática das unidades pelas coordenadas e pelos polígonos oficiais.</p>
+<div id="executivo-regioes" class="executive-region-grid"></div>
+</div></section>
+
+<section><div class="container">
+<div class="kicker">Agenda pública</div><h2>Diagnóstico participativo territorial</h2>
+<div id="executivo-participacao" class="executive-kpis compact"></div>
+<div class="actions"><a class="btn primary" href="territorios.html">Explorar territórios</a>
+<a class="btn secondary" href="matriz-decisoes.html">Abrir matriz de decisão</a></div>
+</div></section>
+
+<section class="soft"><div class="container">
+<div class="kicker">Qualidade das bases</div><h2>Banco Municipal de Indicadores</h2>
+<p class="sub">Situação atual das áreas temáticas e fontes que precisam ser integradas.</p>
+<div id="executivo-indicadores" class="indicator-domain-grid"></div>
+<div class="actions"><a class="btn primary" href="centro-inteligencia.html">Abrir Centro de Inteligência</a>
+<a class="btn secondary" href="status-plataforma.html">Ver integridade dos dados</a></div>
+</div></section>
+</main>
+<footer><div class="container footer">
+<div><strong>Plataforma de Monitoramento do PMPI</strong><p>Dados, território, participação e monitoramento.</p></div>
+<div><strong>Versão</strong><p>Sprint 8 • Centro de Inteligência Territorial</p></div>
+</div></footer>
+<script src="js/inteligencia-territorial.js"></script>
+<script src="js/painel-executivo.js"></script>
+</body></html>
