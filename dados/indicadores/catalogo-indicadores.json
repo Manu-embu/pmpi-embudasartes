@@ -1,1 +1,125 @@
-//catalogo de indicadores.txt 
+{
+  "metadados": {
+    "titulo": "Banco Municipal de Indicadores do PMPI",
+    "versao": "8.0",
+    "atualizado_em": "2026-08-05",
+    "orientacao": "Separar cartografia oficial estável de indicadores atualizados periodicamente."
+  },
+  "dominios": [
+    {
+      "id": "demografia",
+      "nome": "Demografia e primeira infância",
+      "status": "a_atualizar",
+      "periodicidade": "Censo e estimativas",
+      "fontes_prioritarias": [
+        "IBGE Censo 2022",
+        "Fundação Seade",
+        "bases municipais validadas"
+      ],
+      "indicadores": [
+        "população total",
+        "crianças de 0 a 6 anos",
+        "domicílios",
+        "densidade"
+      ],
+      "observacao": "A cartografia atual possui atributos históricos de 2010 e 2015."
+    },
+    {
+      "id": "educacao",
+      "nome": "Educação Infantil",
+      "status": "parcial",
+      "periodicidade": "mensal ou trimestral",
+      "fontes_prioritarias": [
+        "SME",
+        "Censo Escolar",
+        "lista de espera municipal"
+      ],
+      "indicadores": [
+        "unidades",
+        "atendimentos",
+        "rede",
+        "modalidade",
+        "lista de espera"
+      ]
+    },
+    {
+      "id": "saude",
+      "nome": "Saúde e nutrição",
+      "status": "a_integrar",
+      "periodicidade": "mensal ou anual",
+      "fontes_prioritarias": [
+        "Secretaria de Saúde",
+        "e-SUS APS",
+        "SINASC",
+        "SIM",
+        "SISVAN",
+        "SI-PNI"
+      ],
+      "indicadores": [
+        "pré-natal",
+        "nascimentos",
+        "mortalidade infantil",
+        "vacinação",
+        "nutrição"
+      ]
+    },
+    {
+      "id": "assistencia",
+      "nome": "Assistência e proteção social",
+      "status": "a_integrar",
+      "periodicidade": "mensal",
+      "fontes_prioritarias": [
+        "CadÚnico",
+        "Secretaria de Desenvolvimento Social",
+        "RMA/SUAS"
+      ],
+      "indicadores": [
+        "crianças no CadÚnico",
+        "pobreza",
+        "benefícios",
+        "acompanhamentos",
+        "violações"
+      ]
+    },
+    {
+      "id": "cidade",
+      "nome": "Cidade, brincar e ambiente",
+      "status": "inventario_inicial",
+      "periodicidade": "semestral ou anual",
+      "fontes_prioritarias": [
+        "Planejamento",
+        "Obras",
+        "Cultura",
+        "Esportes",
+        "Meio Ambiente"
+      ],
+      "indicadores": [
+        "praças",
+        "parques",
+        "equipamentos culturais",
+        "esporte",
+        "áreas verdes"
+      ]
+    },
+    {
+      "id": "planejamento",
+      "nome": "Planejamento e orçamento",
+      "status": "parcial",
+      "periodicidade": "quadrimestral ou anual",
+      "fontes_prioritarias": [
+        "PPA",
+        "LDO",
+        "LOA",
+        "execução orçamentária"
+      ],
+      "indicadores": [
+        "programas",
+        "ações",
+        "dotação",
+        "empenho",
+        "liquidação",
+        "execução"
+      ]
+    }
+  ]
+}
