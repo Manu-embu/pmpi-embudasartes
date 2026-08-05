@@ -450,3 +450,16 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 @media(max-width:760px){
   .official-map-summary{grid-template-columns:1fr 1fr}
 }
+/* Sprint 7.3 — Inteligência Territorial */
+.audit-filters{grid-template-columns:2fr 1fr auto}
+.territorial-status{display:inline-flex;padding:6px 9px;border-radius:999px;font-size:11px;font-weight:900;white-space:nowrap}
+.territorial-ok{background:#e8f2ed;color:#2f7d62}.territorial-pendente{background:#e5eef5;color:#175a7a}
+.territorial-revisar{background:#fff4d6;color:#725408}.territorial-erro{background:#f8e3e3;color:#b94646}
+.bairro-filters{grid-template-columns:2fr 1fr 1fr}
+.bairro-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.bairro-card{background:#fff;border:1px solid var(--borda);border-radius:18px;padding:20px;box-shadow:0 10px 28px rgba(20,50,65,.06);display:flex;flex-direction:column;gap:12px}
+.bairro-card-top{display:flex;flex-direction:column;align-items:flex-start;gap:10px}.bairro-card-top strong{color:var(--azulesc);font-size:22px}
+.bairro-kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}.bairro-kpis>div{background:#f5f3ee;border-radius:10px;padding:10px}
+.bairro-kpis strong{display:block;color:var(--azul);font-size:19px}.bairro-kpis span{color:#6b7a82;font-size:10px}.bairro-card small{color:#6b7a82;flex:1}
+@media(max-width:950px){.bairro-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:760px){.audit-filters,.bairro-filters,.bairro-grid{grid-template-columns:1fr}}
