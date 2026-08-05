@@ -141,6 +141,7 @@ function popupRegiao(props) {
       <p><strong>População 2015:</strong> ${formatarInteiro(props.populacao_2015)}</p>
       <p><strong>Domicílios:</strong> ${formatarInteiro(props.domicilios)}</p>
       <p class="map-data-warning">Dados demográficos históricos da base cartográfica.</p>
+      <a href="bairro.html?codigo=${encodeURIComponent(props.codigo ?? "")}">Abrir perfil territorial</a>
     </div>`;
 }
 
