@@ -463,3 +463,18 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 .bairro-kpis strong{display:block;color:var(--azul);font-size:19px}.bairro-kpis span{color:#6b7a82;font-size:10px}.bairro-card small{color:#6b7a82;flex:1}
 @media(max-width:950px){.bairro-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:760px){.audit-filters,.bairro-filters,.bairro-grid{grid-template-columns:1fr}}
+/* Sprint 8 — Centro de Inteligência Territorial */
+.executive-kpis{display:grid;grid-template-columns:repeat(6,1fr);gap:12px}
+.executive-kpis.compact{grid-template-columns:repeat(4,1fr)}
+.executive-kpis article{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:18px;box-shadow:0 8px 22px rgba(20,50,65,.06)}
+.executive-kpis strong{display:block;color:var(--azul);font-size:30px}.executive-kpis span{color:#6b7a82;font-size:12px}
+.executive-region-grid,.indicator-domain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.executive-region-card,.indicator-domain-card{background:#fff;border:1px solid var(--borda);border-radius:17px;padding:20px;box-shadow:0 9px 25px rgba(20,50,65,.06)}
+.indicator-state{display:inline-flex;border-radius:999px;padding:5px 9px;font-size:11px;font-weight:900}
+.indicator-state.a_atualizar,.indicator-state.a_integrar{background:#f8e3e3;color:#a13b3b}
+.indicator-state.parcial,.indicator-state.inventario_inicial{background:#fff4d6;color:#725408}
+.intelligence-query{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:end;margin-bottom:18px}
+.intelligence-query label{grid-column:1/-1}.intelligence-query select{min-height:46px}
+.intelligence-answer{margin-top:26px}.intelligence-answer h2{margin-bottom:8px}
+@media(max-width:1100px){.executive-kpis{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:800px){.executive-kpis,.executive-kpis.compact,.executive-region-grid,.indicator-domain-grid,.intelligence-query{grid-template-columns:1fr}}
