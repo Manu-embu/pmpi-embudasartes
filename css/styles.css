@@ -486,3 +486,8 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 .data-catalog-kpis>div{background:#f5f3ee;border-radius:10px;padding:10px}.data-catalog-kpis strong{display:block;color:var(--azul);font-size:20px}
 .data-catalog-kpis span{font-size:10px;color:#6b7a82}.data-catalog-card code{font-size:11px;word-break:break-all}
 @media(max-width:1000px){.data-catalog-grid{grid-template-columns:1fr 1fr}}@media(max-width:760px){.catalog-filters,.data-catalog-grid{grid-template-columns:1fr}}
+
+/* Recovery v0.8 — Atlas Multicamadas */
+.leaflet-control-layers{max-height:72vh;overflow:auto;}
+#mapa{min-height:560px;}
+@media(max-width:760px){#mapa{min-height:480px}.leaflet-control-layers{max-width:260px}}
