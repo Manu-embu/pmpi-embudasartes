@@ -491,3 +491,11 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 .leaflet-control-layers{max-height:72vh;overflow:auto;}
 #mapa{min-height:560px;}
 @media(max-width:760px){#mapa{min-height:480px}.leaflet-control-layers{max-width:260px}}
+/* Sprint 8.2 — Consolidação Territorial */
+.territory-chips{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}
+.territory-chip{font-size:10px;font-weight:800;background:#edf4f6;color:#174a61;padding:5px 8px;border-radius:999px}
+.governance-intro{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin:20px 0 34px}
+.empty-state{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:24px}
+.timeline-event{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--borda)}
+.timeline-event>span{font-weight:900;color:var(--azul)}
+@media(max-width:760px){.governance-intro{grid-template-columns:1fr}.timeline-event{grid-template-columns:1fr;gap:4px}}
