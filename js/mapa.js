@@ -204,25 +204,20 @@ async function iniciarMapa() {
   const bases = {"Mapa de ruas": baseClara};
 
   const camadas = {
-    "Educação Infantil — direta": L.layerGroup().addTo(mapa),
-    "Educação Infantil — conveniada": L.layerGroup().addTo(mapa),
-    "Coordenadas para revisar": L.layerGroup().addTo(mapa),
-    "Saúde": L.layerGroup(),
-    "Assistência Social": L.layerGroup(),
-    "Cultura": L.layerGroup(),
-    "Esporte": L.layerGroup(),
-    "Espaços para brincar": L.layerGroup()
+    "Educação Infantil — base operacional — direta": L.layerGroup().addTo(mapa),
+    "Educação Infantil — base operacional — conveniada": L.layerGroup().addTo(mapa),
+    "Coordenadas de EI para revisar": L.layerGroup().addTo(mapa)
   };
 
   const cores = {
-    "Educação Infantil — direta": "#175a7a",
-    "Educação Infantil — conveniada": "#e6793d",
+    "Educação Infantil — base operacional — direta": "#175a7a",
+    "Educação Infantil — base operacional — conveniada": "#e6793d",
     "Saúde": "#b94646",
     "Assistência Social": "#7b4ea3",
     "Cultura": "#d94e8f",
     "Esporte": "#2f7d62",
     "Espaços para brincar": "#f2bf4a",
-    "Coordenadas para revisar": "#b94646"
+    "Coordenadas de EI para revisar": "#b94646"
   };
 
   const coordenadas = new Map(
@@ -249,11 +244,14 @@ async function iniciarMapa() {
     statusResumo[status] = (statusResumo[status] || 0) + 1;
 
     const redeLayer = item.rede === "Conveniada"
-      ? "Educação Infantil — conveniada"
-      : "Educação Infantil — direta";
+      ? "Educação Infantil — base operacional — conveniada"
+      : "Educação Infantil — base operacional — direta";
 
-    const layerName = status === "revisar" ? "Coordenadas para revisar" : redeLayer;
+    const layerName = status === "revisar" ? "Coordenadas de EI para revisar" : redeLayer;
 
+    // Registros territoriais preparatórios não são duplicados no Atlas 8.2.
+    // Permanecem contabilizados como pendências até terem coordenadas/base oficial.
+    if (!camadas[layerName]) return;
     L.marker([lat, lng], { icon:criarIcone(cores[layerName]) })
       .addTo(camadas[layerName])
       .bindPopup(`
@@ -275,8 +273,6 @@ async function iniciarMapa() {
 
   territoriais.forEach(item => {
     const layerName = item.categoria;
-    if (!camadas[layerName]) return;
-
     const lat = parseNumero(item.latitude);
     const lng = parseNumero(item.longitude);
 
@@ -285,6 +281,9 @@ async function iniciarMapa() {
       return;
     }
 
+    // Registros territoriais preparatórios não são duplicados no Atlas 8.2.
+    // Permanecem contabilizados como pendências até terem coordenadas/base oficial.
+    if (!camadas[layerName]) return;
     L.marker([lat, lng], { icon:criarIcone(cores[layerName]) })
       .addTo(camadas[layerName])
       .bindPopup(`
@@ -301,6 +300,7 @@ async function iniciarMapa() {
   // Equipamentos Urbanos oficiais: já possuem geometria no GeoJSON e não dependem
   // da planilha de coordenadas da Educação Infantil.
   const camadasUrbanas = {};
+  const marcadoresUrbanos = [];
   let totalUrbanos = 0;
 
   for (const definicao of (catalogoUrbanos.camadas || [])) {
@@ -313,7 +313,7 @@ async function iniciarMapa() {
       if (!Number.isFinite(lat) || !Number.isFinite(lng)) return;
 
       const props = feature.properties || {};
-      L.circleMarker([lat, lng], {
+      const marcadorUrbano = L.circleMarker([lat, lng], {
         radius: 5,
         color: "#ffffff",
         weight: 1.5,
@@ -329,6 +329,7 @@ async function iniciarMapa() {
           <p class="map-data-warning">Cadastro histórico: confirmar existência, denominação e funcionamento atuais.</p>
           <a href="https://www.google.com/maps?q=${lat},${lng}" target="_blank" rel="noopener">Abrir no Google Maps</a>
         </div>`);
+      marcadoresUrbanos.push(marcadorUrbano);
       pontos.push([lat, lng]);
       totalUrbanos++;
     });
@@ -378,6 +379,14 @@ async function iniciarMapa() {
   } else if (pontos.length) {
     mapa.fitBounds(pontos, {padding:[28,28], maxZoom:15});
   }
+
+  function atualizarRaioMarcadores() {
+    const z = mapa.getZoom();
+    const raio = z >= 16 ? 10 : z >= 14 ? 8 : z >= 12 ? 6 : 4.5;
+    marcadoresUrbanos.forEach(m => m.setRadius(raio));
+  }
+  mapa.on("zoomend", atualizarRaioMarcadores);
+  atualizarRaioMarcadores();
 
   const pendingDetails = Object.entries(semCoordenadas)
     .map(([category, count]) => `${category}: ${count}`)
