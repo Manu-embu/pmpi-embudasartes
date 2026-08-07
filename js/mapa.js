@@ -196,6 +196,14 @@ async function iniciarMapa() {
 
   const mapa = L.map("mapa", { preferCanvas:true }).setView([-23.6487, -46.8522], 12);
 
+  // Sprint 8.2.2: panes dedicados para evitar que polígonos capturem
+  // cliques destinados aos marcadores dos equipamentos.
+  mapa.createPane("areasCartograficasPane");
+  mapa.getPane("areasCartograficasPane").style.zIndex = 350;
+  mapa.createPane("equipamentosUrbanosPane");
+  mapa.getPane("equipamentosUrbanosPane").style.zIndex = 625;
+
+
   const baseClara = L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     maxZoom: 19,
     attribution: "&copy; OpenStreetMap"
@@ -314,6 +322,8 @@ async function iniciarMapa() {
 
       const props = feature.properties || {};
       const marcadorUrbano = L.circleMarker([lat, lng], {
+        pane: "equipamentosUrbanosPane",
+        bubblingMouseEvents: false,
         radius: 5,
         color: "#ffffff",
         weight: 1.5,
@@ -342,6 +352,7 @@ async function iniciarMapa() {
   const overlays = {...camadas, ...camadasUrbanas};
 
   const bairrosLayer = L.geoJSON(bairros, {
+    pane: "areasCartograficasPane",
     style:estiloBairro,
     onEachFeature:(feature, layer) => {
       layer.bindPopup(popupBairro(feature.properties || {}));
@@ -354,18 +365,21 @@ async function iniciarMapa() {
   overlays["Bairros oficiais (114)"] = bairrosLayer;
 
   const uaLayer = L.geoJSON(unidadesAdministrativas, {
+    pane: "areasCartograficasPane",
     style:estiloUA,
     onEachFeature:(feature, layer) => layer.bindPopup(popupUA(feature.properties || {}))
   });
   overlays["Unidades administrativas (20)"] = uaLayer;
 
   const regioesLayer = L.geoJSON(regioes, {
+    pane: "areasCartograficasPane",
     style:estiloRegiao,
     onEachFeature:(feature, layer) => layer.bindPopup(popupRegiao(feature.properties || {}))
   });
   overlays["Regiões oficiais (3)"] = regioesLayer;
 
   const limiteLayer = L.geoJSON(limiteOficial, {
+    pane: "areasCartograficasPane",
     style:estiloLimite,
     onEachFeature:(feature, layer) => layer.bindPopup(popupLimite(feature.properties || {}))
   }).addTo(mapa);
