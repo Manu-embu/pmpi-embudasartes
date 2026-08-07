@@ -499,3 +499,17 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 .timeline-event{display:grid;grid-template-columns:120px 1fr;gap:20px;padding:18px 0;border-bottom:1px solid var(--borda)}
 .timeline-event>span{font-weight:900;color:var(--azul)}
 @media(max-width:760px){.governance-intro{grid-template-columns:1fr}.timeline-event{grid-template-columns:1fr;gap:4px}}
+/* Sprint 8.2.1 — Consistência de interface */
+.topbar{gap:14px}
+.main-nav{display:flex;align-items:center;justify-content:flex-end;gap:12px;flex-wrap:wrap}
+.main-nav a{white-space:nowrap}
+.brand-link{white-space:nowrap}
+@media(max-width:1050px){
+  .topbar{align-items:flex-start}
+  .main-nav{justify-content:flex-start}
+}
+@media(max-width:760px){
+  .topbar{display:block}
+  .brand-link{display:block;margin-bottom:10px;white-space:normal}
+  .main-nav{gap:8px 12px}
+}
