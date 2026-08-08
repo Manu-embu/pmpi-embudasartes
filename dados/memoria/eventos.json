@@ -1,8 +1,75 @@
 {
   "metadados": {
     "titulo": "Memória e Governança do PMPI",
-    "versao": "8.2",
-    "observacao": "Estrutura preparada para receber registros validados de reuniões, conferências, oficinas e demais etapas do processo."
+    "versao": "8.3",
+    "observacao": "Datas e denominações oficiais dos encontros devem ser confirmadas antes da publicação definitiva."
   },
-  "eventos": []
+  "eventos": [
+    {
+      "id": "comissao-intersetorial",
+      "tipo": "Comissão Intersetorial",
+      "titulo": "Reuniões e atividades da Comissão",
+      "periodo": "Data a confirmar",
+      "descricao": "Registros de reuniões de trabalho, estudos, apresentações, pactuações e construção coletiva do PMPI.",
+      "capa": "assets/memoria/comissao/comissao-pmpi-10.webp",
+      "imagens": [
+        "assets/memoria/comissao/comissao-pmpi-01.webp",
+        "assets/memoria/comissao/comissao-pmpi-02.webp",
+        "assets/memoria/comissao/comissao-pmpi-03.webp",
+        "assets/memoria/comissao/comissao-pmpi-04.webp",
+        "assets/memoria/comissao/comissao-pmpi-05.webp",
+        "assets/memoria/comissao/comissao-pmpi-06.webp",
+        "assets/memoria/comissao/comissao-pmpi-07.webp",
+        "assets/memoria/comissao/comissao-pmpi-08.webp",
+        "assets/memoria/comissao/comissao-pmpi-09.webp",
+        "assets/memoria/comissao/comissao-pmpi-10.webp",
+        "assets/memoria/comissao/comissao-pmpi-11.webp",
+        "assets/memoria/comissao/comissao-pmpi-12.webp",
+        "assets/memoria/comissao/comissao-pmpi-13.webp"
+      ],
+      "total_imagens": 13,
+      "documentos": []
+    },
+    {
+      "id": "imersoes-oficinas",
+      "tipo": "Participação territorial",
+      "titulo": "Imersões e oficinas participativas",
+      "periodo": "Data a confirmar",
+      "descricao": "Registros de atividades coletivas de escuta, debate e sistematização de desafios, potencialidades e propostas.",
+      "capa": "assets/memoria/imersao/imersao-pmpi-08.webp",
+      "imagens": [
+        "assets/memoria/imersao/imersao-pmpi-01.webp",
+        "assets/memoria/imersao/imersao-pmpi-02.webp",
+        "assets/memoria/imersao/imersao-pmpi-03.webp",
+        "assets/memoria/imersao/imersao-pmpi-04.webp",
+        "assets/memoria/imersao/imersao-pmpi-05.webp",
+        "assets/memoria/imersao/imersao-pmpi-06.webp",
+        "assets/memoria/imersao/imersao-pmpi-07.webp",
+        "assets/memoria/imersao/imersao-pmpi-08.webp"
+      ],
+      "total_imagens": 8,
+      "documentos": []
+    },
+    {
+      "id": "seminario-primeira-infancia",
+      "tipo": "Mobilização e formação",
+      "titulo": "Seminário da Primeira Infância",
+      "periodo": "Data a confirmar",
+      "descricao": "Registros do seminário, com momentos de apresentação, participação intersetorial, público e mobilização em torno da agenda da primeira infância.",
+      "capa": "assets/memoria/seminario/seminario-pmpi-06.webp",
+      "imagens": [
+        "assets/memoria/seminario/seminario-pmpi-01.webp",
+        "assets/memoria/seminario/seminario-pmpi-02.webp",
+        "assets/memoria/seminario/seminario-pmpi-03.webp",
+        "assets/memoria/seminario/seminario-pmpi-04.webp",
+        "assets/memoria/seminario/seminario-pmpi-05.webp",
+        "assets/memoria/seminario/seminario-pmpi-06.webp",
+        "assets/memoria/seminario/seminario-pmpi-07.webp",
+        "assets/memoria/seminario/seminario-pmpi-08.webp",
+        "assets/memoria/seminario/seminario-pmpi-cartaz.webp"
+      ],
+      "total_imagens": 9,
+      "documentos": []
+    }
+  ]
 }
