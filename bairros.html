@@ -2,11 +2,12 @@
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Bairros Oficiais | PMPI</title><link rel="stylesheet" href="css/styles.css"></head>
 <body><header><div class="container topbar">
-  <a class="brand-link" href="index.html">Plataforma de Monitoramento do PMPI</a>
+  <a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
   <nav class="main-nav" aria-label="Navegação principal">
     <a href="index.html">Início</a>
     <a href="painel-executivo.html">Painel</a>
     <a href="mapa.html">Atlas</a>
+    <a href="banco-territorial.html">Banco</a>
     <a href="bairros.html">Bairros</a>
     <a href="territorios.html">Territórios</a>
     <a href="diagnostico.html">Diagnóstico</a>
@@ -14,6 +15,7 @@
     <a href="ods-metas.html">ODS e Metas</a>
     <a href="centro-inteligencia.html">Inteligência</a>
     <a href="participacao.html">Participação</a>
+    <a href="memoria-governanca.html">Memória</a>
     <a href="consulta-publica.html">Consulta</a>
     <a href="status-plataforma.html">Status</a>
   </nav>
@@ -25,11 +27,10 @@
 <div class="note"><strong>Atenção:</strong> população e densidade são referências históricas da cartografia.</div>
 <div class="filters bairro-filters"><input id="bairro-busca" type="search" placeholder="Buscar bairro, unidade administrativa ou região">
 <select id="bairro-regiao"><option value="">Todas as regiões</option></select>
-<select id="bairro-equipamento"><option value="">Todos os bairros</option><option value="com">Com Educação Infantil</option>
-<option value="sem">Sem unidade cadastrada</option><option value="espera">Com lista de espera informada</option></select></div>
+<select id="bairro-equipamento"><option value="">Todos os bairros</option><option value="ei">Com Educação Infantil atualizada</option><option value="intersetorial">Com equipamento da base 2021</option><option value="saude">Com equipamento de Saúde</option><option value="sem-saude">Sem equipamento de Saúde cadastrado</option><option value="espera">Com lista de espera informada</option></select></div>
 <p id="bairros-total" class="sub"></p><div id="bairros-grid" class="bairro-grid"></div>
 </div></section></main><footer><div class="container footer">
-<div><strong>Plataforma de Monitoramento do PMPI</strong><p>Perfis territoriais por bairro.</p></div>
-<div><strong>Versão</strong><p>Sprint 8 • Centro de Inteligência Territorial</p></div></div></footer>
-<script src="js/inteligencia-territorial.js"></script><script src="js/bairros.js"></script>
+<div><strong>Plataforma Municipal de Inteligência Territorial</strong><p>Perfis territoriais por bairro.</p></div>
+<div><strong>Versão</strong><p>Sprint 8.2 • Consolidação Territorial</p></div></div></footer>
+<script src="js/inteligencia-territorial.js"></script><script src="js/rede-intersetorial.js"></script><script src="js/bairros.js"></script>
 </body></html>
