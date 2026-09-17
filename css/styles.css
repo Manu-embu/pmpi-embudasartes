@@ -559,3 +559,24 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
   .memoria-lightbox-anterior{left:8px}
   .memoria-lightbox-proxima{right:8px}
 }
+/* Formulário de participação da comunidade */
+.pmpi-form-embed{
+  width:100%;
+  max-width:1000px;
+  margin:20px auto 0;
+}
+
+.pmpi-form-embed iframe{
+  display:block;
+  width:100%;
+  min-height:1050px;
+  border:0;
+  border-radius:20px;
+  background:#f6f3ec;
+}
+
+@media (max-width:700px){
+  .pmpi-form-embed iframe{
+    min-height:1350px;
+  }
+}
