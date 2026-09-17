@@ -580,3 +580,6 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
     min-height:1350px;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
