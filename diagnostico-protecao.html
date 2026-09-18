@@ -8,6 +8,7 @@
   <style>
     html{scroll-behavior:smooth}
     body{overflow-x:hidden}
+    .diag-anchor{scroll-margin-top:24px}
     .diag-wrap{max-width:1180px;margin:0 auto}
     .diag-note{margin:0 0 20px;padding:14px 16px;border:1px solid #efd89b;background:#fff8e6;border-radius:12px;line-height:1.55}
     .diag-kpis{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;margin:20px 0 34px}
@@ -50,20 +51,12 @@
   <div class="container topbar">
     <a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
     <nav class="main-nav" aria-label="Navegação principal">
-      <a href="index.html">Início</a>
-      <a href="painel-executivo.html">Painel</a>
-      <a href="mapa.html">Atlas</a>
-      <a href="banco-territorial.html">Banco</a>
-      <a href="bairros.html">Bairros</a>
-      <a href="territorios.html">Territórios</a>
-      <a href="diagnostico.html">Diagnóstico</a>
-      <a href="planejamento-orcamento.html">Planejamento</a>
-      <a href="ods-metas.html">ODS e Metas</a>
-      <a href="centro-inteligencia.html">Inteligência</a>
-      <a href="participacao.html">Participação</a>
-      <a href="memoria-governanca.html">Memória</a>
-      <a href="consulta-publica.html">Consulta</a>
-      <a href="status-plataforma.html">Status</a>
+      <a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="mapa.html">Atlas</a>
+      <a href="banco-territorial.html">Banco</a><a href="bairros.html">Bairros</a><a href="territorios.html">Territórios</a>
+      <a href="diagnostico.html">Diagnóstico</a><a href="planejamento-orcamento.html">Planejamento</a>
+      <a href="ods-metas.html">ODS e Metas</a><a href="centro-inteligencia.html">Inteligência</a>
+      <a href="participacao.html">Participação</a><a href="memoria-governanca.html">Memória</a>
+      <a href="consulta-publica.html">Consulta</a><a href="status-plataforma.html">Status</a>
     </nav>
   </div>
   <div class="hero small">
@@ -80,39 +73,39 @@
     <div class="diag-note"><strong>Regra de leitura:</strong> os gráficos do Conselho Tutelar possuem universos próprios. Os valores são apresentados por indicador e não devem ser somados como se representassem o mesmo conjunto de atendimentos.</div>
     <div id="kpis" class="diag-kpis"></div>
     <div class="diag-grid-2">
-      <article class="diag-panel">
+      <article class="diag-panel diag-anchor" id="violacoes">
         <div class="eyebrow">Proteção de direitos</div>
         <h3>Violações mais registradas</h3>
-        <div id="violacoes" class="ranking-list"></div>
+        <div id="violacoes-lista" class="ranking-list"></div>
       </article>
-      <article class="diag-panel">
+      <article class="diag-panel diag-anchor" id="bairros">
         <div class="eyebrow">Leitura territorial</div>
         <h3>Bairros destacados</h3>
-        <div id="bairros" class="ranking-list"></div>
+        <div id="bairros-lista" class="ranking-list"></div>
       </article>
     </div>
   </div>
 </section>
 <section class="soft">
-  <div class="container diag-wrap">
+  <div class="container diag-wrap diag-anchor" id="idades">
     <div class="diag-section-head">
       <div class="eyebrow">Primeira infância</div>
       <h2>Registros por idade</h2>
       <p>Distribuição dos registros apresentados no material do Conselho Tutelar para as idades da primeira infância.</p>
     </div>
     <div class="diag-panel">
-      <div id="idades" class="bar-list"></div>
+      <div id="idades-lista" class="bar-list"></div>
     </div>
   </div>
 </section>
 <section>
-  <div class="container diag-wrap">
+  <div class="container diag-wrap diag-anchor" id="temas">
     <div class="diag-section-head">
       <div class="eyebrow">Imersões territoriais</div>
       <h2>Temas recorrentes</h2>
       <p>Síntese analítica dos problemas e propostas registrados nos territórios. A classificação é uma camada de leitura e deve ser validada pela Comissão.</p>
     </div>
-    <div id="temas" class="themes-grid"></div>
+    <div id="temas-lista" class="themes-grid"></div>
   </div>
 </section>
 <section class="soft">
