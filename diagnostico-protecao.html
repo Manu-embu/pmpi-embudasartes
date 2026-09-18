@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Proteção de Direitos | PMPI</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .diag-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;margin:22px 0}
+    .diag-kpi{background:#fff;border:1px solid #d7e0e4;border-radius:16px;padding:18px}
+    .diag-kpi strong{display:block;font-size:30px;color:#145a7a;margin-bottom:4px}
+    .diag-kpi span{font-size:12px;color:#607581}
+    .diag-columns{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+    .diag-table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden}
+    .diag-table th,.diag-table td{padding:11px 12px;border-bottom:1px solid #e2e8eb;text-align:left}
+    .diag-table th{background:#17475c;color:#fff}
+    .diag-note{margin:18px 0;padding:14px 16px;border:1px solid #efd89b;background:#fff8e6;border-radius:12px}
+    @media(max-width:850px){.diag-grid{grid-template-columns:repeat(2,1fr)}.diag-columns{grid-template-columns:1fr}}
+    @media(max-width:520px){.diag-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container topbar">
+    <a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="mapa.html">Atlas</a>
+      <a href="banco-territorial.html">Banco</a><a href="bairros.html">Bairros</a><a href="territorios.html">Territórios</a>
+      <a href="diagnostico.html">Diagnóstico</a><a href="planejamento-orcamento.html">Planejamento</a>
+      <a href="ods-metas.html">ODS e Metas</a><a href="centro-inteligencia.html">Inteligência</a>
+      <a href="participacao.html">Participação</a><a href="memoria-governanca.html">Memória</a>
+      <a href="consulta-publica.html">Consulta</a><a href="status-plataforma.html">Status</a>
+    </nav>
+  </div>
+  <div class="hero small">
+    <div class="container">
+      <div class="eyebrow">Diagnóstico intersetorial</div>
+      <h1>Proteção de Direitos e Território</h1>
+      <p>Leitura integrada dos registros de 2025 do Conselho Tutelar e das imersões territoriais do PMPI.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="container">
+    <div class="diag-note"><strong>Regra de leitura:</strong> os gráficos do Conselho Tutelar possuem universos próprios. Os valores são apresentados por indicador e não devem ser somados como se representassem o mesmo conjunto de atendimentos.</div>
+    <div id="kpis" class="diag-grid"></div>
+
+    <div class="diag-columns">
+      <div>
+        <div class="eyebrow">Proteção de direitos</div>
+        <h2>Violações mais registradas</h2>
+        <div id="violacoes"></div>
+      </div>
+      <div>
+        <div class="eyebrow">Leitura territorial</div>
+        <h2>Bairros destacados</h2>
+        <div id="bairros"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container">
+    <div class="diag-columns">
+      <div>
+        <div class="eyebrow">Primeira infância</div>
+        <h2>Registros por idade</h2>
+        <div id="idades"></div>
+      </div>
+      <div>
+        <div class="eyebrow">Imersões territoriais</div>
+        <h2>Temas recorrentes</h2>
+        <div id="temas"></div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>Plataforma Municipal de Inteligência Territorial</strong><p>Diagnóstico intersetorial do PMPI.</p></div>
+    <div><strong>Versão</strong><p>Sprint 8.4 • Diagnóstico e Proteção de Direitos</p></div>
+  </div>
+</footer>
+<script src="js/diagnostico-protecao.js"></script>
+</body>
+</html>
