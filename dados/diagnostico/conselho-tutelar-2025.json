@@ -1,0 +1,187 @@
+{
+  "referencia": 2025,
+  "conselhos": [
+    {
+      "nome": "I Conselho Tutelar",
+      "endereco": "Rua Machado de Assis, 57 - Jd. Maranhão - Embu das Artes/SP",
+      "telefone": "4704-4544 / 4781-0771"
+    },
+    {
+      "nome": "II Conselho Tutelar",
+      "endereco": "Estrada de Itapecerica à Campo Limpo, 2.315 - Jd. Santo Eduardo",
+      "telefone": "4704-3428"
+    },
+    {
+      "nome": "III Conselho Tutelar",
+      "endereco": "Avenida João Paulo II, 1204 - Jardim Santa Tereza - Embu das Artes/SP",
+      "telefone": "5990-4451 ramal 3067"
+    }
+  ],
+  "origem_atendimento": [
+    [
+      "Espontaneamente",
+      168
+    ],
+    [
+      "Denúncia",
+      146
+    ],
+    [
+      "Disque 100",
+      100
+    ],
+    [
+      "Hospital",
+      77
+    ],
+    [
+      "Escola Municipal",
+      44
+    ],
+    [
+      "Pronto Socorro",
+      20
+    ],
+    [
+      "UBS",
+      17
+    ],
+    [
+      "Outros Conselhos",
+      13
+    ],
+    [
+      "Delegacia",
+      10
+    ]
+  ],
+  "violacoes_direito": [
+    [
+      "Negligência",
+      233
+    ],
+    [
+      "Falta de vaga escolar",
+      53
+    ],
+    [
+      "Violência física",
+      45
+    ],
+    [
+      "Violência sexual",
+      38
+    ],
+    [
+      "Violência psicológica",
+      31
+    ],
+    [
+      "Conflito familiar",
+      22
+    ],
+    [
+      "Situação irregular",
+      20
+    ],
+    [
+      "Vaga em creche",
+      18
+    ],
+    [
+      "Excesso de falta escolar",
+      16
+    ],
+    [
+      "Maus tratos",
+      14
+    ]
+  ],
+  "principais_bairros": [
+    [
+      "Jd. da Luz",
+      40
+    ],
+    [
+      "Jd. Santo Antonio",
+      39
+    ],
+    [
+      "Jd. Santa Tereza",
+      39
+    ],
+    [
+      "Jd. Pinheirinho",
+      34
+    ],
+    [
+      "Jd. Nsa. de Fatima",
+      32
+    ],
+    [
+      "Jd. do Colégio",
+      24
+    ],
+    [
+      "Jd. Vista Alegre",
+      21
+    ],
+    [
+      "Jd. Santo Eduardo",
+      19
+    ],
+    [
+      "Pq. Pirajussara",
+      18
+    ]
+  ],
+  "genero": [
+    [
+      "Feminino",
+      1080
+    ],
+    [
+      "Masculino",
+      1066
+    ],
+    [
+      "N.I",
+      13
+    ],
+    [
+      "N.I.",
+      6
+    ]
+  ],
+  "idade_primeira_infancia": [
+    [
+      "6 anos",
+      120
+    ],
+    [
+      "4 anos",
+      93
+    ],
+    [
+      "2 anos",
+      87
+    ],
+    [
+      "5 anos",
+      85
+    ],
+    [
+      "3 anos",
+      75
+    ],
+    [
+      "1 ano",
+      69
+    ],
+    [
+      "RN",
+      21
+    ]
+  ],
+  "nota_metodologica": "Os totais são os valores exibidos em cada gráfico da apresentação. Não se presume que todos os gráficos usem o mesmo denominador."
+}

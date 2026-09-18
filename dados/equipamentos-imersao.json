@@ -1,0 +1,1049 @@
+{
+  "fonte": "PMPI Resultado imersão potencialidades e equipamento por território",
+  "total": 149,
+  "equipamentos": [
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Saúde",
+      "equipamento": "UBS Valo Verde",
+      "bairro_informado": "Valo Verde",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Em Amílton Suga - Fund I Eja",
+      "bairro_informado": "Valo Verde",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Saúde",
+      "equipamento": "Centro de Referencia em Saúde Irmã Annete",
+      "bairro_informado": "Valo verde",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Em Ipê - Pré Escola",
+      "bairro_informado": "Jd. Jurema",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Saúde",
+      "equipamento": "Hospital Leito Vazame",
+      "bairro_informado": "Vazame",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Em José Salvador Julianelli – Fund I",
+      "bairro_informado": "Novo Campo Limpo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Saúde",
+      "equipamento": "Ambulatório de feridas",
+      "bairro_informado": "Valo Verde",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Em Vazame - Pré Escola",
+      "bairro_informado": "Vazame",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Nei Valo Verde - Pré Escola",
+      "bairro_informado": "Valo Verde",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Creche Josefa Rodrigues de Queiroz – Creche",
+      "bairro_informado": "Jd. Marina",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vazame",
+      "categoria": "Educação",
+      "equipamento": "Em Milton Santos – Creche",
+      "bairro_informado": "Valo Verde",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Farmácia Excepcional – Alto Custo",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Em Mauro Ferreira - Pré Escola Fund I",
+      "bairro_informado": "Embuarama",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Esporte",
+      "equipamento": "Estádio Municipal Hermínio Espósito - Al Fernando Batista Medina,  120",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Cultura",
+      "equipamento": "Centro Cultural Mestre Assis Do Embu",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "UBS Eufrásio P. Costa",
+      "bairro_informado": "Sílvia",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Em Mellone Creche - Pré Escola",
+      "bairro_informado": "JD. Sílvia",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Esporte",
+      "equipamento": "Atividades no Parque Francisco Rizzo (Conviver) | R Alberto Giosa, 390/420",
+      "bairro_informado": "Pq. Francisco Rizzo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Cultura",
+      "equipamento": "Memorial Sakai.",
+      "bairro_informado": "Vila Cercado Grande",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "UBS Ressaca",
+      "bairro_informado": "Ressaca",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Nei Tomé - Pré Escola",
+      "bairro_informado": "Tomé",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Esporte",
+      "equipamento": "Campo do Magali | Estr. do Gramado, 835",
+      "bairro_informado": "Jd. Magali",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Cultura",
+      "equipamento": "Biblioteca Moacyr de Faria Jordão",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "UBS Embu",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Em Magali - Pré Escola",
+      "bairro_informado": "São Francisco",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Esporte",
+      "equipamento": "Quadra Society – Jd. Tomé - Estrada do Embu, s/nº",
+      "bairro_informado": "Jd. Tomé",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Centro de Convivência ( Conviver)",
+      "bairro_informado": "Pq. Rizzo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Nei Magali - Pré Escola",
+      "bairro_informado": "Jd. Magali",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Centro da Atenção Psicossocial Ad Embu",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Em Iodoque Rosa - Pré Escola Fund I",
+      "bairro_informado": "Engenho Velho",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Centro da Atenção Psicossocial II",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Nei Ressaca - Pré Escola",
+      "bairro_informado": "Ressaca",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Centro Especializado em reabilitação – CER",
+      "bairro_informado": "Maria Auxiliadora",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Ave Maria – Creche",
+      "bairro_informado": "Jd. Magali",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Consultório na rua",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Santa Luzia – Creche",
+      "bairro_informado": "Santa Luzia",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Equipe de Apoio Multidisciplinar",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Engenho Velho – Creche",
+      "bairro_informado": "Engenho Velho",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "PS Central",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Gabriela Pires – Creche",
+      "bairro_informado": "Novo Embu",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Maternidade Central",
+      "bairro_informado": "Centro",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Jardim Sílvia - Creche",
+      "bairro_informado": "Sílvia",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Samu Regional",
+      "bairro_informado": "Magali",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Kolping Embu – Creche",
+      "bairro_informado": "V. Maria Auxiliadora",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Serviço de residencia terapêutica",
+      "bairro_informado": "Novo Embu",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Kolping – Creche Ressaca",
+      "bairro_informado": "Ressaca",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Ambulatório de crônicos",
+      "bairro_informado": "Sílvia",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Educação",
+      "equipamento": "Creche Rio Pequeno – Creche",
+      "bairro_informado": "Pq. Rangel",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Centro",
+      "categoria": "Saúde",
+      "equipamento": "Sae IST Embu das artes",
+      "bairro_informado": "Sílvia",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Saúde",
+      "equipamento": "UBS PQ Esplanada",
+      "bairro_informado": "Pq. Esplanada",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Rosa Cirelli – Pré Escola e Fund I",
+      "bairro_informado": "Santa Barbara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Esporte",
+      "equipamento": "Campo Jd. Vista Alegre | Rua Montenegro, 748",
+      "bairro_informado": "Jardim Vista Alegre",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Saúde",
+      "equipamento": "UBS Vista Alegre",
+      "bairro_informado": "Vista Alegre",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Mundo Da Criança - Creche Pré Escola",
+      "bairro_informado": "Esplanada",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Esporte",
+      "equipamento": "Campo do Jardim Mimás - Rua Austrália, 75",
+      "bairro_informado": "Jardim Mimás",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Saúde",
+      "equipamento": "UBS Mimás",
+      "bairro_informado": "Mimas",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Nei Jd. De Lourdes - Pré Escola",
+      "bairro_informado": "Jd. Lourdes",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Astrolgilda - Pré e Escola e Fund I",
+      "bairro_informado": "Vista Alegre",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Janaína - Pré Escola e Fund I",
+      "bairro_informado": "Jd. Mimas",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Murilo Ferreira - Pré Escola",
+      "bairro_informado": "Vista Alegre",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Maria Das Graças – Creche",
+      "bairro_informado": "Vista Alegre",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Em Vista Alegre( Em Clóvis Tenório Ap) - Pré Escola",
+      "bairro_informado": "Vista Alegre",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Creche Betel – Creche",
+      "bairro_informado": "Pq. Esplanada",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Vista Alegre",
+      "categoria": "Educação",
+      "equipamento": "Creche Jardim De Lourdes – Creche",
+      "bairro_informado": "Jd. Lourdes",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Saúde",
+      "equipamento": "UBS São Luiz",
+      "bairro_informado": "São Luiz",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Em Jatobá - Pré Escola Eja",
+      "bairro_informado": "Parque Luíza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Esporte",
+      "equipamento": "Campo de Futebol Perequê - Av. Rotary, 3.326 –",
+      "bairro_informado": "Jd. Perequê",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Cultura",
+      "equipamento": "Centro Cultural Parque Pirajuçara - Valdelice",
+      "bairro_informado": "Parque Pirajussara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Saúde",
+      "equipamento": "UBS N. Sra. De Fátima",
+      "bairro_informado": "Nayara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Em Nilza Prestes",
+      "bairro_informado": "São Luiz",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Esporte",
+      "equipamento": "Ginásio Poliesportivo Valdelice - Av.  Aimara 405 –",
+      "bairro_informado": "Parque Pirajussara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Saúde",
+      "equipamento": "UBS São Marcos",
+      "bairro_informado": "São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Em Reynaldo - Pré Escola, Fund I e Eja",
+      "bairro_informado": "Nossa Senhora De Fátima",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Esporte",
+      "equipamento": "Praça da Juventude - Av. Augusto de Almeida Batista, s/nº –",
+      "bairro_informado": "Jd. São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Em Valdelice Ap Medeiros Prass - Pré Escola, Fund I, Fund Ii e Eja",
+      "bairro_informado": "Pq. Pirajussara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Esporte",
+      "equipamento": "Céu Jd. Do Colégio - Rua Ursa Maior, s/nº",
+      "bairro_informado": "Jd. do Colégio",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Creche As. Peq. Parque Pirajussara – Creche",
+      "bairro_informado": "Pq. Pirajussara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Creche Bosquinho – Creche",
+      "bairro_informado": "Pq. Luiza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Creche Santa Inês – Creche",
+      "bairro_informado": "São Luiz",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Fátima",
+      "categoria": "Educação",
+      "equipamento": "Creche Cristo Ressuscitado - Creche",
+      "bairro_informado": "Pq. Pirajussara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Itatuba",
+      "categoria": "Educação",
+      "equipamento": "Em Mikio Umeda - Pré Escola",
+      "bairro_informado": "Itatuba",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Itatuba",
+      "categoria": "Esporte",
+      "equipamento": "Campo do Itatuba - Estrada Velha de Cotia, 336",
+      "bairro_informado": "Jardim Itatuba",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Itatuba",
+      "categoria": "Educação",
+      "equipamento": "Nei Capuava - Pré Escola",
+      "bairro_informado": "Capuava",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Itatuba",
+      "categoria": "Educação",
+      "equipamento": "Em Pastor Américo – Creche",
+      "bairro_informado": "Pedreira ( Itatuba)",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Educação",
+      "equipamento": "Em Santo Antônio - Creche Pré Escola",
+      "bairro_informado": "Santo Antônio",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Esporte",
+      "equipamento": "Campo de grama sintética",
+      "bairro_informado": "",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Educação",
+      "equipamento": "Em Marajoara - Fund I",
+      "bairro_informado": "Santa Clara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Esporte",
+      "equipamento": "Quadra do Santa Clara",
+      "bairro_informado": "",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Educação",
+      "equipamento": "Em Jequitibá - Fund I",
+      "bairro_informado": "Pinheirinho",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Educação",
+      "equipamento": "Em Jossei Toda – Creche",
+      "bairro_informado": "Pinheirinho",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Educação",
+      "equipamento": "Nei Francisco Marcatto",
+      "bairro_informado": "Pinheirinho",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Pinheirinho",
+      "categoria": "Educação",
+      "equipamento": "Em Maria Iluminata - Creche Pré Escola",
+      "bairro_informado": "Santa Clara",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "UBS Independência",
+      "bairro_informado": "Independência",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Inês Cardoso - Pré Escola",
+      "bairro_informado": "Casa Branca",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Esporte",
+      "equipamento": "Ginásio José Anacleto – Rua Belgrado, s/nº",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Cultura",
+      "equipamento": "Biblioteca",
+      "bairro_informado": "Casa Branca",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "UBS Santa Tereza",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Estela – Creche",
+      "bairro_informado": "Vila Olinda",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Esporte",
+      "equipamento": "Centro Esportivo João Marreta - R José Mendes Ferreira, 340",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "UBS Santa Tereza II",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Hermínio Espósito - Fund I",
+      "bairro_informado": "Vila Olinda",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Esporte",
+      "equipamento": "Ginásio Poliesportivo Amauri Severo dos Santos - R Nilo, 1611",
+      "bairro_informado": "Casa Branca",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "Casa Família Embuense - Ubs Sta Tereza II",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Jornalista - Pré Escola Fund I Eja",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Esporte",
+      "equipamento": "Centro Poli esportivo do Jd. Independência",
+      "bairro_informado": "Independência",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "Serviço de Atendimento Psicossocial Infanto Juvenil",
+      "bairro_informado": "Independência",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Cinara (Primavera) – Pré Escola Fund I",
+      "bairro_informado": "Vila Olinda",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Esporte",
+      "equipamento": "Quadra Jd. Laila - Bom Retiro, s/nº",
+      "bairro_informado": "Jd. Laila",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "CEO Independência",
+      "bairro_informado": "Independência",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Girassol ( Edna) – Pré Escola",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "Policlínica Jardim Independência",
+      "bairro_informado": "Independência",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Creche Estrela Da Manhã – Creche",
+      "bairro_informado": "Vila Regina",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "Centro de especialidades medicas ( Casa da Família Embuense)",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Em Sueli Maria Hipólito – Creche",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Saúde",
+      "equipamento": "Centro de Referencia da saúde da Mulher ( casa da Família embuense )",
+      "bairro_informado": "Santa Tereza",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Santa Tereza",
+      "categoria": "Educação",
+      "equipamento": "Creche Asmoreji – Creche",
+      "bairro_informado": "Fabiana",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "São Marcos",
+      "categoria": "Saúde",
+      "equipamento": "UBS São Marcos",
+      "bairro_informado": "São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "São Marcos",
+      "categoria": "Educação",
+      "equipamento": "Em São Marcos (Em João Antônio Dos Santos) – Creche",
+      "bairro_informado": "São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "São Marcos",
+      "categoria": "Esporte",
+      "equipamento": "Praça da Juventude - Av. Augusto de Almeida Batista, s/nº –",
+      "bairro_informado": "Jd. São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "São Marcos",
+      "categoria": "Cultura",
+      "equipamento": "Praça da Juventude",
+      "bairro_informado": "São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "São Marcos",
+      "categoria": "Educação",
+      "equipamento": "Nei São Marcos (Em João Antônio Dos Santos) - Pré Escola",
+      "bairro_informado": "São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "São Marcos",
+      "categoria": "Educação",
+      "equipamento": "Em José Carlos - Pré Escola",
+      "bairro_informado": "São Marcos",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Colégio",
+      "categoria": "Educação",
+      "equipamento": "Em Elza Marreiro - Fund I Eja",
+      "bairro_informado": "Jardim Dos Moraes",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Colégio",
+      "categoria": "Esporte",
+      "equipamento": "Céu Jd. Do Colégio - Rua Ursa Maior, s/nº",
+      "bairro_informado": "Jd. do Colégio",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Colégio",
+      "categoria": "Cultura",
+      "equipamento": "Estação Cidadania (antigo Céu das Artes)",
+      "bairro_informado": "Colégio",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Colégio",
+      "categoria": "Educação",
+      "equipamento": "Nei Ísis Cristina - Pré Escola",
+      "bairro_informado": "Ísis Cristina",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Colégio",
+      "categoria": "Educação",
+      "equipamento": "Creche Ísis Cristina – Creche",
+      "bairro_informado": "Ísis Cristina",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Colégio",
+      "categoria": "Educação",
+      "equipamento": "Em Florestan – Creche",
+      "bairro_informado": "Jd. Dos Moraes",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Saúde",
+      "equipamento": "UBS santo Eduardo",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Delphina - Pré Escola Fund I",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Esporte",
+      "equipamento": "Quadra Society Jd. Santa Emília - Rua Capri, s/nº",
+      "bairro_informado": "Santa Emília",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Cultura",
+      "equipamento": "Biblioteca",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Saúde",
+      "equipamento": "UBS jd. Ângela",
+      "bairro_informado": "Ângela",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Dom José – Creche",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Esporte",
+      "equipamento": "Centro Esportivo Dom José - Av. Lorena, s/nº",
+      "bairro_informado": "Dom José",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Cultura",
+      "equipamento": "Centro Cultural Santo Eduardo",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Saúde",
+      "equipamento": "UBS Santa Emília",
+      "bairro_informado": "Santa Emília",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Janete Beauchamp – Creche",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Saúde",
+      "equipamento": "UBS Bene Frontino",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Villa Lobos- Pré Escola Fund I",
+      "bairro_informado": "Batista",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Saúde",
+      "equipamento": "UPA Dra Zilda Arns",
+      "bairro_informado": "Dom José",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Maria Josefina Azteca -Fund I",
+      "bairro_informado": "Taima",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Pau Brasil - Pré Escola",
+      "bairro_informado": "Dom José",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Nei Jd Da Luz – Creche",
+      "bairro_informado": "Jd. Da Luz",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Jacaranda - Pré Escola",
+      "bairro_informado": "Santa Emília",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Paulo Freire- Fund I Fund Ii Eja",
+      "bairro_informado": "Santa Emília",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Em Solange Da Silva Vieira – Creche",
+      "bairro_informado": "Presidente Kennedy",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Creche Madre Tereza I - Creche",
+      "bairro_informado": "Presidente Kenneidy",
+      "fonte": "Imersão PMPI - planilha territorial"
+    },
+    {
+      "territorio_cras": "Dom José",
+      "categoria": "Educação",
+      "equipamento": "Creche Santa Terezinha/ Caritas Regional De Embu – Creche",
+      "bairro_informado": "Santo Eduardo",
+      "fonte": "Imersão PMPI - planilha territorial"
+    }
+  ]
+}

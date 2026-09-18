@@ -1,0 +1,124 @@
+{
+  "metodo": "Classificação analítica por palavras-chave aplicada aos problemas e propostas registrados nas imersões. Deve ser validada pela Comissão.",
+  "temas": [
+    {
+      "tema": "Educação infantil / vagas",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Pinheirinho",
+        "Santa Tereza",
+        "São Marcos",
+        "Colégio",
+        "Dom José"
+      ],
+      "n_territorios": 9
+    },
+    {
+      "tema": "Saúde / especialistas",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Itatuba",
+        "Pinheirinho",
+        "Santa Tereza",
+        "São Marcos",
+        "Colégio",
+        "Dom José"
+      ],
+      "n_territorios": 10
+    },
+    {
+      "tema": "Brincar / lazer / cultura",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Itatuba",
+        "Pinheirinho",
+        "Santa Tereza",
+        "São Marcos",
+        "Dom José"
+      ],
+      "n_territorios": 9
+    },
+    {
+      "tema": "Mobilidade / transporte",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Itatuba",
+        "Pinheirinho",
+        "Santa Tereza",
+        "São Marcos"
+      ],
+      "n_territorios": 8
+    },
+    {
+      "tema": "Acessibilidade / PCD",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Santa Tereza",
+        "São Marcos",
+        "Colégio",
+        "Dom José"
+      ],
+      "n_territorios": 8
+    },
+    {
+      "tema": "Segurança",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Itatuba",
+        "Pinheirinho",
+        "Santa Tereza",
+        "São Marcos"
+      ],
+      "n_territorios": 8
+    },
+    {
+      "tema": "Saneamento / infraestrutura",
+      "territorios": [
+        "Vista Alegre",
+        "Fátima",
+        "Itatuba",
+        "Santa Tereza",
+        "São Marcos",
+        "Colégio"
+      ],
+      "n_territorios": 6
+    },
+    {
+      "tema": "SCFV / convivência",
+      "territorios": [
+        "Vazame",
+        "Centro",
+        "Vista Alegre",
+        "Fátima",
+        "Dom José"
+      ],
+      "n_territorios": 5
+    },
+    {
+      "tema": "Integração intersetorial",
+      "territorios": [
+        "Vista Alegre",
+        "Fátima"
+      ],
+      "n_territorios": 2
+    }
+  ]
+}

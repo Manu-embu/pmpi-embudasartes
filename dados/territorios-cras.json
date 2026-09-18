@@ -1,0 +1,401 @@
+{
+  "fonte": "PMPI Resultado imersão potencialidades e equipamento por território",
+  "territorios": {
+    "Vazame": {
+      "potencialidades": [
+        "Creche Josefa Rodrigues período Integral",
+        "Centro de Referencia da Assistência Social – CRAS",
+        "Pronto Socorro",
+        "Unidade Básica de saúde – UBS",
+        "Centro de especialidades",
+        "Pastoral da Criança",
+        "Associações",
+        "Praças",
+        "Campos",
+        "Quadras",
+        "Escolas",
+        "Trabalho de voluntários da escolinha de futebol",
+        "Igrejas",
+        "Transporte público"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ]
+    },
+    "Centro": {
+      "potencialidades": [
+        "creche integral ( três unidades )",
+        "Serviço de convivência e fortalecimento de vínculos - SCFV - Amigo Mirim - 4e5 anos Projeto em parceria com CMDCA",
+        "CRAS Centro"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ]
+    },
+    "Vista Alegre": {
+      "potencialidades": [
+        "Creches em período Integral",
+        "As escolas são muito Boas",
+        "UBS's",
+        "ONG's",
+        "CRAS",
+        "Parquinho ao lado da UBS",
+        "Praça",
+        "Campos e quadras",
+        "Transporte escolar porta a porta"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ]
+    },
+    "Fátima": {
+      "potencialidades": [
+        "Unidade Básica de saúde – UBS",
+        "Associações"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ]
+    },
+    "Itatuba": {
+      "potencialidades": [
+        "Áreas verdes",
+        "CRAS"
+      ],
+      "problemas": [
+        "Falta de Lazer",
+        "Falta de saúde",
+        "falta saúde",
+        "Atenção ao meio ambiente",
+        "Ampliação do transporte da educação",
+        "Pouca oferta de Transporte publico",
+        "Iluminação publica",
+        "segurança",
+        "Infraestrutura em geral"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância",
+        "Contratação de especialistas por região",
+        "Implementação/ cobertura do programa da saúde da família",
+        "Atenção ao saneamento básico",
+        "Aumento das rotas do porta a porta",
+        "Aumento da frota do transporte publico",
+        "Melhoria da iluminação pública"
+      ]
+    },
+    "Pinheirinho": {
+      "potencialidades": [
+        "UBS Pinheirinho",
+        "Praças",
+        "Campo / áreas verdes",
+        "CRAS"
+      ],
+      "problemas": [
+        "Ampliação de vagas da Educação infantil",
+        "Ampliação do transporte da educação",
+        "segurança",
+        "Falta de médicos especialista saúde",
+        "Falta de Lazer"
+      ],
+      "propostas": [
+        "Novas creches período integral",
+        "Novas parcerias na educação integral",
+        "Reorganização do porta porta",
+        "Aumento da patrulha escolar ( Ronda)",
+        "base fixa da Guarda civil municipal – GCM",
+        "Contratação de especialistas por região",
+        "Construção de área de lazer voltados para a primeira infância"
+      ]
+    },
+    "Santa Tereza": {
+      "potencialidades": [
+        "CRAS",
+        "Conselho Tutelar",
+        "UBS",
+        "quadra",
+        "Creches",
+        "Biblioteca Casa Branca",
+        "Associação de Moradores Assoc. do Wilson - Leite assoc. Begali- sacolinha Crisalida - sacolinha Assoc. Casa Branca- sacolinha e leite Asmoreje- Creche e sócio educativo Nova República Mulheres do Embu Aventureiros - Igreja Adventista"
+      ],
+      "problemas": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ]
+    },
+    "São Marcos": {
+      "potencialidades": [
+        "Pracinhas",
+        "Shopping",
+        "Terminal de ônibus",
+        "Escolas municipais",
+        "CRAS",
+        "Delegacia",
+        "Comercio Local - Farmácia, academia, mercado etc."
+      ],
+      "problemas": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ]
+    },
+    "Colégio": {
+      "potencialidades": [
+        "CÉU Parquinho, Cursos e espaço Kids",
+        "Praças > Praça da Juventude,",
+        "Associação dos Morais e Organizações sociais",
+        "Campo do Ísis Cristina",
+        "Creches",
+        "Biblioteca",
+        "CBS",
+        "Ass. São Marcos",
+        "Igreja Católica – Mova",
+        "Arte Marciais - “ Nossa Cara”",
+        "Projeto Enfrente",
+        "CRAS – Colégio"
+      ],
+      "problemas": [],
+      "propostas": [
+        "ampliação de vagas em período integral",
+        "Implantação de UTI Infantil",
+        "Unidade Básica Saúde – UBS com pediatra",
+        "Melhoria da Infraestrutura : calçadas, iluminação e faixas de pedestres",
+        "Acessibilidade"
+      ]
+    },
+    "Dom José": {
+      "potencialidades": [
+        "parquinho",
+        "berçário integral",
+        "creche integral",
+        "quadra"
+      ],
+      "problemas": [],
+      "propostas": [
+        "Construção de creches no território do Jd. Batista em período integral com berçário e auxiliar de PCD",
+        "Ampliação de vagas em período integral em locais já existentes",
+        "Contratação de profissionais de saúde que contemplem as crianças de 0 a6 anos com ou deficiência : Pediatra, neurologista,fonoaudióloga Psicólogos, Terapeutas ocupacionais e psiquiatras",
+        "Investimentos em infra estruturas, manutenção e acessibilidade em espaços públicos voltados à primeira infância: parquinhos, praças, brinquedoteca e bibliotecas",
+        "Contratação de profissionais especializados em atendimento ás crianças atípica/PCD para creches conveniadas e diretas e auxiliares",
+        "Nas praças e parquinho fazer a manutenção dos brinquedos e ampliação com novos brinquedos",
+        "contratação de profissionais especialistas Pediatra, neurologista, fono, Psico",
+        "Oferta de Serviço de Convivência fortalecimento de Vínculos – ECFV",
+        "Buscar recursos nas esferas competentes para a construção de creches e UTI infantil",
+        "Implantação de brinquedoteca",
+        "Implantação de biblioteca"
+      ]
+    }
+  },
+  "grupos_origem": [
+    {
+      "territorios": [
+        "Vazame",
+        "Centro"
+      ],
+      "problemas_compartilhados": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas_compartilhadas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ]
+    },
+    {
+      "territorios": [
+        "Vista Alegre",
+        "Fátima"
+      ],
+      "problemas_compartilhados": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas_compartilhadas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ]
+    },
+    {
+      "territorios": [
+        "Santa Tereza",
+        "São Marcos"
+      ],
+      "problemas_compartilhados": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas_compartilhadas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ]
+    },
+    {
+      "territorios": [
+        "Itatuba"
+      ],
+      "problemas_compartilhados": [],
+      "propostas_compartilhadas": []
+    },
+    {
+      "territorios": [
+        "Pinheirinho"
+      ],
+      "problemas_compartilhados": [],
+      "propostas_compartilhadas": []
+    },
+    {
+      "territorios": [
+        "Colégio",
+        "Dom José"
+      ],
+      "problemas_compartilhados": [],
+      "propostas_compartilhadas": []
+    }
+  ]
+}
