@@ -583,3 +583,14 @@ dialog::backdrop{background:rgba(15,35,45,.62)}
 html {
   scroll-behavior: smooth;
 }
+/* Correção dos cards da Consulta Pública */
+.consulta-publica-cards .form,
+.consulta-publica-cards .form h2,
+.consulta-publica-cards .form p,
+.consulta-publica-cards .form li {
+  color: #132f3e !important;
+}
+
+.consulta-publica-cards .form .kicker {
+  color: #ed6d31 !important;
+}
