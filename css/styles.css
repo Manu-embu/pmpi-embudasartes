@@ -611,3 +611,25 @@ html {
 .consulta-publica-cards .form .kicker {
   color: #ed6d31 !important;
 }
+.protecao-inteligencia-box{
+  display:grid;
+  grid-template-columns:minmax(0,1fr) auto;
+  gap:24px;
+  align-items:center;
+}
+.protecao-inteligencia-texto p{margin:8px 0 0}
+.protecao-atalhos{display:flex;flex-wrap:wrap;gap:10px;justify-content:flex-end}
+.protecao-nav{
+  display:flex;flex-wrap:wrap;gap:10px;margin:0 0 28px;padding:12px;
+  background:#eef5f7;border:1px solid #d7e0e4;border-radius:14px
+}
+.protecao-nav a{
+  display:inline-flex;align-items:center;justify-content:center;padding:8px 12px;
+  border:1px solid #b9cad2;border-radius:999px;color:#17475c;background:#fff;
+  font-weight:800;text-decoration:none
+}
+.protecao-nav a:hover{background:#17475c;color:#fff}
+@media(max-width:760px){
+  .protecao-inteligencia-box{grid-template-columns:1fr}
+  .protecao-atalhos{justify-content:flex-start}
+}
