@@ -633,3 +633,49 @@ html {
   .protecao-inteligencia-box{grid-template-columns:1fr}
   .protecao-atalhos{justify-content:flex-start}
 }
+/* Sprint 8.4.4 — Destaque institucional na Memória e Governança */
+
+.memoria-evento-destaque{
+  border:2px solid #d8a72f;
+  box-shadow:0 18px 38px rgba(20,63,83,.12);
+  background:#fff;
+}
+
+.memoria-evento-destaque::before{
+  content:"Destaque institucional";
+  display:inline-flex;
+  align-items:center;
+  width:max-content;
+  margin:18px 18px 0;
+  padding:6px 10px;
+  border-radius:999px;
+  background:#fff3cf;
+  color:#8a5a00;
+  font-size:11px;
+  font-weight:800;
+  text-transform:uppercase;
+  letter-spacing:.08em;
+}
+
+.memoria-evento-destaque .memoria-evento-imagem-principal,
+.memoria-evento-destaque .evento-imagem-principal,
+.memoria-evento-destaque .event-cover{
+  min-height:360px;
+  object-fit:cover;
+}
+
+.memoria-evento-destaque{
+  grid-template-columns:minmax(320px, 1.15fr) minmax(0, 2fr);
+}
+
+@media(max-width:860px){
+  .memoria-evento-destaque{
+    grid-template-columns:1fr;
+  }
+
+  .memoria-evento-destaque .memoria-evento-imagem-principal,
+  .memoria-evento-destaque .evento-imagem-principal,
+  .memoria-evento-destaque .event-cover{
+    min-height:260px;
+  }
+}
