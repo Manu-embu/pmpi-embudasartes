@@ -56,6 +56,7 @@
       "titulo": "Seminário da Primeira Infância",
       "periodo": "Data a confirmar",
       "descricao": "Registros do seminário, com momentos de apresentação, participação intersetorial, público e mobilização em torno da agenda da primeira infância.",
+      "destaque": true
       "capa": "assets/memoria/seminario/seminario-pmpi-06.webp",
       "imagens": [
         "assets/memoria/seminario/seminario-pmpi-01.webp",
