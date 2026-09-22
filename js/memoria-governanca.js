@@ -42,7 +42,16 @@ function navegarLightbox(delta) {
   const evento = memoriaEventos.find(e => e.id === eventoId);
   atualizarLightbox(evento?.titulo || "Memória do PMPI");
 }
+eventos.sort((a, b) => {
+  const destaqueA = a.destaque ? 1 : 0;
+  const destaqueB = b.destaque ? 1 : 0;
 
+  if (destaqueA !== destaqueB) {
+    return destaqueB - destaqueA;
+  }
+
+  return 0;
+});
 function renderizarEvento(evento) {
   const thumbs = evento.imagens.slice(0, 6).map((src, i) => `
     <button class="memoria-thumb" type="button" data-evento="${esc(evento.id)}" data-indice="${i}">
