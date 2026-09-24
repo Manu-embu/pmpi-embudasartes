@@ -1,0 +1,661 @@
+{
+  "versao": "Sprint 8.4.5",
+  "titulo": "Leitura Territorial Integrada",
+  "metodologia": {
+    "descricao": "Cruzamento analítico entre bairros destacados nos registros do Conselho Tutelar, territórios CRAS, inventário de equipamentos e temas recorrentes das imersões.",
+    "regra": "A associação bairro-território é provisória e deriva exclusivamente do campo bairro_informado do inventário das imersões. Quando um mesmo bairro aparece em mais de um território, a plataforma não atribui território automaticamente e sinaliza necessidade de validação.",
+    "alerta": "Os registros do Conselho Tutelar, o inventário de equipamentos e as imersões possuem universos e metodologias diferentes. O cruzamento não demonstra causalidade e não autoriza somar os totais entre fontes."
+  },
+  "resumo": {
+    "territorios_cras": 10,
+    "equipamentos_inventariados": 149,
+    "bairros_destacados_ct": 9,
+    "associacoes_provisorias_unicas": 8,
+    "associacoes_a_validar": 1,
+    "sem_correspondencia": 0
+  },
+  "cruzamento_bairros": [
+    {
+      "bairro_conselho_tutelar": "Jd. da Luz",
+      "registros_conselho_tutelar": 40,
+      "territorio_provisorio": "Dom José",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Dom José": 1
+      },
+      "n_evidencias": 1,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. Santo Antonio",
+      "registros_conselho_tutelar": 39,
+      "territorio_provisorio": "Pinheirinho",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Pinheirinho": 1
+      },
+      "n_evidencias": 1,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. Santa Tereza",
+      "registros_conselho_tutelar": 39,
+      "territorio_provisorio": "Santa Tereza",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Santa Tereza": 10
+      },
+      "n_evidencias": 10,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. Pinheirinho",
+      "registros_conselho_tutelar": 34,
+      "territorio_provisorio": "Pinheirinho",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Pinheirinho": 3
+      },
+      "n_evidencias": 3,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. Nsa. de Fatima",
+      "registros_conselho_tutelar": 32,
+      "territorio_provisorio": "Fátima",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Fátima": 1
+      },
+      "n_evidencias": 1,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. do Colégio",
+      "registros_conselho_tutelar": 24,
+      "territorio_provisorio": null,
+      "status": "validacao_necessaria",
+      "evidencias_inventario_equipamentos": {
+        "Fátima": 1,
+        "Colégio": 2
+      },
+      "n_evidencias": 3,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. Vista Alegre",
+      "registros_conselho_tutelar": 21,
+      "territorio_provisorio": "Vista Alegre",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Vista Alegre": 6
+      },
+      "n_evidencias": 6,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Jd. Santo Eduardo",
+      "registros_conselho_tutelar": 19,
+      "territorio_provisorio": "Dom José",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Dom José": 8
+      },
+      "n_evidencias": 8,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    },
+    {
+      "bairro_conselho_tutelar": "Pq. Pirajussara",
+      "registros_conselho_tutelar": 18,
+      "territorio_provisorio": "Fátima",
+      "status": "provisorio_unico",
+      "evidencias_inventario_equipamentos": {
+        "Fátima": 5
+      },
+      "n_evidencias": 5,
+      "nota": "Correspondência provisória derivada do campo bairro_informado do inventário das imersões; não substitui delimitação territorial oficial."
+    }
+  ],
+  "territorios": [
+    {
+      "territorio": "Vazame",
+      "equipamentos_total": 11,
+      "equipamentos_por_categoria": {
+        "Saúde": 4,
+        "Educação": 7
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Acessibilidade / PCD",
+        "Segurança",
+        "SCFV / convivência"
+      ],
+      "n_temas": 7,
+      "bairros_ct_associados_provisoriamente": [],
+      "n_problemas_imersao": 5,
+      "n_propostas_imersao": 7,
+      "potencialidades": [
+        "Creche Josefa Rodrigues período Integral",
+        "Centro de Referencia da Assistência Social – CRAS",
+        "Pronto Socorro",
+        "Unidade Básica de saúde – UBS",
+        "Centro de especialidades",
+        "Pastoral da Criança",
+        "Associações",
+        "Praças",
+        "Campos",
+        "Quadras",
+        "Escolas",
+        "Trabalho de voluntários da escolinha de futebol",
+        "Igrejas",
+        "Transporte público"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ]
+    },
+    {
+      "territorio": "Centro",
+      "equipamentos_total": 38,
+      "equipamentos_por_categoria": {
+        "Saúde": 16,
+        "Educação": 15,
+        "Esporte": 4,
+        "Cultura": 3
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Acessibilidade / PCD",
+        "Segurança",
+        "SCFV / convivência"
+      ],
+      "n_temas": 7,
+      "bairros_ct_associados_provisoriamente": [],
+      "n_problemas_imersao": 5,
+      "n_propostas_imersao": 7,
+      "potencialidades": [
+        "creche integral ( três unidades )",
+        "Serviço de convivência e fortalecimento de vínculos - SCFV - Amigo Mirim - 4e5 anos Projeto em parceria com CMDCA",
+        "CRAS Centro"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas de berçários",
+        "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas",
+        "Ônibus inadequado e em numero insuficiente",
+        "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança",
+        "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+      ],
+      "propostas": [
+        "Ampliação de Nº de vagas em Berçários",
+        "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)",
+        "Aplicação do Estatuto da Criança e Adolescente – ECA, marco regulatório da primeira infância na sade para crianças tipicas e atípicas",
+        "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção",
+        "Implementação do marco legal criança e natureza(projeto de Lei ) 2225/2024",
+        "Planejamento urbano priorizando a primeira infância",
+        "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+      ]
+    },
+    {
+      "territorio": "Vista Alegre",
+      "equipamentos_total": 15,
+      "equipamentos_por_categoria": {
+        "Saúde": 3,
+        "Educação": 10,
+        "Esporte": 2
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Acessibilidade / PCD",
+        "Segurança",
+        "Saneamento / infraestrutura",
+        "SCFV / convivência",
+        "Integração intersetorial"
+      ],
+      "n_temas": 9,
+      "bairros_ct_associados_provisoriamente": [
+        {
+          "bairro": "Jd. Vista Alegre",
+          "registros": 21,
+          "status": "provisorio_unico",
+          "evidencias": 6
+        }
+      ],
+      "n_problemas_imersao": 5,
+      "n_propostas_imersao": 12,
+      "potencialidades": [
+        "Creches em período Integral",
+        "As escolas são muito Boas",
+        "UBS's",
+        "ONG's",
+        "CRAS",
+        "Parquinho ao lado da UBS",
+        "Praça",
+        "Campos e quadras",
+        "Transporte escolar porta a porta"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ]
+    },
+    {
+      "territorio": "Fátima",
+      "equipamentos_total": 16,
+      "equipamentos_por_categoria": {
+        "Saúde": 3,
+        "Educação": 8,
+        "Esporte": 4,
+        "Cultura": 1
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Acessibilidade / PCD",
+        "Segurança",
+        "Saneamento / infraestrutura",
+        "SCFV / convivência",
+        "Integração intersetorial"
+      ],
+      "n_temas": 9,
+      "bairros_ct_associados_provisoriamente": [
+        {
+          "bairro": "Jd. Nsa. de Fatima",
+          "registros": 32,
+          "status": "provisorio_unico",
+          "evidencias": 1
+        },
+        {
+          "bairro": "Pq. Pirajussara",
+          "registros": 18,
+          "status": "provisorio_unico",
+          "evidencias": 5
+        }
+      ],
+      "n_problemas_imersao": 5,
+      "n_propostas_imersao": 12,
+      "potencialidades": [
+        "Unidade Básica de saúde – UBS",
+        "Associações"
+      ],
+      "problemas": [
+        "Baixa oferta de vagas em creche integral",
+        "Baixa oferta de vagas em creche para Berçários,",
+        "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)",
+        "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos",
+        "Capacitação dos profissionais de saúde para lidar com crianças"
+      ],
+      "propostas": [
+        "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios",
+        "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)",
+        "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS",
+        "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades",
+        "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores",
+        "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP",
+        "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo",
+        "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas",
+        "Garantir ronda em todos os equipamentos públicos priorizando as creches e escolas.",
+        "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local",
+        "Criação de um programa de saneamento básico para o município",
+        "Criação e implantação de brinquedotecas em todos os territórios"
+      ]
+    },
+    {
+      "territorio": "Itatuba",
+      "equipamentos_total": 4,
+      "equipamentos_por_categoria": {
+        "Educação": 3,
+        "Esporte": 1
+      },
+      "temas_recorrentes": [
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Segurança",
+        "Saneamento / infraestrutura"
+      ],
+      "n_temas": 5,
+      "bairros_ct_associados_provisoriamente": [],
+      "n_problemas_imersao": 9,
+      "n_propostas_imersao": 7,
+      "potencialidades": [
+        "Áreas verdes",
+        "CRAS"
+      ],
+      "problemas": [
+        "Falta de Lazer",
+        "Falta de saúde",
+        "falta saúde",
+        "Atenção ao meio ambiente",
+        "Ampliação do transporte da educação",
+        "Pouca oferta de Transporte publico",
+        "Iluminação publica",
+        "segurança",
+        "Infraestrutura em geral"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância",
+        "Contratação de especialistas por região",
+        "Implementação/ cobertura do programa da saúde da família",
+        "Atenção ao saneamento básico",
+        "Aumento das rotas do porta a porta",
+        "Aumento da frota do transporte publico",
+        "Melhoria da iluminação pública"
+      ]
+    },
+    {
+      "territorio": "Pinheirinho",
+      "equipamentos_total": 8,
+      "equipamentos_por_categoria": {
+        "Educação": 6,
+        "Esporte": 2
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Segurança"
+      ],
+      "n_temas": 5,
+      "bairros_ct_associados_provisoriamente": [
+        {
+          "bairro": "Jd. Santo Antonio",
+          "registros": 39,
+          "status": "provisorio_unico",
+          "evidencias": 1
+        },
+        {
+          "bairro": "Jd. Pinheirinho",
+          "registros": 34,
+          "status": "provisorio_unico",
+          "evidencias": 3
+        }
+      ],
+      "n_problemas_imersao": 5,
+      "n_propostas_imersao": 7,
+      "potencialidades": [
+        "UBS Pinheirinho",
+        "Praças",
+        "Campo / áreas verdes",
+        "CRAS"
+      ],
+      "problemas": [
+        "Ampliação de vagas da Educação infantil",
+        "Ampliação do transporte da educação",
+        "segurança",
+        "Falta de médicos especialista saúde",
+        "Falta de Lazer"
+      ],
+      "propostas": [
+        "Novas creches período integral",
+        "Novas parcerias na educação integral",
+        "Reorganização do porta porta",
+        "Aumento da patrulha escolar ( Ronda)",
+        "base fixa da Guarda civil municipal – GCM",
+        "Contratação de especialistas por região",
+        "Construção de área de lazer voltados para a primeira infância"
+      ]
+    },
+    {
+      "territorio": "Santa Tereza",
+      "equipamentos_total": 24,
+      "equipamentos_por_categoria": {
+        "Saúde": 9,
+        "Educação": 9,
+        "Esporte": 5,
+        "Cultura": 1
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Acessibilidade / PCD",
+        "Segurança",
+        "Saneamento / infraestrutura"
+      ],
+      "n_temas": 7,
+      "bairros_ct_associados_provisoriamente": [
+        {
+          "bairro": "Jd. Santa Tereza",
+          "registros": 39,
+          "status": "provisorio_unico",
+          "evidencias": 10
+        }
+      ],
+      "n_problemas_imersao": 13,
+      "n_propostas_imersao": 10,
+      "potencialidades": [
+        "CRAS",
+        "Conselho Tutelar",
+        "UBS",
+        "quadra",
+        "Creches",
+        "Biblioteca Casa Branca",
+        "Associação de Moradores Assoc. do Wilson - Leite assoc. Begali- sacolinha Crisalida - sacolinha Assoc. Casa Branca- sacolinha e leite Asmoreje- Creche e sócio educativo Nova República Mulheres do Embu Aventureiros - Igreja Adventista"
+      ],
+      "problemas": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ]
+    },
+    {
+      "territorio": "São Marcos",
+      "equipamentos_total": 6,
+      "equipamentos_por_categoria": {
+        "Saúde": 1,
+        "Educação": 3,
+        "Esporte": 1,
+        "Cultura": 1
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Mobilidade / transporte",
+        "Acessibilidade / PCD",
+        "Segurança",
+        "Saneamento / infraestrutura"
+      ],
+      "n_temas": 7,
+      "bairros_ct_associados_provisoriamente": [],
+      "n_problemas_imersao": 13,
+      "n_propostas_imersao": 10,
+      "potencialidades": [
+        "Pracinhas",
+        "Shopping",
+        "Terminal de ônibus",
+        "Escolas municipais",
+        "CRAS",
+        "Delegacia",
+        "Comercio Local - Farmácia, academia, mercado etc."
+      ],
+      "problemas": [
+        "Falta brinquedoteca no no parque",
+        "Falta de vaga em berçários e creches creches em período integral",
+        "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos",
+        "Segurança",
+        "Falta da acessibilidade",
+        "Falta de pronto socorro infantil e oferta de medicamento dentro do PS",
+        "Transporte publico e acessibilidade no transporte",
+        "escassez de áreas de lazer",
+        "Ausência do Pronto socorro infantil",
+        "Falta de especialistas da saúde",
+        "falta de segurança",
+        "ausência de acessibilidade",
+        "falta de equipamento inferior à demanda"
+      ],
+      "propostas": [
+        "Construção de área de lazer voltados para a primeira infância para atender a demanda da população",
+        "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado",
+        "Zeladoria para os serviços públicos",
+        "Construção de escolas e ampliação das existentes e contratação de professor e auxiliar de sala com formação",
+        "Contratação desses profissionais via concurso garantido piso salarial da categoria",
+        "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes",
+        "construção de rampas, semafaros inteligentes, faixa tátil e elevadores nos equipamentos públicos",
+        "contratação de interprete de libras ou disponibilizar o curso aos servidores",
+        "Construção do Pronto Socorro infantil e implementação da farmácia vinte e quatro horas",
+        "Ampliação da frota , criação de linhas de veículos adaptados e conservação / manutenção"
+      ]
+    },
+    {
+      "territorio": "Colégio",
+      "equipamentos_total": 6,
+      "equipamentos_por_categoria": {
+        "Educação": 4,
+        "Esporte": 1,
+        "Cultura": 1
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Acessibilidade / PCD",
+        "Saneamento / infraestrutura"
+      ],
+      "n_temas": 4,
+      "bairros_ct_associados_provisoriamente": [],
+      "n_problemas_imersao": 0,
+      "n_propostas_imersao": 5,
+      "potencialidades": [
+        "CÉU Parquinho, Cursos e espaço Kids",
+        "Praças > Praça da Juventude,",
+        "Associação dos Morais e Organizações sociais",
+        "Campo do Ísis Cristina",
+        "Creches",
+        "Biblioteca",
+        "CBS",
+        "Ass. São Marcos",
+        "Igreja Católica – Mova",
+        "Arte Marciais - “ Nossa Cara”",
+        "Projeto Enfrente",
+        "CRAS – Colégio"
+      ],
+      "problemas": [],
+      "propostas": [
+        "ampliação de vagas em período integral",
+        "Implantação de UTI Infantil",
+        "Unidade Básica Saúde – UBS com pediatra",
+        "Melhoria da Infraestrutura : calçadas, iluminação e faixas de pedestres",
+        "Acessibilidade"
+      ]
+    },
+    {
+      "territorio": "Dom José",
+      "equipamentos_total": 21,
+      "equipamentos_por_categoria": {
+        "Saúde": 5,
+        "Educação": 12,
+        "Esporte": 2,
+        "Cultura": 2
+      },
+      "temas_recorrentes": [
+        "Educação infantil / vagas",
+        "Saúde / especialistas",
+        "Brincar / lazer / cultura",
+        "Acessibilidade / PCD",
+        "SCFV / convivência"
+      ],
+      "n_temas": 5,
+      "bairros_ct_associados_provisoriamente": [
+        {
+          "bairro": "Jd. da Luz",
+          "registros": 40,
+          "status": "provisorio_unico",
+          "evidencias": 1
+        },
+        {
+          "bairro": "Jd. Santo Eduardo",
+          "registros": 19,
+          "status": "provisorio_unico",
+          "evidencias": 8
+        }
+      ],
+      "n_problemas_imersao": 0,
+      "n_propostas_imersao": 11,
+      "potencialidades": [
+        "parquinho",
+        "berçário integral",
+        "creche integral",
+        "quadra"
+      ],
+      "problemas": [],
+      "propostas": [
+        "Construção de creches no território do Jd. Batista em período integral com berçário e auxiliar de PCD",
+        "Ampliação de vagas em período integral em locais já existentes",
+        "Contratação de profissionais de saúde que contemplem as crianças de 0 a6 anos com ou deficiência : Pediatra, neurologista,fonoaudióloga Psicólogos, Terapeutas ocupacionais e psiquiatras",
+        "Investimentos em infra estruturas, manutenção e acessibilidade em espaços públicos voltados à primeira infância: parquinhos, praças, brinquedoteca e bibliotecas",
+        "Contratação de profissionais especializados em atendimento ás crianças atípica/PCD para creches conveniadas e diretas e auxiliares",
+        "Nas praças e parquinho fazer a manutenção dos brinquedos e ampliação com novos brinquedos",
+        "contratação de profissionais especialistas Pediatra, neurologista, fono, Psico",
+        "Oferta de Serviço de Convivência fortalecimento de Vínculos – ECFV",
+        "Buscar recursos nas esferas competentes para a construção de creches e UTI infantil",
+        "Implantação de brinquedoteca",
+        "Implantação de biblioteca"
+      ]
+    }
+  ]
+}
