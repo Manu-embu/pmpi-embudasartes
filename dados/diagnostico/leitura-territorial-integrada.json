@@ -1,19 +1,51 @@
 {
-  "versao": "Sprint 8.4.5",
-  "titulo": "Leitura Territorial Integrada",
+  "versao": "Sprint 8.4.6",
+  "titulo": "Leitura Territorial Integrada — Diferenciação Territorial",
   "metodologia": {
-    "descricao": "Cruzamento analítico entre bairros destacados nos registros do Conselho Tutelar, territórios CRAS, inventário de equipamentos e temas recorrentes das imersões.",
-    "regra": "A associação bairro-território é provisória e deriva exclusivamente do campo bairro_informado do inventário das imersões. Quando um mesmo bairro aparece em mais de um território, a plataforma não atribui território automaticamente e sinaliza necessidade de validação.",
-    "alerta": "Os registros do Conselho Tutelar, o inventário de equipamentos e as imersões possuem universos e metodologias diferentes. O cruzamento não demonstra causalidade e não autoriza somar os totais entre fontes."
+    "descricao": "Os temas municipais amplos foram separados das questões identificadas em cada território.",
+    "regra": "Uma questão só aparece no card de um território quando há evidência textual correspondente nos registros de problemas, propostas ou potencialidades daquele território.",
+    "alerta": "As categorias são uma camada analítica e devem ser validadas pela Comissão. Não representam prioridade automática, causalidade ou diagnóstico oficial fechado."
   },
   "resumo": {
     "territorios_cras": 10,
     "equipamentos_inventariados": 149,
     "bairros_destacados_ct": 9,
-    "associacoes_provisorias_unicas": 8,
-    "associacoes_a_validar": 1,
-    "sem_correspondencia": 0
+    "temas_municipais": 8
   },
+  "temas_recorrentes_rede": [
+    {
+      "tema": "Brincar / lazer / cultura",
+      "territorios": 10
+    },
+    {
+      "tema": "Saúde / especialistas",
+      "territorios": 10
+    },
+    {
+      "tema": "Educação infantil / vagas",
+      "territorios": 9
+    },
+    {
+      "tema": "Mobilidade / transporte",
+      "territorios": 8
+    },
+    {
+      "tema": "Segurança",
+      "territorios": 7
+    },
+    {
+      "tema": "Acessibilidade / PCD",
+      "territorios": 6
+    },
+    {
+      "tema": "SCFV / convivência",
+      "territorios": 5
+    },
+    {
+      "tema": "Saneamento / infraestrutura",
+      "territorios": 4
+    }
+  ],
   "cruzamento_bairros": [
     {
       "bairro_conselho_tutelar": "Jd. da Luz",
@@ -124,19 +156,106 @@
         "Saúde": 4,
         "Educação": 7
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Acessibilidade / PCD",
-        "Segurança",
-        "SCFV / convivência"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Baixa oferta de vagas de berçários"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Ampliação de Nº de vagas em Berçários"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Creche Josefa Rodrigues período Integral"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Unidade Básica de saúde – UBS"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Praças"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Quadras"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Ônibus inadequado e em numero insuficiente"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Transporte público"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança"
+            }
+          ]
+        },
+        {
+          "tema": "SCFV / convivência",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+            }
+          ]
+        }
       ],
-      "n_temas": 7,
+      "n_questoes": 6,
       "bairros_ct_associados_provisoriamente": [],
-      "n_problemas_imersao": 5,
-      "n_propostas_imersao": 7,
       "potencialidades": [
         "Creche Josefa Rodrigues período Integral",
         "Centro de Referencia da Assistência Social – CRAS",
@@ -179,19 +298,94 @@
         "Esporte": 4,
         "Cultura": 3
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Acessibilidade / PCD",
-        "Segurança",
-        "SCFV / convivência"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Baixa oferta de vagas de berçários"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Ampliação de Nº de vagas em Berçários"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Fiscalização pelo poder publico nas empresas privadas (Auxilio creche)"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "creche integral ( três unidades )"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Na saúde a criança não é assistida como prioridade absoluta que ela tipica ou atípicas"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Ônibus inadequado e em numero insuficiente"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Aumento da quantidade de ônibus para diminuir o tempo de espera e melhor conservação /manutenção"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Pouca oferta de praças, espaços de lazer cultura, brinquedoteca, acesso a natureza com segurança"
+            }
+          ]
+        },
+        {
+          "tema": "SCFV / convivência",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "ausência de Serviço convivência Fortalecimento de vínculos para a faixa etária"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Implementar Serviço Convivência Fortalecimento de vínculos – SCFV para a faixa etária"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Serviço de convivência e fortalecimento de vínculos - SCFV - Amigo Mirim - 4e5 anos Projeto em parceria com CMDCA"
+            }
+          ]
+        }
       ],
-      "n_temas": 7,
+      "n_questoes": 6,
       "bairros_ct_associados_provisoriamente": [],
-      "n_problemas_imersao": 5,
-      "n_propostas_imersao": 7,
       "potencialidades": [
         "creche integral ( três unidades )",
         "Serviço de convivência e fortalecimento de vínculos - SCFV - Amigo Mirim - 4e5 anos Projeto em parceria com CMDCA",
@@ -222,18 +416,139 @@
         "Educação": 10,
         "Esporte": 2
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Acessibilidade / PCD",
-        "Segurança",
-        "Saneamento / infraestrutura",
-        "SCFV / convivência",
-        "Integração intersetorial"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Baixa oferta de vagas em creche integral"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Baixa oferta de vagas em creche para Berçários,"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 8,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Capacitação dos profissionais de saúde para lidar com crianças"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "UBS's"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Parquinho ao lado da UBS"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Praça"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Campos e quadras"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Transporte escolar porta a porta"
+            }
+          ]
+        },
+        {
+          "tema": "Acessibilidade / PCD",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas"
+            }
+          ]
+        },
+        {
+          "tema": "Saneamento / infraestrutura",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Criação de um programa de saneamento básico para o município"
+            }
+          ]
+        },
+        {
+          "tema": "SCFV / convivência",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS"
+            }
+          ]
+        }
       ],
-      "n_temas": 9,
+      "n_questoes": 7,
       "bairros_ct_associados_provisoriamente": [
         {
           "bairro": "Jd. Vista Alegre",
@@ -242,8 +557,6 @@
           "evidencias": 6
         }
       ],
-      "n_problemas_imersao": 5,
-      "n_propostas_imersao": 12,
       "potencialidades": [
         "Creches em período Integral",
         "As escolas são muito Boas",
@@ -286,18 +599,123 @@
         "Esporte": 4,
         "Cultura": 1
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Acessibilidade / PCD",
-        "Segurança",
-        "Saneamento / infraestrutura",
-        "SCFV / convivência",
-        "Integração intersetorial"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Baixa oferta de vagas em creche integral"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Baixa oferta de vagas em creche para Berçários,"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 7,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de especialidades médicas: Fono, Neuro, psiquiatra e psicólogos"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Capacitação dos profissionais de saúde para lidar com crianças"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Criação e implantação de um sistema integrado entre as politicas setoriais para diagnosticar e identificar as vulnerabilidades do município, a fim de assegurar e garantir os direitos das crianças (0-6) em todas as politicas ( Assistência, Saúde educação etc.)"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Elaboração de concurso publico para profissionais de saúde, garantindo o quadro mínimo de médicos em cada UBS e no Centro de especialidades"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais concursados nas áreas de atendimento ao publico na saúde, assistência e educação com garantia de educação permanente aos servidores"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Unidade Básica de saúde – UBS"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais para desenvolver atividades esportivas e culturais nos equipamentos já existentes para a faixa etária, inclusive, para DCP"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Implantação e manutenção de parquinhos em praças publicas, com melhoria do paisagismo"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Solicitação da ampliação do metro ate o município de Embu das artes, bem como ampliação de frota de transporte local"
+            }
+          ]
+        },
+        {
+          "tema": "Acessibilidade / PCD",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Construção de novos berçários / creches, com ampliação do horário para período integral com auxiliar educacional para crianças atípicas (PCD) conforme demanda e com oferta do porta a porta para as crianças dentro dos critérios"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Garantia de acessibilidade em todo município a fim de assegurar que as crianças e PCDs consigam acessar todos os equipamentos Escolas, CRAS,UBS etc.) e vias publicas"
+            }
+          ]
+        },
+        {
+          "tema": "Saneamento / infraestrutura",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Criação de um programa de saneamento básico para o município"
+            }
+          ]
+        },
+        {
+          "tema": "SCFV / convivência",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de vagas de serviço de convivência e fortalecimento de vínculos - SCFV ( para a Faixa etária)"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Garantia do Serviço Convivência Fortalecimento de vínculos – SCFV para crianças de 0-6 anos em territórios de CRAS"
+            }
+          ]
+        }
       ],
-      "n_temas": 9,
+      "n_questoes": 7,
       "bairros_ct_associados_provisoriamente": [
         {
           "bairro": "Jd. Nsa. de Fatima",
@@ -312,8 +730,6 @@
           "evidencias": 5
         }
       ],
-      "n_problemas_imersao": 5,
-      "n_propostas_imersao": 12,
       "potencialidades": [
         "Unidade Básica de saúde – UBS",
         "Associações"
@@ -347,17 +763,96 @@
         "Educação": 3,
         "Esporte": 1
       },
-      "temas_recorrentes": [
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Segurança",
-        "Saneamento / infraestrutura"
+      "questoes_identificadas": [
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de saúde"
+            },
+            {
+              "origem": "problemas",
+              "texto": "falta saúde"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Contratação de especialistas por região"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Implementação/ cobertura do programa da saúde da família"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de Lazer"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Construção de área de lazer voltados para a primeira infância"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Ampliação do transporte da educação"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Pouca oferta de Transporte publico"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Aumento da frota do transporte publico"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Iluminação publica"
+            },
+            {
+              "origem": "problemas",
+              "texto": "segurança"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Melhoria da iluminação pública"
+            }
+          ]
+        },
+        {
+          "tema": "Saneamento / infraestrutura",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Infraestrutura em geral"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Atenção ao saneamento básico"
+            }
+          ]
+        }
       ],
-      "n_temas": 5,
+      "n_questoes": 5,
       "bairros_ct_associados_provisoriamente": [],
-      "n_problemas_imersao": 9,
-      "n_propostas_imersao": 7,
       "potencialidades": [
         "Áreas verdes",
         "CRAS"
@@ -390,14 +885,79 @@
         "Educação": 6,
         "Esporte": 2
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Segurança"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Ampliação de vagas da Educação infantil"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de médicos especialista saúde"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Contratação de especialistas por região"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "UBS Pinheirinho"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de Lazer"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Construção de área de lazer voltados para a primeira infância"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Praças"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Ampliação do transporte da educação"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "segurança"
+            },
+            {
+              "origem": "propostas",
+              "texto": "base fixa da Guarda civil municipal – GCM"
+            }
+          ]
+        }
       ],
-      "n_temas": 5,
+      "n_questoes": 5,
       "bairros_ct_associados_provisoriamente": [
         {
           "bairro": "Jd. Santo Antonio",
@@ -412,8 +972,6 @@
           "evidencias": 3
         }
       ],
-      "n_problemas_imersao": 5,
-      "n_propostas_imersao": 7,
       "potencialidades": [
         "UBS Pinheirinho",
         "Praças",
@@ -446,16 +1004,121 @@
         "Esporte": 5,
         "Cultura": 1
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Acessibilidade / PCD",
-        "Segurança",
-        "Saneamento / infraestrutura"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de vaga em berçários e creches creches em período integral"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Associação de Moradores Assoc. do Wilson - Leite assoc. Begali- sacolinha Crisalida - sacolinha Assoc. Casa Branca- sacolinha e leite Asmoreje- Creche e sócio educativo Nova República Mulheres do Embu Aventureiros - Igreja Adventista"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Falta de pronto socorro infantil e oferta de medicamento dentro do PS"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Falta de especialistas da saúde"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "UBS"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 5,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta brinquedoteca no no parque"
+            },
+            {
+              "origem": "problemas",
+              "texto": "escassez de áreas de lazer"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Construção de área de lazer voltados para a primeira infância para atender a demanda da população"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "quadra"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Transporte publico e acessibilidade no transporte"
+            }
+          ]
+        },
+        {
+          "tema": "Acessibilidade / PCD",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta da acessibilidade"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Transporte publico e acessibilidade no transporte"
+            },
+            {
+              "origem": "problemas",
+              "texto": "ausência de acessibilidade"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Segurança"
+            },
+            {
+              "origem": "problemas",
+              "texto": "falta de segurança"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes"
+            }
+          ]
+        }
       ],
-      "n_temas": 7,
+      "n_questoes": 6,
       "bairros_ct_associados_provisoriamente": [
         {
           "bairro": "Jd. Santa Tereza",
@@ -464,8 +1127,6 @@
           "evidencias": 10
         }
       ],
-      "n_problemas_imersao": 13,
-      "n_propostas_imersao": 10,
       "potencialidades": [
         "CRAS",
         "Conselho Tutelar",
@@ -512,19 +1173,114 @@
         "Esporte": 1,
         "Cultura": 1
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Mobilidade / transporte",
-        "Acessibilidade / PCD",
-        "Segurança",
-        "Saneamento / infraestrutura"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de vaga em berçários e creches creches em período integral"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Ampliação de vaga de berçário e creche de parcerias entre o poder publico e o terceiro setor e setor privado"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta de profissionais de saúde especialistas voltados ao atendimento de crianças de 0 a 6 anos"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Falta de pronto socorro infantil e oferta de medicamento dentro do PS"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Falta de especialistas da saúde"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta brinquedoteca no no parque"
+            },
+            {
+              "origem": "problemas",
+              "texto": "escassez de áreas de lazer"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Construção de área de lazer voltados para a primeira infância para atender a demanda da população"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes"
+            }
+          ]
+        },
+        {
+          "tema": "Mobilidade / transporte",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Transporte publico e acessibilidade no transporte"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "Terminal de ônibus"
+            }
+          ]
+        },
+        {
+          "tema": "Acessibilidade / PCD",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Falta da acessibilidade"
+            },
+            {
+              "origem": "problemas",
+              "texto": "Transporte publico e acessibilidade no transporte"
+            },
+            {
+              "origem": "problemas",
+              "texto": "ausência de acessibilidade"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "problemas",
+              "texto": "Segurança"
+            },
+            {
+              "origem": "problemas",
+              "texto": "falta de segurança"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Segurança publica com rondas efetivas em torno de praças, parques, escolas e adjacentes"
+            }
+          ]
+        }
       ],
-      "n_temas": 7,
+      "n_questoes": 6,
       "bairros_ct_associados_provisoriamente": [],
-      "n_problemas_imersao": 13,
-      "n_propostas_imersao": 10,
       "potencialidades": [
         "Pracinhas",
         "Shopping",
@@ -570,16 +1326,70 @@
         "Esporte": 1,
         "Cultura": 1
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Acessibilidade / PCD",
-        "Saneamento / infraestrutura"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "ampliação de vagas em período integral"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Unidade Básica Saúde – UBS com pediatra"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "potencialidades",
+              "texto": "Praças > Praça da Juventude,"
+            }
+          ]
+        },
+        {
+          "tema": "Acessibilidade / PCD",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Acessibilidade"
+            }
+          ]
+        },
+        {
+          "tema": "Segurança",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Melhoria da Infraestrutura : calçadas, iluminação e faixas de pedestres"
+            }
+          ]
+        },
+        {
+          "tema": "Saneamento / infraestrutura",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Melhoria da Infraestrutura : calçadas, iluminação e faixas de pedestres"
+            }
+          ]
+        }
       ],
-      "n_temas": 4,
+      "n_questoes": 6,
       "bairros_ct_associados_provisoriamente": [],
-      "n_problemas_imersao": 0,
-      "n_propostas_imersao": 5,
       "potencialidades": [
         "CÉU Parquinho, Cursos e espaço Kids",
         "Praças > Praça da Juventude,",
@@ -612,14 +1422,87 @@
         "Esporte": 2,
         "Cultura": 2
       },
-      "temas_recorrentes": [
-        "Educação infantil / vagas",
-        "Saúde / especialistas",
-        "Brincar / lazer / cultura",
-        "Acessibilidade / PCD",
-        "SCFV / convivência"
+      "questoes_identificadas": [
+        {
+          "tema": "Educação infantil / vagas",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Ampliação de vagas em período integral em locais já existentes"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "creche integral"
+            }
+          ]
+        },
+        {
+          "tema": "Saúde / especialistas",
+          "n_evidencias": 2,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais de saúde que contemplem as crianças de 0 a6 anos com ou deficiência : Pediatra, neurologista,fonoaudióloga Psicólogos, Terapeutas ocupacionais e psiquiatras"
+            },
+            {
+              "origem": "propostas",
+              "texto": "contratação de profissionais especialistas Pediatra, neurologista, fono, Psico"
+            }
+          ]
+        },
+        {
+          "tema": "Brincar / lazer / cultura",
+          "n_evidencias": 3,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Investimentos em infra estruturas, manutenção e acessibilidade em espaços públicos voltados à primeira infância: parquinhos, praças, brinquedoteca e bibliotecas"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Nas praças e parquinho fazer a manutenção dos brinquedos e ampliação com novos brinquedos"
+            },
+            {
+              "origem": "potencialidades",
+              "texto": "quadra"
+            }
+          ]
+        },
+        {
+          "tema": "Acessibilidade / PCD",
+          "n_evidencias": 4,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Construção de creches no território do Jd. Batista em período integral com berçário e auxiliar de PCD"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais de saúde que contemplem as crianças de 0 a6 anos com ou deficiência : Pediatra, neurologista,fonoaudióloga Psicólogos, Terapeutas ocupacionais e psiquiatras"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Investimentos em infra estruturas, manutenção e acessibilidade em espaços públicos voltados à primeira infância: parquinhos, praças, brinquedoteca e bibliotecas"
+            },
+            {
+              "origem": "propostas",
+              "texto": "Contratação de profissionais especializados em atendimento ás crianças atípica/PCD para creches conveniadas e diretas e auxiliares"
+            }
+          ]
+        },
+        {
+          "tema": "SCFV / convivência",
+          "n_evidencias": 1,
+          "evidencias": [
+            {
+              "origem": "propostas",
+              "texto": "Oferta de Serviço de Convivência fortalecimento de Vínculos – ECFV"
+            }
+          ]
+        }
       ],
-      "n_temas": 5,
+      "n_questoes": 5,
       "bairros_ct_associados_provisoriamente": [
         {
           "bairro": "Jd. da Luz",
@@ -634,8 +1517,6 @@
           "evidencias": 8
         }
       ],
-      "n_problemas_imersao": 0,
-      "n_propostas_imersao": 11,
       "potencialidades": [
         "parquinho",
         "berçário integral",
