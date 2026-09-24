@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Leitura Territorial Integrada | PMPI</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .lti-wrap{max-width:1180px;margin:auto}
+    .lti-note{background:#fff9ed;border:1px solid #ead8aa;border-radius:14px;padding:15px 17px;margin:0 0 22px;color:#665326}
+    .lti-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;margin:22px 0 32px}
+    .lti-kpi{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:18px;box-shadow:0 8px 22px rgba(20,50,65,.06)}
+    .lti-kpi strong{display:block;font-size:31px;color:var(--azul)}
+    .lti-kpi span{font-size:12px;color:#6b7a82}
+    .lti-table-wrap{overflow:auto;background:#fff;border:1px solid var(--borda);border-radius:16px}
+    .lti-table{min-width:900px}
+    .lti-table td,.lti-table th{font-size:13px}
+    .lti-status{display:inline-flex;padding:5px 8px;border-radius:999px;font-size:10px;font-weight:900}
+    .lti-ok{background:#e8f2ed;color:#2f7d62}
+    .lti-review{background:#fff4d6;color:#725408}
+    .lti-none{background:#f1f3f4;color:#61717a}
+    .lti-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .lti-card{background:#fff;border:1px solid var(--borda);border-radius:18px;padding:20px;box-shadow:0 8px 22px rgba(20,50,65,.05)}
+    .lti-card h3{margin:5px 0 10px;color:var(--azulesc)}
+    .lti-chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+    .lti-chip{background:#edf4f6;color:#174a61;padding:5px 8px;border-radius:999px;font-size:10px;font-weight:800}
+    .lti-mini{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:14px 0}
+    .lti-mini div{background:#f5f3ee;border-radius:10px;padding:10px}
+    .lti-mini strong{display:block;color:var(--azul);font-size:20px}
+    .lti-mini span{font-size:10px;color:#6b7a82}
+    .lti-list{padding-left:18px;color:#536b77}
+    .lti-filter{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:18px 0}
+    .lti-filter select{padding:12px;border:1px solid var(--borda);border-radius:11px;background:#fff}
+    @media(max-width:900px){.lti-kpis{grid-template-columns:repeat(2,1fr)}.lti-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.lti-kpis,.lti-filter{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container topbar">
+    <a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="mapa.html">Atlas</a>
+      <a href="bairros.html">Bairros</a><a href="territorios.html">Territórios</a><a href="diagnostico.html">Diagnóstico</a>
+      <a href="centro-inteligencia.html">Inteligência</a><a href="memoria-governanca.html">Memória</a>
+    </nav>
+  </div>
+  <div class="hero small">
+    <div class="container">
+      <div class="eyebrow">Sprint 8.4 • diagnóstico intersetorial</div>
+      <h1>Leitura Territorial Integrada</h1>
+      <p>Conexão analítica entre proteção de direitos, territórios CRAS, equipamentos e demandas registradas nas imersões.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="container lti-wrap">
+    <div class="lti-note"><strong>Regra metodológica:</strong> as associações entre bairros e territórios nesta página são provisórias e derivadas do inventário das imersões. Elas devem ser validadas antes de serem tratadas como delimitação oficial.</div>
+    <div id="lti-kpis" class="lti-kpis"></div>
+
+    <div class="eyebrow">Rastreabilidade territorial</div>
+    <h2>Bairros destacados e associação territorial</h2>
+    <p class="sub">A tabela mostra como cada bairro destacado pelo Conselho Tutelar pôde — ou não — ser relacionado aos territórios a partir do campo de bairro existente no inventário de equipamentos.</p>
+    <div class="lti-table-wrap">
+      <table class="lti-table">
+        <thead><tr><th>Bairro</th><th>Registros</th><th>Território provisório</th><th>Evidência</th><th>Status</th></tr></thead>
+        <tbody id="lti-crosswalk"></tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="container lti-wrap">
+    <div class="eyebrow">Territórios CRAS</div>
+    <h2>Leitura combinada por território</h2>
+    <p class="sub">Equipamentos inventariados, temas recorrentes das imersões e bairros do Conselho Tutelar associados provisoriamente ao território.</p>
+    <div class="lti-filter">
+      <select id="lti-territorio"><option value="">Todos os territórios</option></select>
+      <select id="lti-tema"><option value="">Todos os temas</option></select>
+    </div>
+    <div id="lti-territorios" class="lti-grid"></div>
+  </div>
+</section>
+
+<section>
+  <div class="container lti-wrap">
+    <div class="note">
+      <strong>Interpretação:</strong> a presença simultânea de registros de proteção, demandas territoriais e equipamentos deve ser usada para formular perguntas de planejamento e validação intersetorial. Esta página não atribui causa, risco ou prioridade automática a nenhum território.
+    </div>
+  </div>
+</section>
+</main>
+
+<footer><div class="container footer"><div><strong>Plataforma Municipal de Inteligência Territorial</strong><p>PMPI 2026–2035.</p></div><div><strong>Versão</strong><p>Sprint 8.4.5 • Leitura Territorial Integrada</p></div></div></footer>
+<script src="js/leitura-territorial-integrada.js"></script>
+</body>
+</html>
