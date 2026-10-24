@@ -1,5 +1,5 @@
 {
-  "versao": "Sprint 8.5",
+  "versao": "Sprint 8.5.1",
   "titulo": "Matriz de Ações e Metas do PMPI 2026–2035",
   "natureza": "Minuta técnica para validação da Comissão Intersetorial",
   "nota_metodologica": "As metas apresentadas nesta versão são propostas técnicas. Somente devem ser tratadas como metas oficiais após validação da linha de base, pactuação da Comissão, análise de viabilidade e compatibilidade com PPA, LDO e LOA.",
@@ -55,7 +55,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Redinhas",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "INT-02",
@@ -78,7 +82,13 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Conselho Tutelar",
+        "Comunidade Escolar",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "INT-03",
@@ -101,7 +111,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias"
+      ]
     },
     {
       "codigo": "INT-04",
@@ -124,7 +137,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Comissão Intersetorial"
+      ]
     },
     {
       "codigo": "INT-05",
@@ -147,7 +164,13 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Comissão Intersetorial",
+        "Famílias",
+        "Comunidade Escolar",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "INT-06",
@@ -170,7 +193,14 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Conselho Tutelar",
+        "Imersões Territoriais",
+        "Comissão Intersetorial",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "SOC-01",
@@ -193,7 +223,12 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais",
+        "Redinhas"
+      ]
     },
     {
       "codigo": "SOC-02",
@@ -216,7 +251,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Redinhas",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "SOC-03",
@@ -239,7 +278,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "SOC-04",
@@ -262,7 +305,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "SOC-05",
@@ -285,7 +332,12 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Redinhas",
+        "Imersões Territoriais",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "SOC-06",
@@ -308,7 +360,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Imersões Territoriais",
+        "Famílias"
+      ]
     },
     {
       "codigo": "SAU-01",
@@ -331,7 +387,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "SAU-02",
@@ -354,7 +414,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "SAU-03",
@@ -377,7 +441,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "SAU-04",
@@ -400,7 +467,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "EDU-01",
@@ -423,7 +494,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Dados Administrativos",
+        "Conselho Tutelar"
+      ]
     },
     {
       "codigo": "EDU-02",
@@ -446,7 +521,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "EDU-03",
@@ -469,7 +547,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "EDU-04",
@@ -492,7 +574,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias"
+      ]
     },
     {
       "codigo": "EDU-05",
@@ -515,7 +600,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "EDU-06",
@@ -538,7 +627,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "CUL-01",
@@ -561,7 +653,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "CUL-02",
@@ -584,7 +680,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Comunidade Escolar",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "CUL-03",
@@ -607,7 +707,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "CID-01",
@@ -630,7 +734,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "CID-02",
@@ -653,7 +761,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial"
+      ]
     },
     {
       "codigo": "CID-03",
@@ -676,7 +787,12 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Crianças",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "CID-04",
@@ -699,7 +815,12 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Crianças",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "CID-05",
@@ -722,7 +843,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Imersões Territoriais"
+      ]
     },
     {
       "codigo": "CID-06",
@@ -745,7 +870,12 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Imersões Territoriais",
+        "Famílias",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "CID-07",
@@ -768,7 +898,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Crianças",
+        "Comissão Intersetorial"
+      ]
     },
     {
       "codigo": "CID-08",
@@ -791,7 +925,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "CID-09",
@@ -814,7 +952,12 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Imersões Territoriais",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "ECO-01",
@@ -837,7 +980,10 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias"
+      ]
     },
     {
       "codigo": "ECO-02",
@@ -860,7 +1006,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Famílias",
+        "Comissão Intersetorial"
+      ]
     },
     {
       "codigo": "TEC-01",
@@ -883,7 +1033,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "Parcial",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Dados Administrativos",
+        "Comissão Intersetorial"
+      ]
     },
     {
       "codigo": "ECO-03",
@@ -906,7 +1060,11 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Dados Administrativos"
+      ]
     },
     {
       "codigo": "ECO-04",
@@ -929,7 +1087,23 @@
       "articulacao_orcamentaria": "Verificar compatibilidade com PPA 2026–2029, LDO e LOA antes de pactuar meta financeira.",
       "status_linha_base": "A validar",
       "status_acao": "Em elaboração",
-      "observacoes": ""
+      "observacoes": "",
+      "origens": [
+        "Proposta Setorial",
+        "Dados Administrativos"
+      ]
     }
+  ],
+  "nota_rastreabilidade": "Os selos de origem são campos explícitos da base. Eles não são inferidos automaticamente a partir do texto. Cada origem deve corresponder a uma evidência efetivamente relacionada à ação.",
+  "categorias_origem": [
+    "Famílias",
+    "Crianças",
+    "Imersões Territoriais",
+    "Conselho Tutelar",
+    "Comunidade Escolar",
+    "Redinhas",
+    "Comissão Intersetorial",
+    "Dados Administrativos",
+    "Proposta Setorial"
   ]
 }
