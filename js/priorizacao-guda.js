@@ -17,22 +17,32 @@ function carregarSessao(){
   catch(e){return {};}
 }
 function salvarSessao(){
+  const anterior=carregarSessao();
   const sessao={
+    id:anterior.id||gerarSessaoId(),
+    protocolo:anterior.protocolo||gerarProtocoloLocal(),
     nome:document.querySelector("#guda-sessao")?.value||"",
     data:document.querySelector("#guda-data")?.value||"",
     grupo:document.querySelector("#guda-grupo")?.value||"",
-    facilitador:document.querySelector("#guda-facilitador")?.value||""
+    facilitador:document.querySelector("#guda-facilitador")?.value||"",
+    salvo_centralmente:anterior.salvo_centralmente||false,
+    salvo_centralmente_em:anterior.salvo_centralmente_em||""
   };
   localStorage.setItem(GUDA_SESSION_KEY,JSON.stringify(sessao));
   atualizarEstadoSalvo();
 }
 function preencherSessao(){
-  const s=carregarSessao();
+  let s=carregarSessao();
+  if(!s.id){
+    s={...s,id:gerarSessaoId(),protocolo:gerarProtocoloLocal(),salvo_centralmente:false};
+    localStorage.setItem(GUDA_SESSION_KEY,JSON.stringify(s));
+  }
   const hoje=new Date().toISOString().slice(0,10);
   document.querySelector("#guda-sessao").value=s.nome||"";
   document.querySelector("#guda-data").value=s.data||hoje;
   document.querySelector("#guda-grupo").value=s.grupo||"";
   document.querySelector("#guda-facilitador").value=s.facilitador||"";
+  if(s.salvo_centralmente){atualizarEstadoCentral(`Último registro central confirmado • <strong>${esc(s.protocolo||"")}</strong>`,true,false);}else{atualizarEstadoCentral("Registro central ainda não enviado.",false,false);}
   ["guda-sessao","guda-data","guda-grupo","guda-facilitador"].forEach(id=>{
     document.querySelector("#"+id).addEventListener("input",salvarSessao);
     document.querySelector("#"+id).addEventListener("change",salvarSessao);
@@ -50,6 +60,65 @@ function slugArquivo(v){
     .replace(/[^a-zA-Z0-9]+/g,"-")
     .replace(/^-+|-+$/g,"")
     .toLowerCase() || "oficina";
+}
+
+function gerarSessaoId(){
+  if(window.crypto && crypto.randomUUID) return crypto.randomUUID();
+  return `guda-${Date.now()}-${Math.random().toString(36).slice(2,10)}`;
+}
+function gerarProtocoloLocal(){
+  const d=new Date();
+  const y=d.getFullYear();
+  const m=String(d.getMonth()+1).padStart(2,"0");
+  const dia=String(d.getDate()).padStart(2,"0");
+  const h=String(d.getHours()).padStart(2,"0");
+  const min=String(d.getMinutes()).padStart(2,"0");
+  const s=String(d.getSeconds()).padStart(2,"0");
+  return `GUDA-${y}${m}${dia}-${h}${min}${s}-${Math.random().toString(36).slice(2,7).toUpperCase()}`;
+}
+function atualizarEstadoCentral(msg,ok=false,warn=false){
+  const el=document.querySelector("#guda-central-msg");
+  const dot=document.querySelector("#guda-central-dot");
+  if(el) el.innerHTML=msg;
+  if(dot) dot.className="guda-central-dot"+(ok?" ok":warn?" warn":"");
+}
+function avaliacoesParaEnvio(){
+  const notas=carregarNotas();
+  return gudaDados.acoes.map(a=>{
+    const r=notas[a.codigo]||{};
+    const total=totalRegistro(r);
+    if(!total && !(r.justificativa||"").trim()) return null;
+    return {codigo:a.codigo,eixo:a.eixo,acao:a.acao,g:r.g||"",u:r.u||"",d:r.d||"",a:r.a||"",total:total||"",faixa:faixa(total),justificativa:r.justificativa||""};
+  }).filter(Boolean);
+}
+function salvarCentralmente(){
+  const url=window.GUDA_CENTRAL_URL||"";
+  if(!url || url.includes("COLE_AQUI")){alert("Configure primeiro a URL do Web App em js/guda-central-config.js.");return;}
+  salvarSessao();
+  const sessao=carregarSessao();
+  const avaliacoes=avaliacoesParaEnvio();
+  if(!sessao.nome.trim()){alert("Informe o nome da sessão.");document.querySelector("#guda-sessao").focus();return;}
+  if(!sessao.grupo.trim()){alert("Informe o grupo/comissão/setor.");document.querySelector("#guda-grupo").focus();return;}
+  if(!avaliacoes.length){alert("Nenhuma ação foi avaliada nesta sessão.");return;}
+  const payload={acao:"salvarSessaoGuda",sessao_id:sessao.id,protocolo:sessao.protocolo,nome_sessao:sessao.nome,data_oficina:sessao.data,grupo:sessao.grupo,facilitador:sessao.facilitador,origem:"Observatório PMPI",avaliacoes};
+  let iframe=document.querySelector("#guda-central-frame");
+  if(!iframe){iframe=document.createElement("iframe");iframe.id="guda-central-frame";iframe.name="guda-central-frame";iframe.style.display="none";document.body.appendChild(iframe);}
+  const form=document.createElement("form");form.method="POST";form.action=url;form.target="guda-central-frame";form.style.display="none";
+  const input=document.createElement("input");input.type="hidden";input.name="payload";input.value=JSON.stringify(payload);form.appendChild(input);document.body.appendChild(form);
+  atualizarEstadoCentral("Enviando sessão para a base central...",false,true);form.submit();form.remove();setTimeout(()=>verificarRegistroCentral(sessao.id,0),1400);
+}
+function verificarRegistroCentral(sessaoId,tentativa){
+  const url=window.GUDA_CENTRAL_URL||"";if(!url || url.includes("COLE_AQUI")) return;
+  const callback=`gudaCentralCallback_${Date.now()}_${tentativa}`;const script=document.createElement("script");const sep=url.includes("?")?"&":"?";
+  const timer=setTimeout(()=>{cleanup();if(tentativa<3) verificarRegistroCentral(sessaoId,tentativa+1);else atualizarEstadoCentral("Envio realizado, mas a confirmação automática não retornou. Confira a planilha central.",false,true);},5000);
+  function cleanup(){clearTimeout(timer);try{delete window[callback];}catch(e){}script.remove();}
+  window[callback]=resp=>{cleanup();if(resp&&resp.ok&&resp.encontrado){const sessao=carregarSessao();sessao.salvo_centralmente=true;sessao.salvo_centralmente_em=new Date().toISOString();if(resp.protocolo)sessao.protocolo=resp.protocolo;localStorage.setItem(GUDA_SESSION_KEY,JSON.stringify(sessao));atualizarEstadoCentral(`Registrado na base central • <strong>${esc(resp.protocolo||sessao.protocolo)}</strong> • ${resp.total_acoes||0} ação(ões)`,true,false);}else if(tentativa<3){setTimeout(()=>verificarRegistroCentral(sessaoId,tentativa+1),1000);}else atualizarEstadoCentral("Não foi possível confirmar o registro central. Confira a planilha.",false,true);};
+  script.src=`${url}${sep}acao=status&sessao_id=${encodeURIComponent(sessaoId)}&callback=${encodeURIComponent(callback)}&_=${Date.now()}`;document.body.appendChild(script);
+}
+function novaSessao(){
+  if(!confirm("Iniciar uma nova sessão? O formulário local será limpo.")) return;
+  localStorage.removeItem(GUDA_KEY);const hoje=new Date().toISOString().slice(0,10);const s={id:gerarSessaoId(),protocolo:gerarProtocoloLocal(),nome:"",data:hoje,grupo:"",facilitador:"",salvo_centralmente:false,salvo_centralmente_em:""};localStorage.setItem(GUDA_SESSION_KEY,JSON.stringify(s));
+  document.querySelector("#guda-sessao").value="";document.querySelector("#guda-data").value=hoje;document.querySelector("#guda-grupo").value="";document.querySelector("#guda-facilitador").value="";atualizarEstadoCentral("Nova sessão iniciada. Ainda não enviada para a base central.",false,false);renderLista();atualizarEstadoSalvo();
 }
 
 function totalRegistro(r){
@@ -201,7 +270,9 @@ async function iniciar(){
     gudaDados=await r.json();
     preencherSessao();
     popularFiltros();renderLista();
+    document.querySelector("#guda-salvar-central").addEventListener("click",salvarCentralmente);
     document.querySelector("#guda-exportar").addEventListener("click",exportarCsv);
+    document.querySelector("#guda-nova-sessao").addEventListener("click",novaSessao);
     document.querySelector("#guda-limpar").addEventListener("click",()=>{
       if(confirm("Limpar todas as notas e justificativas salvas neste navegador?")){
         localStorage.removeItem(GUDA_KEY);renderLista();atualizarEstadoSalvo();
