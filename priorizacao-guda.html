@@ -45,8 +45,12 @@
     .fx-alta{background:#fff3cf;color:#725408}
     .fx-muito-alta{background:#fde8e7;color:#9d3029}
     .guda-legend{font-size:12px;color:#66757d;margin:8px 0 0}
-    @media(max-width:950px){.guda-rule{grid-template-columns:repeat(2,1fr)}.guda-controls{grid-template-columns:1fr 1fr}.guda-context{grid-template-columns:1fr}.guda-scores{grid-template-columns:repeat(2,1fr)}}
-    @media(max-width:560px){.guda-rule,.guda-controls,.guda-scores{grid-template-columns:1fr}.guda-head{grid-template-columns:1fr}.guda-total{width:max-content}.guda-footer{grid-template-columns:1fr}}
+    .guda-session{display:grid;grid-template-columns:1.5fr 1fr 1.2fr 1.2fr;gap:10px;margin:18px 0 12px}
+    .guda-session input{padding:11px;border:1px solid var(--borda);border-radius:11px;background:#fff;width:100%}
+    .guda-save-state{display:flex;align-items:center;gap:8px;font-size:11px;color:#60737c;margin:0 0 18px}
+    .guda-save-dot{width:9px;height:9px;border-radius:50%;background:#2f7d6d;display:inline-block}
+    @media(max-width:950px){.guda-session{grid-template-columns:1fr 1fr}.guda-rule{grid-template-columns:repeat(2,1fr)}.guda-controls{grid-template-columns:1fr 1fr}.guda-context{grid-template-columns:1fr}.guda-scores{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.guda-session,.guda-rule,.guda-controls,.guda-scores{grid-template-columns:1fr}.guda-head{grid-template-columns:1fr}.guda-total{width:max-content}.guda-footer{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -83,6 +87,15 @@
       <div class="guda-rule-card"><strong>A</strong><b>Abrangência</b><span>Quantidade de crianças, famílias, serviços ou territórios potencialmente atingidos.</span></div>
     </div>
 
+    <div class="eyebrow">Identificação da oficina</div>
+    <div class="guda-session">
+      <input id="guda-sessao" type="text" placeholder="Nome da sessão (ex.: Oficina 1)">
+      <input id="guda-data" type="date">
+      <input id="guda-grupo" type="text" placeholder="Grupo / Comissão / Setor">
+      <input id="guda-facilitador" type="text" placeholder="Facilitador(a) / responsável">
+    </div>
+    <div class="guda-save-state"><span class="guda-save-dot"></span><span id="guda-save-msg">Alterações são salvas automaticamente neste navegador.</span></div>
+
     <div class="eyebrow">Oficina de priorização</div>
     <h2>Avaliar ações</h2>
     <p class="sub">Atribua notas de 1 a 5. O total máximo é 20 pontos. Use a justificativa para registrar o motivo da pontuação.</p>
@@ -105,7 +118,7 @@
 <footer>
   <div class="container footer">
     <div><strong>Plataforma Municipal de Inteligência Territorial</strong><p>PMPI 2026–2035.</p></div>
-    <div><strong>Versão</strong><p>Sprint 8.5.2 • Priorização GUDA</p></div>
+    <div><strong>Versão</strong><p>Sprint 8.5.3 • Sessões e registro GUDA</p></div>
   </div>
 </footer>
 <script src="js/priorizacao-guda.js"></script>
