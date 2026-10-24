@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Priorização GUDA | PMPI Embu das Artes</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .guda-wrap{max-width:1180px;margin:auto}
+    .guda-note{background:#fff8e8;border:1px solid #ead29a;border-radius:14px;padding:16px 18px;margin-bottom:22px;color:#6b5417}
+    .guda-rule{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0 28px}
+    .guda-rule-card{background:#fff;border:1px solid var(--borda);border-radius:15px;padding:16px}
+    .guda-rule-card strong{display:block;font-size:24px;color:#173f53}
+    .guda-rule-card b{display:block;margin:4px 0;color:#173f53}
+    .guda-rule-card span{font-size:12px;color:#60737c;line-height:1.45}
+    .guda-controls{display:grid;grid-template-columns:2fr 1.4fr 1fr auto auto;gap:10px;margin:18px 0 24px}
+    .guda-controls input,.guda-controls select{padding:11px;border:1px solid var(--borda);border-radius:11px;background:#fff;width:100%}
+    .guda-btn{border:0;border-radius:11px;padding:11px 14px;font-weight:900;cursor:pointer}
+    .guda-btn.primary{background:#173f53;color:#fff}
+    .guda-btn.secondary{background:#edf4f6;color:#173f53}
+    .guda-list{display:grid;gap:16px}
+    .guda-card{background:#fff;border:1px solid var(--borda);border-radius:18px;overflow:hidden;box-shadow:0 8px 22px rgba(20,50,65,.05)}
+    .guda-head{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;padding:17px 18px;border-bottom:1px solid #e6ecef}
+    .guda-code{background:#173f53;color:#fff;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:900}
+    .guda-eixo{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#d9671f;font-weight:900}
+    .guda-head h3{margin:4px 0 0;font-size:19px;color:#173342}
+    .guda-total{min-width:84px;text-align:center;background:#f4f1e9;border-radius:12px;padding:9px}
+    .guda-total strong{display:block;font-size:25px;color:#173f53}
+    .guda-total span{font-size:10px;color:#68777e}
+    .guda-body{padding:18px}
+    .guda-context{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:16px}
+    .guda-box{background:#f8fafb;border:1px solid #e1e8eb;border-radius:13px;padding:13px}
+    .guda-box h4{margin:0 0 6px;font-size:12px;color:#173f53;text-transform:uppercase}
+    .guda-box p{margin:0;color:#556a73;line-height:1.5;font-size:13px}
+    .guda-scores{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:14px 0}
+    .guda-score{background:#f5f3ee;border-radius:12px;padding:12px}
+    .guda-score label{display:block;font-size:11px;font-weight:900;color:#173f53;margin-bottom:7px}
+    .guda-score select{width:100%;padding:9px;border:1px solid #d7e0e4;border-radius:9px;background:#fff}
+    .guda-footer{display:grid;grid-template-columns:1fr auto;gap:12px;align-items:center;margin-top:12px}
+    .guda-just{width:100%;min-height:74px;padding:10px;border:1px solid #d7e0e4;border-radius:10px;resize:vertical}
+    .guda-faixa{border-radius:999px;padding:7px 10px;font-size:10px;font-weight:900;white-space:nowrap}
+    .fx-vazia{background:#eef2f4;color:#63747c}
+    .fx-baixa{background:#e7f3ee;color:#2f7d62}
+    .fx-media{background:#eef4f8;color:#285d78}
+    .fx-alta{background:#fff3cf;color:#725408}
+    .fx-muito-alta{background:#fde8e7;color:#9d3029}
+    .guda-legend{font-size:12px;color:#66757d;margin:8px 0 0}
+    @media(max-width:950px){.guda-rule{grid-template-columns:repeat(2,1fr)}.guda-controls{grid-template-columns:1fr 1fr}.guda-context{grid-template-columns:1fr}.guda-scores{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.guda-rule,.guda-controls,.guda-scores{grid-template-columns:1fr}.guda-head{grid-template-columns:1fr}.guda-total{width:max-content}.guda-footer{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container topbar">
+    <a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="mapa.html">Atlas</a>
+      <a href="bairros.html">Bairros</a><a href="territorios.html">Territórios</a><a href="diagnostico.html">Diagnóstico</a>
+      <a href="centro-inteligencia.html">Inteligência</a><a href="memoria-governanca.html">Memória</a>
+    </nav>
+  </div>
+  <div class="hero small">
+    <div class="container">
+      <div class="eyebrow">Sprint 8.5.2 • decisão pública</div>
+      <h1>Priorização GUDA</h1>
+      <p>Ferramenta de apoio à Comissão para discutir Gravidade, Urgência, Desigualdade e Abrangência das ações do PMPI.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section>
+  <div class="container guda-wrap">
+    <div class="guda-note">
+      <strong>Modo de trabalho da Comissão:</strong> as notas desta página ficam somente neste navegador e não representam decisão oficial do PMPI.
+      A classificação apoia a discussão colegiada e deve ser acompanhada de justificativa, evidências e validação da Comissão.
+    </div>
+
+    <div class="guda-rule">
+      <div class="guda-rule-card"><strong>G</strong><b>Gravidade</b><span>Impacto do problema sobre direitos, desenvolvimento e proteção das crianças e famílias.</span></div>
+      <div class="guda-rule-card"><strong>U</strong><b>Urgência</b><span>Quanto a demora para agir pode agravar o problema ou comprometer direitos e serviços.</span></div>
+      <div class="guda-rule-card"><strong>D</strong><b>Desigualdade</b><span>Quanto o problema incide mais fortemente em territórios ou grupos em maior vulnerabilidade.</span></div>
+      <div class="guda-rule-card"><strong>A</strong><b>Abrangência</b><span>Quantidade de crianças, famílias, serviços ou territórios potencialmente atingidos.</span></div>
+    </div>
+
+    <div class="eyebrow">Oficina de priorização</div>
+    <h2>Avaliar ações</h2>
+    <p class="sub">Atribua notas de 1 a 5. O total máximo é 20 pontos. Use a justificativa para registrar o motivo da pontuação.</p>
+
+    <div class="guda-controls">
+      <input id="guda-busca" type="search" placeholder="Buscar por código, ação ou problema">
+      <select id="guda-eixo"><option value="">Todos os eixos</option></select>
+      <select id="guda-faixa"><option value="">Todas as faixas</option><option>Muito alta</option><option>Alta</option><option>Média</option><option>Baixa</option><option>Não avaliada</option></select>
+      <button id="guda-exportar" class="guda-btn secondary" type="button">Exportar CSV</button>
+      <button id="guda-limpar" class="guda-btn primary" type="button">Limpar notas</button>
+    </div>
+
+    <p class="guda-legend">Faixas de apoio: 17–20 Muito alta • 13–16 Alta • 9–12 Média • até 8 Baixa. A pontuação não substitui a decisão colegiada.</p>
+
+    <div id="guda-lista" class="guda-list"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div><strong>Plataforma Municipal de Inteligência Territorial</strong><p>PMPI 2026–2035.</p></div>
+    <div><strong>Versão</strong><p>Sprint 8.5.2 • Priorização GUDA</p></div>
+  </div>
+</footer>
+<script src="js/priorizacao-guda.js"></script>
+</body>
+</html>
