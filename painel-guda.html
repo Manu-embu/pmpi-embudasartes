@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Painel Consolidado GUDA | PMPI Embu das Artes</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    .pg-wrap{max-width:1180px;margin:auto}
+    .pg-note{background:#fff8e8;border:1px solid #ead29a;border-radius:14px;padding:16px 18px;margin-bottom:22px;color:#6b5417}
+    .pg-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin:22px 0 28px}
+    .pg-kpi{background:#fff;border:1px solid var(--borda);border-radius:16px;padding:18px;box-shadow:0 8px 22px rgba(20,50,65,.06)}
+    .pg-kpi strong{display:block;font-size:30px;color:#173f53}
+    .pg-kpi span{font-size:12px;color:#6b7a82}
+    .pg-faixas{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:0 0 28px}
+    .pg-faixa{border-radius:14px;padding:13px;background:#fff;border:1px solid var(--borda)}
+    .pg-faixa b{display:block;font-size:22px;color:#173f53}
+    .pg-faixa span{font-size:11px;color:#60737c}
+    .pg-filtros{display:grid;grid-template-columns:2fr 1.4fr 1.1fr 1.1fr;gap:10px;margin:18px 0 24px}
+    .pg-filtros input,.pg-filtros select{padding:11px;border:1px solid var(--borda);border-radius:11px;background:#fff;width:100%}
+    .pg-lista{display:grid;gap:16px}
+    .pg-card{background:#fff;border:1px solid var(--borda);border-radius:18px;overflow:hidden;box-shadow:0 8px 22px rgba(20,50,65,.05)}
+    .pg-head{display:grid;grid-template-columns:auto 1fr auto;gap:12px;align-items:start;padding:17px 18px;border-bottom:1px solid #e6ecef}
+    .pg-code{background:#173f53;color:#fff;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:900}
+    .pg-eixo{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#d9671f;font-weight:900}
+    .pg-head h3{margin:4px 0 0;font-size:19px;color:#173342}
+    .pg-badge{border-radius:999px;padding:7px 10px;font-size:10px;font-weight:900;white-space:nowrap}
+    .fx-muito-alta{background:#fde8e7;color:#9d3029}.fx-alta{background:#fff3cf;color:#725408}
+    .fx-media{background:#eef4f8;color:#285d78}.fx-baixa{background:#e7f3ee;color:#2f7d62}
+    .pg-body{padding:18px}
+    .pg-metricas{display:grid;grid-template-columns:repeat(5,1fr);gap:9px}
+    .pg-mini{background:#f5f3ee;border-radius:12px;padding:11px}
+    .pg-mini strong{display:block;color:#173f53;font-size:18px}
+    .pg-mini span{font-size:10px;color:#66757d}
+    .pg-details summary{cursor:pointer;font-weight:900;color:#173f53;padding:14px 0}
+    .pg-just{display:grid;gap:9px}
+    .pg-just-item{background:#f8fafb;border:1px solid #e1e8eb;border-radius:12px;padding:12px}
+    .pg-just-meta{font-size:10px;color:#718087;margin-bottom:5px}
+    .pg-just-item p{margin:0;color:#52666f;line-height:1.45}
+    .pg-sessoes{overflow:auto;background:#fff;border:1px solid var(--borda);border-radius:16px;margin-top:18px}
+    .pg-table{min-width:850px;width:100%;border-collapse:collapse}
+    .pg-table th{background:#173f53;color:#fff;text-align:left;padding:10px;font-size:11px}
+    .pg-table td{padding:10px;border-top:1px solid #e3e9ec;font-size:12px;color:#536873}
+    @media(max-width:900px){.pg-kpis,.pg-faixas{grid-template-columns:repeat(2,1fr)}.pg-filtros{grid-template-columns:1fr 1fr}.pg-metricas{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){.pg-kpis,.pg-faixas,.pg-filtros,.pg-metricas{grid-template-columns:1fr}.pg-head{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="container topbar">
+    <a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
+    <nav class="main-nav" aria-label="Navegação principal">
+      <a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="mapa.html">Atlas</a>
+      <a href="bairros.html">Bairros</a><a href="territorios.html">Territórios</a><a href="diagnostico.html">Diagnóstico</a>
+      <a href="centro-inteligencia.html">Inteligência</a><a href="memoria-governanca.html">Memória</a>
+    </nav>
+  </div>
+  <div class="hero small">
+    <div class="container">
+      <div class="eyebrow">ÁREA TÉCNICA • MONITORAMENTO DA PRIORIZAÇÃO</div>
+      <h1>Painel Consolidado GUDA</h1>
+      <p>Síntese das oficinas de priorização, com resultados vigentes por ação, faixas predominantes e justificativas registradas.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+<section><div class="container pg-wrap">
+  <div class="pg-note"><strong>Uso técnico:</strong> este painel consolida as avaliações vigentes das oficinas. A média e a mediana apoiam a leitura coletiva, mas não substituem a deliberação da Comissão nem transformam automaticamente uma ação em prioridade oficial.</div>
+  <div id="pg-kpis" class="pg-kpis"></div>
+  <div id="pg-faixas" class="pg-faixas"></div>
+
+  <div class="eyebrow">Consolidação por ação</div>
+  <h2>Prioridades em análise</h2>
+  <p class="sub">Filtre por eixo, grupo ou faixa predominante. As justificativas continuam acessíveis em cada ação.</p>
+
+  <div class="pg-filtros">
+    <input id="pg-busca" type="search" placeholder="Buscar por código, ação ou eixo">
+    <select id="pg-eixo"><option value="">Todos os eixos</option></select>
+    <select id="pg-grupo"><option value="">Todos os grupos</option></select>
+    <select id="pg-faixa"><option value="">Todas as faixas</option><option>Muito alta</option><option>Alta</option><option>Média</option><option>Baixa</option></select>
+  </div>
+
+  <div id="pg-lista" class="pg-lista"></div>
+</div></section>
+
+<section class="soft"><div class="container pg-wrap">
+  <div class="eyebrow">Oficinas registradas</div>
+  <h2>Sessões vigentes</h2>
+  <div class="pg-sessoes">
+    <table class="pg-table">
+      <thead><tr><th>Data</th><th>Sessão</th><th>Grupo / Setor</th><th>Facilitador</th><th>Ações</th><th>Protocolo</th></tr></thead>
+      <tbody id="pg-sessoes"></tbody>
+    </table>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="container footer">
+  <div><strong>Plataforma Municipal de Inteligência Territorial</strong><p>PMPI 2026–2035.</p></div>
+  <div><strong>Módulo</strong><p>Painel Técnico GUDA</p></div>
+</div></footer>
+
+<script src="js/guda-central-config.js"></script>
+<script src="js/painel-guda.js"></script>
+</body>
+</html>
