@@ -44,7 +44,13 @@ function preencherSessao(){
   document.querySelector("#guda-facilitador").value=s.facilitador||"";
   if(s.salvo_centralmente){atualizarEstadoCentral(`Último registro central confirmado • <strong>${esc(s.protocolo||"")}</strong>`,true,false);}else{atualizarEstadoCentral("Registro central ainda não enviado.",false,false);}
   ["guda-sessao","guda-data","guda-grupo","guda-facilitador"].forEach(id=>{
-    document.querySelector("#"+id).addEventListener("input",salvarSessao);
+    document.querySelector("#"+id).addEventListener("input",()=>{
+      const atual=carregarSessao();
+      if(atual.salvo_centralmente){
+        atualizarEstadoCentral("A identificação desta sessão foi alterada. Atualize a sessão atual ou inicie uma nova sessão.",false,true);
+      }
+      salvarSessao();
+    });
     document.querySelector("#"+id).addEventListener("change",salvarSessao);
   });
 }
@@ -96,6 +102,10 @@ function salvarCentralmente(){
   if(!url || url.includes("COLE_AQUI")){alert("Configure primeiro a URL do Web App em js/guda-central-config.js.");return;}
   salvarSessao();
   const sessao=carregarSessao();
+  if(sessao.salvo_centralmente){
+    const ok=confirm("Esta sessão já foi registrada. Deseja atualizar a sessão atual mantendo o mesmo ID e protocolo?\n\nUse “Nova sessão” se esta for outra oficina ou outro grupo.");
+    if(!ok) return;
+  }
   const avaliacoes=avaliacoesParaEnvio();
   if(!sessao.nome.trim()){alert("Informe o nome da sessão.");document.querySelector("#guda-sessao").focus();return;}
   if(!sessao.grupo.trim()){alert("Informe o grupo/comissão/setor.");document.querySelector("#guda-grupo").focus();return;}
@@ -112,7 +122,7 @@ function verificarRegistroCentral(sessaoId,tentativa){
   const callback=`gudaCentralCallback_${Date.now()}_${tentativa}`;const script=document.createElement("script");const sep=url.includes("?")?"&":"?";
   const timer=setTimeout(()=>{cleanup();if(tentativa<3) verificarRegistroCentral(sessaoId,tentativa+1);else atualizarEstadoCentral("Envio realizado, mas a confirmação automática não retornou. Confira a planilha central.",false,true);},5000);
   function cleanup(){clearTimeout(timer);try{delete window[callback];}catch(e){}script.remove();}
-  window[callback]=resp=>{cleanup();if(resp&&resp.ok&&resp.encontrado){const sessao=carregarSessao();sessao.salvo_centralmente=true;sessao.salvo_centralmente_em=new Date().toISOString();if(resp.protocolo)sessao.protocolo=resp.protocolo;localStorage.setItem(GUDA_SESSION_KEY,JSON.stringify(sessao));atualizarEstadoCentral(`Registrado na base central • <strong>${esc(resp.protocolo||sessao.protocolo)}</strong> • ${resp.total_acoes||0} ação(ões)`,true,false);}else if(tentativa<3){setTimeout(()=>verificarRegistroCentral(sessaoId,tentativa+1),1000);}else atualizarEstadoCentral("Não foi possível confirmar o registro central. Confira a planilha.",false,true);};
+  window[callback]=resp=>{cleanup();if(resp&&resp.ok&&resp.encontrado){const sessao=carregarSessao();sessao.salvo_centralmente=true;sessao.salvo_centralmente_em=new Date().toISOString();if(resp.protocolo)sessao.protocolo=resp.protocolo;localStorage.setItem(GUDA_SESSION_KEY,JSON.stringify(sessao));atualizarEstadoCentral(`Registrado na base central • <strong>${esc(resp.protocolo||sessao.protocolo)}</strong> • versão ${resp.versao||""} • ${resp.total_acoes||0} ação(ões)`,true,false);}else if(tentativa<3){setTimeout(()=>verificarRegistroCentral(sessaoId,tentativa+1),1000);}else atualizarEstadoCentral("Não foi possível confirmar o registro central. Confira a planilha.",false,true);};
   script.src=`${url}${sep}acao=status&sessao_id=${encodeURIComponent(sessaoId)}&callback=${encodeURIComponent(callback)}&_=${Date.now()}`;document.body.appendChild(script);
 }
 function novaSessao(){
