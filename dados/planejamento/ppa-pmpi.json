@@ -1,0 +1,1095 @@
+{
+  "versao": "8.6",
+  "titulo": "Integração PMPI × PPA 2026–2029",
+  "fonte": "PPA Municipal 2026–2029 — Anexos II e III",
+  "regra_metodologica": "O vínculo indica aderência programática, física ou institucional. Valores orçamentários de programas/ações amplas não devem ser interpretados automaticamente como investimento específico na primeira infância.",
+  "resumo": {
+    "acoes_pmpi": 39,
+    "vinculo_direto": 18,
+    "vinculo_transversal": 17,
+    "vinculo_referencial": 4,
+    "referencias_ppa_catalogadas": 44,
+    "referencias_a_validar": 2
+  },
+  "catalogo_ppa": {
+    "PPA-0006-70": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "70",
+      "descricao": "Plano Municipal para Primeira Infância",
+      "trajetoria": {
+        "referencia": 0,
+        "2026": 1,
+        "2027": 0,
+        "2028": 0,
+        "2029": 0
+      },
+      "nota": "O próprio PPA municipal prevê a implantação do Plano Municipal para Primeira Infância em 2026."
+    },
+    "PPA-0006-38": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "38",
+      "descricao": "Atendidos do Serviço de Convivência e Fortalecimento de Vínculos (SISC)",
+      "trajetoria": {
+        "referencia": 551,
+        "2026": 578,
+        "2027": 607,
+        "2028": 637,
+        "2029": 669
+      }
+    },
+    "PPA-0006-39": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "39",
+      "descricao": "Implantação de novo CRAS",
+      "trajetoria": {
+        "referencia": 9,
+        "2026": 10,
+        "2027": 10,
+        "2028": 11,
+        "2029": 11
+      }
+    },
+    "PPA-0006-40": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "40",
+      "descricao": "Família Acolhedora",
+      "trajetoria": {
+        "referencia": 1,
+        "2026": 5,
+        "2027": 7,
+        "2028": 8,
+        "2029": 10
+      }
+    },
+    "PPA-0006-44": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "44",
+      "descricao": "Atendidos do Serviço de Proteção e Atendimento Especializado a Famílias e Indivíduos (PAEFI)",
+      "trajetoria": {
+        "referencia": 477,
+        "2026": 480,
+        "2027": 480,
+        "2028": 490,
+        "2029": 500
+      }
+    },
+    "PPA-0006-57": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "57",
+      "descricao": "Famílias cadastradas no Cadastro Único",
+      "trajetoria": {
+        "referencia": 60054,
+        "2026": 63056,
+        "2027": 66208,
+        "2028": 69518,
+        "2029": 72993
+      }
+    },
+    "PPA-0006-55": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "55",
+      "descricao": "Vigilância Socioassistencial em Movimento — boletins técnicos informativos periódicos",
+      "trajetoria": {
+        "referencia": 0,
+        "2026": 4,
+        "2027": 4,
+        "2028": 4,
+        "2029": 4
+      }
+    },
+    "PPA-0006-56": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "56",
+      "descricao": "Vigilância Socioassistencial em Movimento — implantação em mídia digital para divulgação de dados",
+      "trajetoria": {
+        "referencia": 0,
+        "2026": 1,
+        "2027": 0,
+        "2028": 0,
+        "2029": 0
+      }
+    },
+    "PPA-0006-60": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "60",
+      "descricao": "Distribuição anual de sacolas com alimentos",
+      "trajetoria": {
+        "referencia": 67549,
+        "2026": 68600,
+        "2027": 78400,
+        "2028": 88200,
+        "2029": 100000
+      }
+    },
+    "PPA-0006-61": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Indicador",
+      "codigo": "61",
+      "descricao": "Fornecimento anual de refeições saudáveis e acessíveis",
+      "trajetoria": {
+        "referencia": 738863,
+        "2026": 736180,
+        "2027": 758100,
+        "2028": 839600,
+        "2029": 832300
+      }
+    },
+    "PPA-0006-2022": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Ação",
+      "codigo": "2022",
+      "descricao": "Fundo Municipal dos Direitos da Criança e do Adolescente — FUMCAD",
+      "meta_2026": 100,
+      "custo_2026": 1500000.0,
+      "nota": "O custo é do plano de aplicação do FUMCAD e não deve ser tratado automaticamente como orçamento da primeira infância."
+    },
+    "PPA-0006-2023": {
+      "secretaria": "Secretaria Municipal de Desenvolvimento Social",
+      "programa_codigo": "0006",
+      "programa": "Desenvolvimento Social",
+      "tipo": "Ação",
+      "codigo": "2023",
+      "descricao": "Articulação e Rede — implantação de projetos e planos municipais",
+      "meta_2026": 2,
+      "custo_2026": 4021689.17
+    },
+    "PPA-0015-113": {
+      "secretaria": "Secretaria Municipal de Saúde",
+      "programa_codigo": "0015",
+      "programa": "Saúde",
+      "tipo": "Indicador",
+      "codigo": "113",
+      "descricao": "Taxa de mortalidade infantil",
+      "trajetoria": {
+        "referencia": 9.7,
+        "2026": 11,
+        "2027": 11,
+        "2028": 11,
+        "2029": 10.5
+      },
+      "validacao": "validar_com_saude",
+      "nota": "A trajetória do PPA precisa ser validada antes de ser assumida como meta do PMPI."
+    },
+    "PPA-0015-114": {
+      "secretaria": "Secretaria Municipal de Saúde",
+      "programa_codigo": "0015",
+      "programa": "Saúde",
+      "tipo": "Indicador",
+      "codigo": "114",
+      "descricao": "Investigar 100% dos óbitos maternos",
+      "trajetoria": {
+        "referencia": 100,
+        "2026": 100,
+        "2027": 100,
+        "2028": 100,
+        "2029": 100
+      }
+    },
+    "PPA-0015-115": {
+      "secretaria": "Secretaria Municipal de Saúde",
+      "programa_codigo": "0015",
+      "programa": "Saúde",
+      "tipo": "Indicador",
+      "codigo": "115",
+      "descricao": "Cobertura vacinal básica em crianças menores de 1 ano",
+      "trajetoria": {
+        "referencia": 95.3,
+        "2026": 90,
+        "2027": 90,
+        "2028": 90,
+        "2029": 90
+      },
+      "validacao": "validar_com_saude",
+      "nota": "O valor recente é superior às metas anuais do PPA; requer conferência metodológica com a Saúde."
+    },
+    "PPA-0015-121": {
+      "secretaria": "Secretaria Municipal de Saúde",
+      "programa_codigo": "0015",
+      "programa": "Saúde",
+      "tipo": "Indicador",
+      "codigo": "121",
+      "descricao": "Diminuir casos de sífilis congênita",
+      "trajetoria": {
+        "referencia": 7,
+        "2026": 7,
+        "2027": 5,
+        "2028": 5,
+        "2029": 5
+      }
+    },
+    "PPA-0015-122": {
+      "secretaria": "Secretaria Municipal de Saúde",
+      "programa_codigo": "0015",
+      "programa": "Saúde",
+      "tipo": "Indicador",
+      "codigo": "122",
+      "descricao": "Testar HIV em 100% das gestantes atendidas no município",
+      "trajetoria": {
+        "referencia": 80,
+        "2026": 100,
+        "2027": 100,
+        "2028": 100,
+        "2029": 100
+      }
+    },
+    "PPA-0010-6": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0010",
+      "programa": "Primeiros Passos — Educação Infantil com Qualidade",
+      "tipo": "Indicador",
+      "codigo": "6",
+      "descricao": "Taxa de atendimento de crianças de 0 a 5 anos na rede pública",
+      "trajetoria": {
+        "referencia": 89,
+        "2026": 91,
+        "2027": 94,
+        "2028": 97,
+        "2029": 100
+      }
+    },
+    "PPA-0010-7": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0010",
+      "programa": "Primeiros Passos — Educação Infantil com Qualidade",
+      "tipo": "Indicador",
+      "codigo": "7",
+      "descricao": "Vagas criadas em creches e pré-escolas",
+      "trajetoria": {
+        "referencia": 12405,
+        "2026": 12875,
+        "2027": 12975,
+        "2028": 13075,
+        "2029": 13175
+      }
+    },
+    "PPA-0010-8": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0010",
+      "programa": "Primeiros Passos — Educação Infantil com Qualidade",
+      "tipo": "Indicador",
+      "codigo": "8",
+      "descricao": "Índice de crianças em período integral",
+      "trajetoria": {
+        "referencia": 26.4,
+        "2026": 28,
+        "2027": 30,
+        "2028": 33,
+        "2029": 35
+      }
+    },
+    "PPA-0009-2037": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0009",
+      "programa": "Cresce Embu — Cidade que Educa",
+      "tipo": "Ação",
+      "codigo": "2037",
+      "descricao": "Atendimento Educacional Especializado — Educação Inclusiva",
+      "meta_2026": 75,
+      "custo_2026": 11150000.0
+    },
+    "PPA-0009-2040": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0009",
+      "programa": "Cresce Embu — Cidade que Educa",
+      "tipo": "Ação",
+      "codigo": "2040",
+      "descricao": "Monitoramento e controle de qualidade da alimentação escolar",
+      "meta_2026": 400,
+      "custo_2026": 50000.0
+    },
+    "PPA-0009-2041": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0009",
+      "programa": "Cresce Embu — Cidade que Educa",
+      "tipo": "Ação",
+      "codigo": "2041",
+      "descricao": "Programa de Desenvolvimento Profissional",
+      "meta_2026": 100,
+      "custo_2026": 400000.0
+    },
+    "PPA-0009-2044": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0009",
+      "programa": "Cresce Embu — Cidade que Educa",
+      "tipo": "Ação",
+      "codigo": "2044",
+      "descricao": "Manutenção e conservação de unidades de ensino",
+      "meta_2026": 100,
+      "custo_2026": 500000.0
+    },
+    "PPA-0009-2045": {
+      "secretaria": "Secretaria Municipal de Educação",
+      "programa_codigo": "0009",
+      "programa": "Cresce Embu — Cidade que Educa",
+      "tipo": "Ação",
+      "codigo": "2045",
+      "descricao": "Fornecimento de merenda",
+      "meta_2026": 400,
+      "custo_2026": 2257422.23
+    },
+    "PPA-0002-3": {
+      "secretaria": "Secretaria Municipal de Cultura",
+      "programa_codigo": "0002",
+      "programa": "Cultura",
+      "tipo": "Indicador",
+      "codigo": "3",
+      "descricao": "Visitação aos espaços culturais",
+      "trajetoria": {
+        "referencia": 22000,
+        "2026": 30000,
+        "2027": 40000,
+        "2028": 50000,
+        "2029": 60000
+      }
+    },
+    "PPA-0002-4": {
+      "secretaria": "Secretaria Municipal de Cultura",
+      "programa_codigo": "0002",
+      "programa": "Cultura",
+      "tipo": "Indicador",
+      "codigo": "4",
+      "descricao": "Projetos culturais",
+      "trajetoria": {
+        "referencia": 40,
+        "2026": 45,
+        "2027": 50,
+        "2028": 55,
+        "2029": 60
+      }
+    },
+    "PPA-0002-5": {
+      "secretaria": "Secretaria Municipal de Cultura",
+      "programa_codigo": "0002",
+      "programa": "Cultura",
+      "tipo": "Indicador",
+      "codigo": "5",
+      "descricao": "Eventos culturais",
+      "trajetoria": {
+        "referencia": 20,
+        "2026": 22,
+        "2027": 24,
+        "2028": 26,
+        "2029": 28
+      }
+    },
+    "PPA-0005-30": {
+      "secretaria": "Secretaria Municipal de Esportes e Lazer",
+      "programa_codigo": "0005",
+      "programa": "Pense+Esportes",
+      "tipo": "Indicador",
+      "codigo": "30",
+      "descricao": "Participantes do Programa Pense+Esportes",
+      "trajetoria": {
+        "referencia": 4300,
+        "2026": 4300,
+        "2027": 4515,
+        "2028": 4740,
+        "2029": 4977
+      }
+    },
+    "PPA-0005-31": {
+      "secretaria": "Secretaria Municipal de Esportes e Lazer",
+      "programa_codigo": "0005",
+      "programa": "Pense+Esportes",
+      "tipo": "Indicador",
+      "codigo": "31",
+      "descricao": "Núcleos esportivos",
+      "trajetoria": {
+        "referencia": 28,
+        "2026": 28,
+        "2027": 30,
+        "2028": 31,
+        "2029": 32
+      }
+    },
+    "PPA-0016-175": {
+      "secretaria": "Secretaria Municipal de Planejamento",
+      "programa_codigo": "0016",
+      "programa": "Planeja Embu",
+      "tipo": "Indicador",
+      "codigo": "175",
+      "descricao": "Projetos para saneamento básico municipal",
+      "trajetoria": {
+        "referencia": 0,
+        "2026": 65,
+        "2027": 70,
+        "2028": 75,
+        "2029": 80
+      }
+    },
+    "PPA-0016-180": {
+      "secretaria": "Secretaria Municipal de Planejamento",
+      "programa_codigo": "0016",
+      "programa": "Planeja Embu",
+      "tipo": "Indicador",
+      "codigo": "180",
+      "descricao": "Programa de revitalização e requalificação das áreas públicas degradadas",
+      "trajetoria": {
+        "referencia": 10,
+        "2026": 20,
+        "2027": 30,
+        "2028": 40,
+        "2029": 50
+      }
+    },
+    "PPA-0016-182": {
+      "secretaria": "Secretaria Municipal de Planejamento",
+      "programa_codigo": "0016",
+      "programa": "Planeja Embu",
+      "tipo": "Indicador",
+      "codigo": "182",
+      "descricao": "Projetos para urbanização de áreas de risco",
+      "trajetoria": {
+        "referencia": 0,
+        "2026": 1,
+        "2027": 3,
+        "2028": 4,
+        "2029": 5
+      }
+    },
+    "PPA-0016-2080": {
+      "secretaria": "Secretaria Municipal de Planejamento",
+      "programa_codigo": "0016",
+      "programa": "Planeja Embu",
+      "tipo": "Ação",
+      "codigo": "2080",
+      "descricao": "GEO em Ação",
+      "meta_2026": 100,
+      "custo_2026": 85000.0
+    },
+    "PPA-0020-190": {
+      "secretaria": "Secretaria Municipal de Meio Ambiente",
+      "programa_codigo": "0020",
+      "programa": "Meio Ambiente",
+      "tipo": "Indicador",
+      "codigo": "190",
+      "descricao": "Plantio de mudas ao ano",
+      "trajetoria": {
+        "referencia": 50,
+        "2026": 50,
+        "2027": 100,
+        "2028": 150,
+        "2029": 200
+      }
+    },
+    "PPA-0001-1": {
+      "secretaria": "AMLURB",
+      "programa_codigo": "0001",
+      "programa": "Regulação e Fiscalização dos Serviços de Limpeza Urbana",
+      "tipo": "Indicador",
+      "codigo": "1",
+      "descricao": "Fiscalização de resíduos sólidos coletados (toneladas)",
+      "trajetoria": {
+        "referencia": 153089.82,
+        "2026": 168398.81,
+        "2027": 185238.69,
+        "2028": 203762.56,
+        "2029": 224138.82
+      }
+    },
+    "PPA-0022-194": {
+      "secretaria": "Secretaria Municipal de Mobilidade Urbana",
+      "programa_codigo": "0022",
+      "programa": "Infraestrutura e Mobilidade Urbana",
+      "tipo": "Indicador",
+      "codigo": "194",
+      "descricao": "Acidente de trânsito com mortes por 10 mil habitantes",
+      "trajetoria": {
+        "referencia": 1.32,
+        "2026": 1.32,
+        "2027": 1.31,
+        "2028": 1.3,
+        "2029": 1.29
+      }
+    },
+    "PPA-0022-195": {
+      "secretaria": "Secretaria Municipal de Mobilidade Urbana",
+      "programa_codigo": "0022",
+      "programa": "Infraestrutura e Mobilidade Urbana",
+      "tipo": "Indicador",
+      "codigo": "195",
+      "descricao": "Acidente de trânsito sem mortes por 10 mil habitantes",
+      "trajetoria": {
+        "referencia": 18.24,
+        "2026": 18.24,
+        "2027": 18.23,
+        "2028": 18.22,
+        "2029": 18.21
+      }
+    },
+    "PPA-0028-204": {
+      "secretaria": "Secretaria Municipal de Serviços Urbanos e Limpeza Pública",
+      "programa_codigo": "0028",
+      "programa": "Zeladoria Municipal",
+      "tipo": "Indicador",
+      "codigo": "204",
+      "descricao": "Manutenção dos serviços urbanos no município",
+      "trajetoria": {
+        "referencia": 80,
+        "2026": 85,
+        "2027": 90,
+        "2028": 95,
+        "2029": 100
+      }
+    },
+    "PPA-0012-2054": {
+      "secretaria": "Secretaria Municipal de Trabalho e Emprego",
+      "programa_codigo": "0012",
+      "programa": "Embu das Oportunidades",
+      "tipo": "Ação",
+      "codigo": "2054",
+      "descricao": "Qualificação profissional para todas as idades",
+      "meta_2026": 100,
+      "custo_2026": 50000.0
+    },
+    "PPA-0012-2055": {
+      "secretaria": "Secretaria Municipal de Trabalho e Emprego",
+      "programa_codigo": "0012",
+      "programa": "Embu das Oportunidades",
+      "tipo": "Ação",
+      "codigo": "2055",
+      "descricao": "Empregabilidade",
+      "meta_2026": 8000,
+      "custo_2026": 20000.0
+    },
+    "PPA-0018-188": {
+      "secretaria": "PROCON Municipal",
+      "programa_codigo": "0018",
+      "programa": "Defesa do Consumidor",
+      "tipo": "Indicador",
+      "codigo": "188",
+      "descricao": "Educação para o consumidor — ações realizadas",
+      "trajetoria": {
+        "referencia": 100,
+        "2026": 100,
+        "2027": 100,
+        "2028": 100,
+        "2029": 100
+      }
+    },
+    "PPA-0003-112": {
+      "secretaria": "Secretaria Municipal de Tecnologia",
+      "programa_codigo": "0003",
+      "programa": "Gestão Municipal",
+      "tipo": "Indicador",
+      "codigo": "112",
+      "descricao": "Cidade Digital",
+      "trajetoria": {
+        "referencia": 100,
+        "2026": 100,
+        "2027": 100,
+        "2028": 100,
+        "2029": 100
+      }
+    },
+    "PPA-0004-28": {
+      "secretaria": "Secretaria Municipal de Governo",
+      "programa_codigo": "0004",
+      "programa": "Governo em Ação",
+      "tipo": "Indicador",
+      "codigo": "28",
+      "descricao": "Participação popular na formulação de políticas públicas — orçamento popular/PPA participativo",
+      "trajetoria": {
+        "referencia": 3000,
+        "2026": 0,
+        "2027": 0,
+        "2028": 1,
+        "2029": 0
+      }
+    }
+  },
+  "vinculos": [
+    {
+      "codigo_pmpi": "INT-01",
+      "eixo_pmpi": "Intersetorialidade, Governança e Proteção Integral",
+      "acao_pmpi": "Desenvolver e implantar sistema municipal integrado de acompanhamento da primeira infância, articulando Educação, Saúde, Assistência Social e Rede de Proteção, com governança de dados, perfis de acesso, proteção das informações e acompanhamento territorial.",
+      "tipo_vinculo": "Referencial",
+      "referencias_ppa": [
+        "PPA-0006-2023",
+        "PPA-0016-2080",
+        "PPA-0003-112"
+      ],
+      "justificativa": "Há infraestrutura institucional e territorial compatível, mas o sistema integrado da primeira infância ainda é uma construção própria do PMPI.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "INT-02",
+      "eixo_pmpi": "Intersetorialidade, Governança e Proteção Integral",
+      "acao_pmpi": "Fortalecer e integrar os protocolos municipais de prevenção, identificação, notificação, encaminhamento e acompanhamento das situações de violência e violação de direitos envolvendo gestantes e crianças de 0 a 6 anos.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0006-44",
+        "PPA-0006-2023"
+      ],
+      "justificativa": "O PAEFI e a articulação de rede já oferecem base operacional para integração dos fluxos de proteção.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "INT-03",
+      "eixo_pmpi": "Intersetorialidade, Governança e Proteção Integral",
+      "acao_pmpi": "Implementar ações permanentes e intersetoriais de orientação às famílias e formação dos profissionais sobre uso saudável, seguro e equilibrado de telas e tecnologias digitais na primeira infância.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0009-2041"
+      ],
+      "justificativa": "A formação de profissionais encontra suporte no PPA da Educação, mas o tema específico de telas precisa de indicador próprio do PMPI.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "INT-04",
+      "eixo_pmpi": "Intersetorialidade, Governança e Proteção Integral",
+      "acao_pmpi": "Promover educação midiática e para o consumo consciente, abordando publicidade infantil, exposição de imagem, proteção de dados, consumo, influenciadores, jogos e segurança digital.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0018-188",
+        "PPA-0003-112"
+      ],
+      "justificativa": "Educação para o consumidor e Cidade Digital oferecem base institucional, mas não medem especificamente publicidade infantil, proteção de dados e segurança digital.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "INT-05",
+      "eixo_pmpi": "Intersetorialidade, Governança e Proteção Integral",
+      "acao_pmpi": "Fomentar e articular iniciativas da sociedade civil e da iniciativa privada voltadas à primeira infância, desde que alinhadas ao PMPI, à proteção integral, ao interesse público e a critérios de transparência e não exploração comercial da infância.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0002-4",
+        "PPA-0006-2022"
+      ],
+      "justificativa": "Parcerias, projetos culturais e FUMCAD podem apoiar iniciativas, com necessidade de critérios específicos do PMPI.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "INT-06",
+      "eixo_pmpi": "Intersetorialidade, Governança e Proteção Integral",
+      "acao_pmpi": "Instituir rotina pública de monitoramento do PMPI por território, com indicadores, linha de base, metas, responsáveis, periodicidade, fonte de verificação e devolutiva à população.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0006-55",
+        "PPA-0006-56",
+        "PPA-0016-2080",
+        "PPA-0006-70"
+      ],
+      "justificativa": "O PPA já prevê produção/divulgação de dados, GEO em Ação e a implantação do próprio PMPI.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SOC-01",
+      "eixo_pmpi": "Inclusão e Desenvolvimento Social",
+      "acao_pmpi": "Realizar, prioritariamente nos territórios de maior vulnerabilidade, ações de parentalidade positiva, fortalecimento dos vínculos familiares, saúde materna e desenvolvimento infantil junto às famílias com gestantes e crianças de 0 a 6 anos.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0006-38",
+        "PPA-0006-39",
+        "PPA-0015-114"
+      ],
+      "justificativa": "SCFV, expansão de CRAS e saúde materna oferecem bases complementares; o recorte de parentalidade positiva deve ser monitorado pelo PMPI.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SOC-02",
+      "eixo_pmpi": "Inclusão e Desenvolvimento Social",
+      "acao_pmpi": "Identificar, acompanhar e ampliar o acesso à segurança alimentar e nutricional das famílias com gestantes e crianças de 0 a 6 anos em situação de vulnerabilidade.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0006-57",
+        "PPA-0006-60",
+        "PPA-0006-61"
+      ],
+      "justificativa": "Cadastro Único e segurança alimentar oferecem indicadores diretamente aproveitáveis.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SOC-03",
+      "eixo_pmpi": "Inclusão e Desenvolvimento Social",
+      "acao_pmpi": "Fortalecer e ampliar a oferta do Serviço de Acolhimento em Família Acolhedora, priorizando essa modalidade para crianças de 0 a 6 anos sempre que houver necessidade de medida protetiva e indicação técnica.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0006-40"
+      ],
+      "justificativa": "O PPA possui indicador específico de Família Acolhedora, permitindo alinhamento direto.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SOC-04",
+      "eixo_pmpi": "Inclusão e Desenvolvimento Social",
+      "acao_pmpi": "Promover o acesso de crianças e famílias em situação de vulnerabilidade aos equipamentos e atividades públicas de educação, saúde, cultura, esporte, lazer e convivência, com busca ativa, divulgação acessível e articulação territorial.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0006-39",
+        "PPA-0002-3",
+        "PPA-0005-30"
+      ],
+      "justificativa": "Há oferta e expansão de serviços sociais, culturais e esportivos; falta o recorte específico de acesso de crianças de 0 a 6 anos.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SOC-05",
+      "eixo_pmpi": "Inclusão e Desenvolvimento Social",
+      "acao_pmpi": "Fortalecer o acompanhamento territorial integrado de gestantes, crianças de 0 a 6 anos e famílias em maior vulnerabilidade, articulando CRAS, Saúde, Educação, Conselho Tutelar, CREAS e demais serviços da rede.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0006-39",
+        "PPA-0006-44",
+        "PPA-0006-2023"
+      ],
+      "justificativa": "CRAS, PAEFI e Articulação e Rede sustentam o acompanhamento territorial integrado.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SOC-06",
+      "eixo_pmpi": "Inclusão e Desenvolvimento Social",
+      "acao_pmpi": "Ampliar atividades de convivência e fortalecimento de vínculos para crianças pequenas e seus cuidadores, respeitando especificidades etárias e diversidade das famílias.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0006-38"
+      ],
+      "justificativa": "O SCFV já possui trajetória física anual no PPA.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SAU-01",
+      "eixo_pmpi": "Saúde e Desenvolvimento Integral",
+      "acao_pmpi": "Ampliar e qualificar o acesso de gestantes, bebês e crianças de 0 a 6 anos à Atenção Primária, com acolhimento humanizado, acompanhamento contínuo e redução de barreiras territoriais e administrativas.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0015-113",
+        "PPA-0015-115"
+      ],
+      "justificativa": "Há indicadores materno-infantis relevantes, mas o PPA não explicita, nos trechos analisados, indicador específico de acesso/tempo de espera na APS.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SAU-02",
+      "eixo_pmpi": "Saúde e Desenvolvimento Integral",
+      "acao_pmpi": "Ampliar o acesso a pediatria e especialidades relacionadas ao desenvolvimento infantil, com fluxos de referência e contrarreferência e critérios de prioridade para situações de maior risco e vulnerabilidade.",
+      "tipo_vinculo": "Referencial",
+      "referencias_ppa": [],
+      "justificativa": "Não foi identificado indicador específico de pediatria/especialidades infantis nos documentos analisados; o PMPI deverá construir linha de base com a Saúde.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SAU-03",
+      "eixo_pmpi": "Saúde e Desenvolvimento Integral",
+      "acao_pmpi": "Fortalecer a vigilância do desenvolvimento infantil e a identificação precoce de atrasos, deficiências e necessidades específicas, articulando Saúde, Educação, Assistência Social e serviços especializados.",
+      "tipo_vinculo": "Referencial",
+      "referencias_ppa": [],
+      "justificativa": "Não foi identificado indicador específico de vigilância do desenvolvimento infantil; recomenda-se criar indicador municipal intersetorial.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "SAU-04",
+      "eixo_pmpi": "Saúde e Desenvolvimento Integral",
+      "acao_pmpi": "Fortalecer ações de saúde materna, pré-natal, puerpério, saúde mental e apoio ao cuidado nos primeiros anos de vida, articuladas às ações de parentalidade e proteção social.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0015-114",
+        "PPA-0015-121",
+        "PPA-0015-122"
+      ],
+      "justificativa": "Óbito materno, sífilis congênita e testagem de HIV em gestantes oferecem base direta para saúde materna e gestacional.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "EDU-01",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Ampliar progressivamente a oferta de vagas em creche, com planejamento territorial da expansão, monitoramento da demanda e priorização das áreas de maior vulnerabilidade e déficit de atendimento.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0010-6",
+        "PPA-0010-7"
+      ],
+      "justificativa": "O programa Primeiros Passos já traz cobertura de 0 a 5 anos e trajetória de vagas.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "EDU-02",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Expandir de forma planejada a jornada integral na Educação Infantil, priorizando territórios e públicos de maior vulnerabilidade, sem comprometer padrões de qualidade e espaço físico.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0010-8"
+      ],
+      "justificativa": "Há indicador específico de crianças em período integral.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "EDU-03",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Qualificar os ambientes das instituições de Educação Infantil, assegurando espaços seguros, acessíveis, inclusivos, acolhedores, naturalizados e adequados ao brincar, às interações e ao desenvolvimento integral.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0009-2044"
+      ],
+      "justificativa": "Manutenção e conservação das unidades de ensino oferece base orçamentária e operacional, mas o PMPI deve detalhar qualidade dos ambientes.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "EDU-04",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Fortalecer a formação continuada e as práticas pedagógicas da Educação Infantil e da transição para o Ensino Fundamental, com foco em brincar, interações, leitura, cultura, inclusão, documentação pedagógica e protagonismo infantil.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0009-2041"
+      ],
+      "justificativa": "A formação continuada possui ação específica no PPA.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "EDU-05",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Assegurar alimentação escolar saudável, adequada e de qualidade às crianças de 0 a 6 anos, articulada a ações permanentes de educação alimentar e nutricional com crianças, famílias e comunidade.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0009-2040",
+        "PPA-0009-2045"
+      ],
+      "justificativa": "O PPA já contempla fornecimento e controle de qualidade da alimentação escolar.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "EDU-06",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Assegurar acesso, permanência, participação, desenvolvimento e aprendizagem das crianças com deficiência e outras necessidades específicas, com atendimento educacional inclusivo e apoio especializado articulado à Saúde e Assistência Social.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0009-2037"
+      ],
+      "justificativa": "O Atendimento Educacional Especializado possui ação e meta próprias no PPA.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CUL-01",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Ampliar e descentralizar ações culturais dedicadas à primeira infância, garantindo oferta regular nos diferentes territórios e integração com escolas, bibliotecas, equipamentos culturais e espaços comunitários.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0002-3",
+        "PPA-0002-4",
+        "PPA-0002-5"
+      ],
+      "justificativa": "Visitação, projetos e eventos culturais permitem acompanhar expansão da oferta, ainda sem recorte etário específico.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CUL-02",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Ampliar o acesso das crianças de 0 a 6 anos à literatura e às práticas de leitura, envolvendo escolas, bibliotecas, famílias, projetos municipais e espaços comunitários.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0002-3",
+        "PPA-0002-4"
+      ],
+      "justificativa": "O PPA sustenta ampliação do acesso cultural, mas não possui indicador específico de leitura/literatura para 0 a 6 anos.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CUL-03",
+      "eixo_pmpi": "Educação e Cultura",
+      "acao_pmpi": "Promover ações culturais intergeracionais que favoreçam convivência, memória, pertencimento e experiências compartilhadas entre crianças, adultos e pessoas idosas.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0002-4",
+        "PPA-0006-38"
+      ],
+      "justificativa": "Projetos culturais e convivência podem suportar ações intergeracionais; recomenda-se indicador específico.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-01",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Implantar progressivamente zonas de mobilidade segura no entorno de creches, pré-escolas, unidades de saúde, CRAS, parques e demais equipamentos frequentados por crianças de 0 a 6 anos.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0022-194",
+        "PPA-0022-195"
+      ],
+      "justificativa": "O PPA mede acidentes de trânsito, mas não diferencia entornos de equipamentos da primeira infância.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-02",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Ampliar ações de educação para o trânsito e orientação sobre uso correto de dispositivos de segurança no transporte de crianças, incluindo veículos particulares e transporte escolar.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0022-194",
+        "PPA-0022-195"
+      ],
+      "justificativa": "Segurança viária é coberta de forma geral; educação para transporte seguro de crianças precisa de indicador próprio.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-03",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Implantar projetos-piloto de sinalização e infraestrutura urbana na perspectiva da criança, incluindo dispositivos de travessia, comunicação visual e elementos inspirados nos princípios da Urban95, mediante avaliação técnica.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0022-194",
+        "PPA-0016-180"
+      ],
+      "justificativa": "Mobilidade segura e requalificação urbana oferecem base, mas intervenções na perspectiva da criança são inovação específica do PMPI.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-04",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Qualificar parques, praças e espaços livres existentes, tornando-os seguros, acessíveis, sombreados, limpos e amigáveis às crianças e cuidadores, com plano permanente de manutenção.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0028-204",
+        "PPA-0016-180"
+      ],
+      "justificativa": "Zeladoria e requalificação de áreas públicas dialogam com parques e praças amigáveis à infância.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-05",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Ampliar a arborização, sombra, áreas verdes e experiências com natureza nos trajetos e espaços frequentados por crianças pequenas e cuidadores.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0020-190"
+      ],
+      "justificativa": "O PPA possui indicador anual de plantio de mudas, utilizável na agenda de sombra e arborização.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-06",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Desenvolver e implementar Planos de Bairros Amigáveis à Primeira Infância, integrando mobilidade, brincar, natureza, serviços, acessibilidade, segurança e convivência, com priorização baseada no diagnóstico territorial.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0016-180",
+        "PPA-0016-182",
+        "PPA-0022-194",
+        "PPA-0028-204"
+      ],
+      "justificativa": "Os Planos de Bairros podem articular metas já existentes de requalificação, risco, mobilidade e zeladoria.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-07",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Assegurar a escuta e participação das crianças no desenvolvimento de planos urbanos, projetos arquitetônicos e intervenções em espaços públicos, com metodologias adequadas à idade e devolutiva sobre as decisões.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0004-28"
+      ],
+      "justificativa": "Há indicador de participação popular, mas o PPA não contempla especificamente escuta de crianças.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-08",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Ampliar ações de educação ambiental para crianças de 0 a 6 anos e suas famílias, articulando escolas, parques, hortas, recursos hídricos e práticas comunitárias.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0020-190"
+      ],
+      "justificativa": "O programa ambiental sustenta a agenda, porém não há indicador específico de educação ambiental na primeira infância.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "CID-09",
+      "eixo_pmpi": "Desenvolvimento Sustentável, Cidade e Mobilidade",
+      "acao_pmpi": "Fortalecer o monitoramento ambiental relacionado à primeira infância, incluindo qualidade do ar, água, saneamento, resíduos e exposição a riscos ambientais, com divulgação pública de resultados agregados.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0016-175",
+        "PPA-0001-1"
+      ],
+      "justificativa": "Saneamento e fiscalização de resíduos oferecem indicadores diretamente relacionados ao ambiente onde vivem as crianças.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "ECO-01",
+      "eixo_pmpi": "Desenvolvimento Econômico, Trabalho e Tecnologia",
+      "acao_pmpi": "Promover estratégias de inclusão produtiva, qualificação profissional e aproximação das oportunidades de trabalho das famílias com crianças na primeira infância, considerando especialmente responsáveis em situação de vulnerabilidade.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0012-2054",
+        "PPA-0012-2055"
+      ],
+      "justificativa": "Qualificação profissional e empregabilidade possuem ações próprias no PPA.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "ECO-02",
+      "eixo_pmpi": "Desenvolvimento Econômico, Trabalho e Tecnologia",
+      "acao_pmpi": "Articular com empregadores, setor produtivo e políticas públicas iniciativas que favoreçam conciliação entre trabalho, cuidado e convivência familiar, respeitando direitos trabalhistas e a proteção integral da criança.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0012-2055"
+      ],
+      "justificativa": "Empregabilidade está prevista, mas conciliação trabalho-cuidado não possui indicador específico.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "TEC-01",
+      "eixo_pmpi": "Desenvolvimento Econômico, Trabalho e Tecnologia",
+      "acao_pmpi": "Utilizar tecnologias e dados para integrar serviços, monitorar indicadores do PMPI e ampliar o acesso das famílias às informações e serviços públicos da primeira infância.",
+      "tipo_vinculo": "Direto",
+      "referencias_ppa": [
+        "PPA-0003-112",
+        "PPA-0016-2080",
+        "PPA-0006-56"
+      ],
+      "justificativa": "Cidade Digital, GEO em Ação e divulgação de dados são bases objetivas para a infraestrutura do Observatório.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "ECO-03",
+      "eixo_pmpi": "Desenvolvimento Econômico, Trabalho e Tecnologia",
+      "acao_pmpi": "Assegurar manejo ambientalmente adequado de produtos químicos, embalagens e resíduos, reduzindo riscos para gestantes e crianças e priorizando fiscalização e educação nos territórios de maior exposição.",
+      "tipo_vinculo": "Transversal",
+      "referencias_ppa": [
+        "PPA-0001-1"
+      ],
+      "justificativa": "A fiscalização de resíduos é diretamente relevante, mas o recorte de produtos químicos e exposição de gestantes/crianças precisa de indicador próprio.",
+      "situacao": "proposta_tecnica_para_validacao"
+    },
+    {
+      "codigo_pmpi": "ECO-04",
+      "eixo_pmpi": "Desenvolvimento Econômico, Trabalho e Tecnologia",
+      "acao_pmpi": "Elevar a segurança dos alimentos produzidos e comercializados no município, com atenção especial a gestantes e crianças de 0 a 6 anos.",
+      "tipo_vinculo": "Referencial",
+      "referencias_ppa": [
+        "PPA-0009-2040"
+      ],
+      "justificativa": "Há experiência municipal de controle da alimentação escolar, mas não foi identificado indicador geral de segurança dos alimentos comercializados.",
+      "situacao": "proposta_tecnica_para_validacao"
+    }
+  ]
+}
