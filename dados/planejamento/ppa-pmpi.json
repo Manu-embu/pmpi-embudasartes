@@ -1,5 +1,5 @@
 {
-  "versao": "8.6",
+  "versao": "8.6.1",
   "titulo": "Integração PMPI × PPA 2026–2029",
   "fonte": "PPA Municipal 2026–2029 — Anexos II e III",
   "regra_metodologica": "O vínculo indica aderência programática, física ou institucional. Valores orçamentários de programas/ações amplas não devem ser interpretados automaticamente como investimento específico na primeira infância.",
@@ -9,7 +9,10 @@
     "vinculo_transversal": 17,
     "vinculo_referencial": 4,
     "referencias_ppa_catalogadas": 44,
-    "referencias_a_validar": 2
+    "referencias_a_validar": 2,
+    "secretarias_mapeadas": 14,
+    "acoes_com_lacuna": 21,
+    "acoes_com_meta_aproveitavel": 17
   },
   "catalogo_ppa": {
     "PPA-0006-70": {
@@ -641,7 +644,9 @@
         "PPA-0003-112"
       ],
       "justificativa": "Há infraestrutura institucional e territorial compatível, mas o sistema integrado da primeira infância ainda é uma construção própria do PMPI.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Sem indicador específico suficiente para monitoramento do PMPI",
+      "aproveitamento_meta": "Referência institucional; linha de base/meta própria recomendada"
     },
     {
       "codigo_pmpi": "INT-02",
@@ -653,7 +658,9 @@
         "PPA-0006-2023"
       ],
       "justificativa": "O PAEFI e a articulação de rede já oferecem base operacional para integração dos fluxos de proteção.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "INT-03",
@@ -664,7 +671,9 @@
         "PPA-0009-2041"
       ],
       "justificativa": "A formação de profissionais encontra suporte no PPA da Educação, mas o tema específico de telas precisa de indicador próprio do PMPI.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "INT-04",
@@ -676,7 +685,9 @@
         "PPA-0003-112"
       ],
       "justificativa": "Educação para o consumidor e Cidade Digital oferecem base institucional, mas não medem especificamente publicidade infantil, proteção de dados e segurança digital.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "INT-05",
@@ -688,7 +699,9 @@
         "PPA-0006-2022"
       ],
       "justificativa": "Parcerias, projetos culturais e FUMCAD podem apoiar iniciativas, com necessidade de critérios específicos do PMPI.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "INT-06",
@@ -702,7 +715,9 @@
         "PPA-0006-70"
       ],
       "justificativa": "O PPA já prevê produção/divulgação de dados, GEO em Ação e a implantação do próprio PMPI.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "SOC-01",
@@ -715,7 +730,9 @@
         "PPA-0015-114"
       ],
       "justificativa": "SCFV, expansão de CRAS e saúde materna oferecem bases complementares; o recorte de parentalidade positiva deve ser monitorado pelo PMPI.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "SOC-02",
@@ -728,7 +745,9 @@
         "PPA-0006-61"
       ],
       "justificativa": "Cadastro Único e segurança alimentar oferecem indicadores diretamente aproveitáveis.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "SOC-03",
@@ -739,7 +758,9 @@
         "PPA-0006-40"
       ],
       "justificativa": "O PPA possui indicador específico de Família Acolhedora, permitindo alinhamento direto.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "SOC-04",
@@ -752,7 +773,9 @@
         "PPA-0005-30"
       ],
       "justificativa": "Há oferta e expansão de serviços sociais, culturais e esportivos; falta o recorte específico de acesso de crianças de 0 a 6 anos.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "SOC-05",
@@ -765,7 +788,9 @@
         "PPA-0006-2023"
       ],
       "justificativa": "CRAS, PAEFI e Articulação e Rede sustentam o acompanhamento territorial integrado.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "SOC-06",
@@ -776,7 +801,9 @@
         "PPA-0006-38"
       ],
       "justificativa": "O SCFV já possui trajetória física anual no PPA.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "SAU-01",
@@ -788,7 +815,9 @@
         "PPA-0015-115"
       ],
       "justificativa": "Há indicadores materno-infantis relevantes, mas o PPA não explicita, nos trechos analisados, indicador específico de acesso/tempo de espera na APS.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "SAU-02",
@@ -797,7 +826,9 @@
       "tipo_vinculo": "Referencial",
       "referencias_ppa": [],
       "justificativa": "Não foi identificado indicador específico de pediatria/especialidades infantis nos documentos analisados; o PMPI deverá construir linha de base com a Saúde.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Sem correspondência específica identificada no PPA analisado",
+      "aproveitamento_meta": "Construir linha de base e indicador próprio no PMPI"
     },
     {
       "codigo_pmpi": "SAU-03",
@@ -806,7 +837,9 @@
       "tipo_vinculo": "Referencial",
       "referencias_ppa": [],
       "justificativa": "Não foi identificado indicador específico de vigilância do desenvolvimento infantil; recomenda-se criar indicador municipal intersetorial.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Sem correspondência específica identificada no PPA analisado",
+      "aproveitamento_meta": "Construir linha de base e indicador próprio no PMPI"
     },
     {
       "codigo_pmpi": "SAU-04",
@@ -819,7 +852,9 @@
         "PPA-0015-122"
       ],
       "justificativa": "Óbito materno, sífilis congênita e testagem de HIV em gestantes oferecem base direta para saúde materna e gestacional.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "EDU-01",
@@ -831,7 +866,9 @@
         "PPA-0010-7"
       ],
       "justificativa": "O programa Primeiros Passos já traz cobertura de 0 a 5 anos e trajetória de vagas.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "EDU-02",
@@ -842,7 +879,9 @@
         "PPA-0010-8"
       ],
       "justificativa": "Há indicador específico de crianças em período integral.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "EDU-03",
@@ -853,7 +892,9 @@
         "PPA-0009-2044"
       ],
       "justificativa": "Manutenção e conservação das unidades de ensino oferece base orçamentária e operacional, mas o PMPI deve detalhar qualidade dos ambientes.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para referência operacional e viabilidade"
     },
     {
       "codigo_pmpi": "EDU-04",
@@ -864,7 +905,9 @@
         "PPA-0009-2041"
       ],
       "justificativa": "A formação continuada possui ação específica no PPA.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para referência operacional e viabilidade"
     },
     {
       "codigo_pmpi": "EDU-05",
@@ -876,7 +919,9 @@
         "PPA-0009-2045"
       ],
       "justificativa": "O PPA já contempla fornecimento e controle de qualidade da alimentação escolar.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para referência operacional e viabilidade"
     },
     {
       "codigo_pmpi": "EDU-06",
@@ -887,7 +932,9 @@
         "PPA-0009-2037"
       ],
       "justificativa": "O Atendimento Educacional Especializado possui ação e meta próprias no PPA.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para referência operacional e viabilidade"
     },
     {
       "codigo_pmpi": "CUL-01",
@@ -900,7 +947,9 @@
         "PPA-0002-5"
       ],
       "justificativa": "Visitação, projetos e eventos culturais permitem acompanhar expansão da oferta, ainda sem recorte etário específico.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "CUL-02",
@@ -912,7 +961,9 @@
         "PPA-0002-4"
       ],
       "justificativa": "O PPA sustenta ampliação do acesso cultural, mas não possui indicador específico de leitura/literatura para 0 a 6 anos.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CUL-03",
@@ -924,7 +975,9 @@
         "PPA-0006-38"
       ],
       "justificativa": "Projetos culturais e convivência podem suportar ações intergeracionais; recomenda-se indicador específico.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-01",
@@ -936,7 +989,9 @@
         "PPA-0022-195"
       ],
       "justificativa": "O PPA mede acidentes de trânsito, mas não diferencia entornos de equipamentos da primeira infância.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-02",
@@ -948,7 +1003,9 @@
         "PPA-0022-195"
       ],
       "justificativa": "Segurança viária é coberta de forma geral; educação para transporte seguro de crianças precisa de indicador próprio.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-03",
@@ -960,7 +1017,9 @@
         "PPA-0016-180"
       ],
       "justificativa": "Mobilidade segura e requalificação urbana oferecem base, mas intervenções na perspectiva da criança são inovação específica do PMPI.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-04",
@@ -972,7 +1031,9 @@
         "PPA-0016-180"
       ],
       "justificativa": "Zeladoria e requalificação de áreas públicas dialogam com parques e praças amigáveis à infância.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-05",
@@ -983,7 +1044,9 @@
         "PPA-0020-190"
       ],
       "justificativa": "O PPA possui indicador anual de plantio de mudas, utilizável na agenda de sombra e arborização.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "CID-06",
@@ -997,7 +1060,9 @@
         "PPA-0028-204"
       ],
       "justificativa": "Os Planos de Bairros podem articular metas já existentes de requalificação, risco, mobilidade e zeladoria.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-07",
@@ -1008,7 +1073,9 @@
         "PPA-0004-28"
       ],
       "justificativa": "Há indicador de participação popular, mas o PPA não contempla especificamente escuta de crianças.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-08",
@@ -1019,7 +1086,9 @@
         "PPA-0020-190"
       ],
       "justificativa": "O programa ambiental sustenta a agenda, porém não há indicador específico de educação ambiental na primeira infância.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "CID-09",
@@ -1031,7 +1100,9 @@
         "PPA-0001-1"
       ],
       "justificativa": "Saneamento e fiscalização de resíduos oferecem indicadores diretamente relacionados ao ambiente onde vivem as crianças.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "ECO-01",
@@ -1043,7 +1114,9 @@
         "PPA-0012-2055"
       ],
       "justificativa": "Qualificação profissional e empregabilidade possuem ações próprias no PPA.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para referência operacional e viabilidade"
     },
     {
       "codigo_pmpi": "ECO-02",
@@ -1054,7 +1127,9 @@
         "PPA-0012-2055"
       ],
       "justificativa": "Empregabilidade está prevista, mas conciliação trabalho-cuidado não possui indicador específico.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "TEC-01",
@@ -1067,7 +1142,9 @@
         "PPA-0006-56"
       ],
       "justificativa": "Cidade Digital, GEO em Ação e divulgação de dados são bases objetivas para a infraestrutura do Observatório.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "",
+      "aproveitamento_meta": "Potencial para linha de base e/ou meta intermediária do PMPI"
     },
     {
       "codigo_pmpi": "ECO-03",
@@ -1078,7 +1155,9 @@
         "PPA-0001-1"
       ],
       "justificativa": "A fiscalização de resíduos é diretamente relevante, mas o recorte de produtos químicos e exposição de gestantes/crianças precisa de indicador próprio.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Recorte da primeira infância não explicitado no PPA",
+      "aproveitamento_meta": "Pode apoiar o monitoramento, mas requer indicador específico da primeira infância"
     },
     {
       "codigo_pmpi": "ECO-04",
@@ -1089,7 +1168,25 @@
         "PPA-0009-2040"
       ],
       "justificativa": "Há experiência municipal de controle da alimentação escolar, mas não foi identificado indicador geral de segurança dos alimentos comercializados.",
-      "situacao": "proposta_tecnica_para_validacao"
+      "situacao": "proposta_tecnica_para_validacao",
+      "lacuna": "Sem indicador específico suficiente para monitoramento do PMPI",
+      "aproveitamento_meta": "Referência institucional; linha de base/meta própria recomendada"
     }
+  ],
+  "secretarias": [
+    "AMLURB",
+    "PROCON Municipal",
+    "Secretaria Municipal de Cultura",
+    "Secretaria Municipal de Desenvolvimento Social",
+    "Secretaria Municipal de Educação",
+    "Secretaria Municipal de Esportes e Lazer",
+    "Secretaria Municipal de Governo",
+    "Secretaria Municipal de Meio Ambiente",
+    "Secretaria Municipal de Mobilidade Urbana",
+    "Secretaria Municipal de Planejamento",
+    "Secretaria Municipal de Saúde",
+    "Secretaria Municipal de Serviços Urbanos e Limpeza Pública",
+    "Secretaria Municipal de Tecnologia",
+    "Secretaria Municipal de Trabalho e Emprego"
   ]
 }
