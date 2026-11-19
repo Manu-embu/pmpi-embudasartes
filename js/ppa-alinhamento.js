@@ -12,27 +12,35 @@ function refHtml(id){
 }
 function render(){
  const q=document.querySelector("#ppa-busca").value.toLowerCase();
- const tipo=document.querySelector("#ppa-tipo").value, eixo=document.querySelector("#ppa-eixo").value;
+ const tipo=document.querySelector("#ppa-tipo").value;
+ const eixo=document.querySelector("#ppa-eixo").value;
+ const sec=document.querySelector("#ppa-secretaria").value;
+ const lac=document.querySelector("#ppa-lacuna").value;
  const arr=PPA.vinculos.filter(v=>{
    const refs=v.referencias_ppa.map(id=>PPA.catalogo_ppa[id]).filter(Boolean);
    const text=[v.codigo_pmpi,v.acao_pmpi,v.eixo_pmpi,...refs.map(r=>r.programa+" "+r.secretaria+" "+r.descricao)].join(" ").toLowerCase();
-   return (!q||text.includes(q))&&(!tipo||v.tipo_vinculo===tipo)&&(!eixo||v.eixo_pmpi===eixo);
+   const secs=[...new Set(refs.map(r=>r.secretaria))];
+   const temLac=!!(v.lacuna||"").trim();
+   return (!q||text.includes(q))&&(!tipo||v.tipo_vinculo===tipo)&&(!eixo||v.eixo_pmpi===eixo)&&(!sec||secs.includes(sec))&&(!lac||(lac==="com-lacuna"&&temLac)||(lac==="sem-lacuna"&&!temLac));
  });
  document.querySelector("#ppa-lista").innerHTML=arr.map(v=>`<article class="ppa-card">
    <div class="ppa-head"><div><span class="ppa-code">${escP(v.codigo_pmpi)}</span><div class="ppa-eixo">${escP(v.eixo_pmpi)}</div><div class="ppa-title">${escP(v.acao_pmpi)}</div></div><span class="ppa-badge ${v.tipo_vinculo.toLowerCase()}">${escP(v.tipo_vinculo)}</span></div>
    <p>${escP(v.justificativa)}</p>
-   ${v.referencias_ppa.length?v.referencias_ppa.map(refHtml).join(""):`<div class="ppa-ref"><strong>Lacuna identificada</strong><div>Não foi localizada correspondência específica no PPA analisado. Recomenda-se construção de linha de base e indicador setorial.</div></div>`}
+   ${v.referencias_ppa.length?v.referencias_ppa.map(refHtml).join(""):`<div class="ppa-ref"><strong>Lacuna identificada</strong><div>Não foi localizada correspondência específica no PPA analisado.</div></div>`}
+   <div class="ppa-ref"><strong>Aproveitamento no PMPI</strong><div>${escP(v.aproveitamento_meta||"")}</div></div>
+   ${v.lacuna?`<div class="ppa-ref"><strong>Lacuna / atenção metodológica</strong><div>${escP(v.lacuna)}</div></div>`:""}
  </article>`).join("") || `<div class="ppa-alerta">Nenhuma ação encontrada com os filtros selecionados.</div>`;
 }
 async function init(){
  const r=await fetch("dados/planejamento/ppa-pmpi.json",{cache:"no-store"}); PPA=await r.json();
  const s=PPA.resumo;
  document.querySelector("#ppa-kpis").innerHTML=[
-  [s.acoes_pmpi,"ações do PMPI"],[s.vinculo_direto,"vínculos diretos"],[s.vinculo_transversal,"vínculos transversais"],[s.vinculo_referencial,"vínculos referenciais"],[s.referencias_a_validar,"referências a validar"]
+  [s.acoes_pmpi,"ações do PMPI"],[s.vinculo_direto,"vínculos diretos"],[s.vinculo_transversal,"vínculos transversais"],[s.acoes_com_lacuna,"ações com lacuna"],[s.secretarias_mapeadas,"secretarias mapeadas"]
  ].map(x=>`<div class="ppa-kpi"><strong>${x[0]}</strong><span>${x[1]}</span></div>`).join("");
  const e=[...new Set(PPA.vinculos.map(v=>v.eixo_pmpi))].sort();
  document.querySelector("#ppa-eixo").innerHTML='<option value="">Todos os eixos</option>'+e.map(x=>`<option>${escP(x)}</option>`).join("");
- ["#ppa-busca","#ppa-tipo","#ppa-eixo"].forEach(sel=>document.querySelector(sel).addEventListener("input",render));
+ document.querySelector("#ppa-secretaria").innerHTML='<option value="">Todas as secretarias</option>'+(PPA.secretarias||[]).map(x=>`<option>${escP(x)}</option>`).join("");
+ ["#ppa-busca","#ppa-tipo","#ppa-eixo","#ppa-secretaria","#ppa-lacuna"].forEach(sel=>document.querySelector(sel).addEventListener("input",render));
  render();
 }
 document.addEventListener("DOMContentLoaded",init);
