@@ -1,5 +1,7 @@
 let mamDados=null;
 let mamGudaPorCodigo={};
+let mamPpaPorCodigo={};
+let mamPpaCatalogo={};
 const escMam=v=>String(v??"").replaceAll("&","&amp;").replaceAll("<","&lt;").replaceAll(">","&gt;").replaceAll('"',"&quot;");
 function statusClass(s){const n=(s||"").toLowerCase();if(n.includes("conclu"))return"st-concluida";if(n.includes("execu"))return"st-execucao";if(n.includes("aprov"))return"st-aprovada";if(n.includes("valida"))return"st-validacao";return"st-elaboracao";}
 function renderResumo(){const r=mamDados.resumo;document.querySelector("#mam-nota").innerHTML=`<strong>Importante:</strong> ${escMam(mamDados.nota_metodologica)}`;document.querySelector("#mam-kpis").innerHTML=`<div class="mam-kpi"><strong>${r.acoes}</strong><span>ações estruturadas</span></div><div class="mam-kpi"><strong>${r.eixos}</strong><span>eixos do PMPI</span></div><div class="mam-kpi"><strong>${r.linhas_base_a_validar}</strong><span>linhas de base ainda a validar</span></div><div class="mam-kpi"><strong>${r.revisao_intermediaria}</strong><span>revisão intermediária</span></div><div class="mam-kpi"><strong>${r.horizonte_final}</strong><span>horizonte final</span></div>`;}
@@ -14,6 +16,24 @@ function chipsOrigem(a){
 function gudaClasse(f){
   return {"Muito alta":"guda-muito-alta","Alta":"guda-alta","Média":"guda-media","Baixa":"guda-baixa"}[f] || "guda-sem";
 }
+
+function renderPpa(a){
+ const v=mamPpaPorCodigo[a.codigo];
+ if(!v)return `<div class="mam-ppa"><div class="mam-ppa-top"><span class="mam-ppa-title">Alinhamento com o PPA 2026–2029</span><span class="mam-ppa-badge referencial">A validar</span></div><div class="mam-ppa-ref">Vínculo ainda não catalogado.</div></div>`;
+ const refs=(v.referencias_ppa||[]).map(id=>mamPpaCatalogo[id]).filter(Boolean);
+ const cls=v.tipo_vinculo.toLowerCase();
+ return `<div class="mam-ppa"><div class="mam-ppa-top"><span class="mam-ppa-title">Alinhamento com o PPA 2026–2029</span><span class="mam-ppa-badge ${cls}">${escMam(v.tipo_vinculo)}</span></div>
+ <div class="mam-ppa-ref">${escMam(v.justificativa)}</div>
+ ${refs.slice(0,3).map(r=>`<div class="mam-ppa-ref"><strong>${escMam(r.programa_codigo)} • ${escMam(r.programa)}</strong> — ${escMam(r.tipo)} ${escMam(r.codigo)}: ${escMam(r.descricao)}${r.validacao?" • ⚠ validar com o setor":""}</div>`).join("")}
+ </div>`;
+}
+async function carregarPpaMatriz(){
+ try{
+  const r=await fetch("dados/planejamento/ppa-pmpi.json",{cache:"no-store"}); const d=await r.json();
+  mamPpaCatalogo=d.catalogo_ppa||{}; mamPpaPorCodigo={}; (d.vinculos||[]).forEach(v=>mamPpaPorCodigo[v.codigo_pmpi]=v);
+ }catch(e){console.warn("PPA não carregado",e)}
+}
+
 function renderGuda(a){
   const g=mamGudaPorCodigo[a.codigo];
   if(!g){
