@@ -7,7 +7,7 @@
 <style>
 .ppa-wrap{max-width:1120px;margin:auto}.ppa-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:20px 0 28px}
 .ppa-kpi,.ppa-card{background:#fff;border:1px solid #d8e2e6;border-radius:16px}.ppa-kpi{padding:18px}.ppa-kpi strong{display:block;font-size:28px;color:#0e5775}.ppa-kpi span{font-size:12px;color:#6a7b83}
-.ppa-filtros{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:10px;margin:15px 0 20px}.ppa-filtros input,.ppa-filtros select{width:100%;padding:12px;border:1px solid #cedadf;border-radius:11px;background:#fff}
+.ppa-filtros{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr 1fr;gap:10px;margin:15px 0 20px}.ppa-filtros input,.ppa-filtros select{width:100%;padding:12px;border:1px solid #cedadf;border-radius:11px;background:#fff}
 .ppa-card{padding:20px;margin:0 0 16px}.ppa-head{display:flex;justify-content:space-between;gap:16px;align-items:flex-start}.ppa-code{font-weight:900;background:#173f53;color:white;border-radius:999px;padding:6px 10px;font-size:11px}
 .ppa-title{font-size:21px;font-weight:850;color:#15384a;margin:8px 0}.ppa-eixo{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:#d45b18;font-weight:900}
 .ppa-badge{padding:7px 10px;border-radius:999px;font-size:11px;font-weight:900;white-space:nowrap}.direto{background:#e5f3ec;color:#1c6d50}.transversal{background:#fff1cb;color:#785600}.referencial{background:#edf2f5;color:#536b77}
@@ -18,13 +18,13 @@
 <body>
 <header><div class="container topbar"><a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
 <nav class="main-nav"><a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="diagnostico.html">Diagnóstico</a><a href="matriz-acoes-metas.html">Matriz</a><a href="memoria-governanca.html">Memória</a></nav></div>
-<div class="hero small"><div class="container"><div class="eyebrow">SPRINT 8.6 • PLANEJAMENTO E VIABILIDADE</div><h1>Alinhamento PMPI × PPA 2026–2029</h1><p>Leitura integrada entre as ações propostas do PMPI e programas, indicadores, metas físicas e ações já previstas no planejamento municipal.</p></div></div></header>
+<div class="hero small"><div class="container"><div class="eyebrow">PLANEJAMENTO E VIABILIDADE • PMPI × PPA</div><h1>Alinhamento PMPI × PPA 2026–2029</h1><p>Leitura integrada entre as ações propostas do PMPI e programas, indicadores, metas físicas e ações já previstas no planejamento municipal.</p></div></div></header>
 <main><section><div class="container ppa-wrap">
 <div class="ppa-alerta"><strong>Regra metodológica:</strong> vínculo com o PPA não significa que todo o orçamento do programa esteja destinado à primeira infância. A plataforma distingue correspondência direta, transversal e referencial.</div>
 <div id="ppa-kpis" class="ppa-kpis"></div>
 <div class="kicker">Integração do planejamento</div><h2>Ações do PMPI e correspondências no PPA</h2>
 <p>Use os filtros para localizar ações, eixos ou níveis de aderência. Os vínculos desta versão são propostas técnicas para validação da Comissão e das secretarias responsáveis.</p>
-<div class="ppa-filtros"><input id="ppa-busca" placeholder="Buscar por código, ação, programa ou secretaria"><select id="ppa-tipo"><option value="">Todos os vínculos</option><option>Direto</option><option>Transversal</option><option>Referencial</option></select><select id="ppa-eixo"><option value="">Todos os eixos</option></select></div>
+<div class="ppa-filtros"><input id="ppa-busca" placeholder="Buscar por código, ação, programa ou secretaria"><select id="ppa-tipo"><option value="">Todos os vínculos</option><option>Direto</option><option>Transversal</option><option>Referencial</option></select><select id="ppa-eixo"><option value="">Todos os eixos</option></select><select id="ppa-secretaria"><option value="">Todas as secretarias</option></select><select id="ppa-lacuna"><option value="">Todas as situações</option><option value="com-lacuna">Com lacuna</option><option value="sem-lacuna">Sem lacuna</option></select></div>
 <div id="ppa-lista"></div>
 </div></section></main>
 <footer><div class="container footer"><div><strong>PMPI 2026–2035</strong><p>Integração com o PPA Municipal 2026–2029.</p></div><div><strong>Uso técnico</strong><p>Correspondências sujeitas à validação setorial.</p></div></div></footer>
