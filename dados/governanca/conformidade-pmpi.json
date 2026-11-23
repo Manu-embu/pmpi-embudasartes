@@ -1,0 +1,650 @@
+{
+  "versao": "8.7",
+  "titulo": "Matriz de Conformidade e Alinhamento Normativo do PMPI",
+  "data_referencia": "2026-11",
+  "metodologia": "Auditoria técnica de prontidão. Os status refletem o estágio atual de construção do PMPI e não substituem validação jurídica, setorial ou deliberação da Comissão Intersetorial.",
+  "fontes_referencia": [
+    {
+      "nome": "Guia para elaboração de Planos Intersetoriais pela Primeira Infância",
+      "ano": 2026,
+      "papel": "Referência metodológica principal"
+    },
+    {
+      "nome": "Política Nacional Integrada da Primeira Infância — Decreto nº 12.574/2025",
+      "ano": 2025,
+      "papel": "Alinhamento à política nacional"
+    },
+    {
+      "nome": "Marco Legal da Primeira Infância — Lei nº 13.257/2016, com alterações posteriores",
+      "ano": 2016,
+      "papel": "Fundamentação legal"
+    },
+    {
+      "nome": "Levantamento Nacional de Planos Estaduais e Municipais pela Primeira Infância",
+      "ano": 2026,
+      "papel": "Benchmark nacional de institucionalização e governança"
+    },
+    {
+      "nome": "Observa PMPI — Uma análise das prioridades na promoção e defesa de direitos",
+      "ano": 2021,
+      "papel": "Benchmark de conteúdo e qualidade de PMPIs"
+    },
+    {
+      "nome": "Cartilha PMPI — um passo a passo para elaboração, UNICEF/RNPI/ANDI",
+      "ano": 2021,
+      "papel": "Apoio prático e comunicação"
+    }
+  ],
+  "resumo": {
+    "criterios": 34,
+    "atendidos": 16,
+    "parciais": 16,
+    "pendentes": 2,
+    "dimensoes": 10,
+    "criticos": 8
+  },
+  "criterios": [
+    {
+      "id": "GOV-01",
+      "dimensao": "Governança e base legal",
+      "criterio": "Comissão ou instância intersetorial de coordenação da política da primeira infância",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026",
+        "Levantamento 2026"
+      ],
+      "status": "Atendido",
+      "evidencia": "Comissão Intersetorial constituída e processo de governança documentado na plataforma, com memória das reuniões, seminário, imersões e participação setorial.",
+      "referencias_internas": [
+        "memoria-governanca.html"
+      ],
+      "providencia": "Manter ato normativo, composição vigente, atas e periodicidade das reuniões vinculados à versão oficial do Plano.",
+      "prioridade": "Manutenção"
+    },
+    {
+      "id": "GOV-02",
+      "dimensao": "Governança e base legal",
+      "criterio": "Alinhamento explícito do PMPI ao Marco Legal da Primeira Infância e à PNIPI",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026"
+      ],
+      "status": "Parcial",
+      "evidencia": "A arquitetura do PMPI já incorpora intersetorialidade, participação, territorialização, equidade, monitoramento e integração de dados.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html",
+        "ppa-alinhamento.html"
+      ],
+      "providencia": "Inserir, no texto oficial, capítulo de referencial normativo com correspondência explícita entre os eixos municipais, o Marco Legal e os eixos estruturantes da PNIPI.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "GOV-03",
+      "dimensao": "Governança e base legal",
+      "criterio": "Participação do planejamento/finanças na viabilidade e no orçamento da primeira infância",
+      "fontes": [
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Foi realizada integração técnica das 39 ações do PMPI com o PPA 2026–2029, distinguindo vínculos diretos, transversais e referenciais.",
+      "referencias_internas": [
+        "ppa-alinhamento.html",
+        "ppa-metas-aproveitaveis.html"
+      ],
+      "providencia": "Formalizar participação de Planejamento/Fazenda na pactuação de metas, fontes e programação orçamentária anual.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "DIA-01",
+      "dimensao": "Diagnóstico e equidade",
+      "criterio": "Diagnóstico municipal com dados sobre as crianças de 0 a 6 anos e suas famílias",
+      "fontes": [
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Relatório e Linha de Base consolida demografia, saúde, educação, proteção, vulnerabilidade, serviços, participação, território e PPA.",
+      "referencias_internas": [
+        "diagnostico.html",
+        "diagnostico-protecao.html"
+      ],
+      "providencia": "Atualizar periodicamente a linha de base e registrar data/fonte/status de validação de cada indicador.",
+      "prioridade": "Manutenção"
+    },
+    {
+      "id": "DIA-02",
+      "dimensao": "Diagnóstico e equidade",
+      "criterio": "Leitura territorial das desigualdades e da oferta de serviços",
+      "fontes": [
+        "PNIPI",
+        "Guia 2026"
+      ],
+      "status": "Atendido",
+      "evidencia": "Atlas territorial, 10 territórios CRAS, inventário de equipamentos, leitura territorial integrada e associações de bairros/territórios.",
+      "referencias_internas": [
+        "territorios.html",
+        "diagnostico-territorial-integrado.html"
+      ],
+      "providencia": "Validar associações territoriais ainda provisórias e ampliar indicadores por território.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "DIA-03",
+      "dimensao": "Diagnóstico e equidade",
+      "criterio": "Dados desagregados por deficiência, condição socioeconômica, território, raça/cor e outras desigualdades relevantes",
+      "fontes": [
+        "PNIPI",
+        "Guia 2026",
+        "Marco Legal"
+      ],
+      "status": "Parcial",
+      "evidencia": "Há dados territoriais, PCD, vulnerabilidade social, CadÚnico e registros setoriais; ainda não há conjunto consistente para todas as dimensões de desigualdade.",
+      "referencias_internas": [
+        "diagnostico.html",
+        "territorios.html"
+      ],
+      "providencia": "Priorizar desagregação por raça/cor, deficiência, sexo, território e vulnerabilidade, observando LGPD e qualidade da fonte.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "DIA-04",
+      "dimensao": "Diagnóstico e equidade",
+      "criterio": "Identificação de crianças e grupos mais invisibilizados ou expostos a violações",
+      "fontes": [
+        "Guia 2026",
+        "PNIPI",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Conselho Tutelar, Busca Ativa, PCD, vulnerabilidade e territórios estão incorporados; outras condições específicas ainda carecem de consolidação.",
+      "referencias_internas": [
+        "diagnostico-protecao.html",
+        "diagnostico-territorial-integrado.html"
+      ],
+      "providencia": "Criar quadro municipal de públicos prioritários e fontes disponíveis, sem exposição de dados pessoais.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "PAR-01",
+      "dimensao": "Participação social",
+      "criterio": "Participação de famílias, comunidade, profissionais, conselhos e setores públicos na elaboração",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Consulta pública, formulário técnico, oficinas, imersões, seminário e Comissão Intersetorial documentados.",
+      "referencias_internas": [
+        "consulta-publica.html",
+        "memoria-governanca.html"
+      ],
+      "providencia": "Consolidar quantitativos de participação, perfil dos participantes e devolutivas no documento final.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "PAR-02",
+      "dimensao": "Participação social",
+      "criterio": "Escuta adequada das crianças de até 6 anos",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "A Educação estruturou a metodologia “Como deveria ser um mundo melhor para as crianças”, com desenho/fotografia e categorias temáticas.",
+      "referencias_internas": [
+        "memoria-governanca.html"
+      ],
+      "providencia": "Consolidar resultados da amostra e incorporar falas, desenhos e fotografias de forma anônima e metodologicamente descrita.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "PAR-03",
+      "dimensao": "Participação social",
+      "criterio": "Devolutiva pública e transparência sobre como as contribuições influenciaram o Plano",
+      "fontes": [
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "O Observatório publica diagnóstico, participação e memória; a rastreabilidade entre contribuição e decisão ainda está em consolidação.",
+      "referencias_internas": [
+        "consulta-publica.html",
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Criar síntese pública “O que ouvimos / como isso entrou no PMPI / o que não entrou e por quê”.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "PLA-01",
+      "dimensao": "Plano de ação",
+      "criterio": "Plano de ação intersetorial com problemas públicos, ações e metas",
+      "fontes": [
+        "PNIPI",
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Matriz contém 39 ações estruturadas em seis eixos, problema público, evidências, metas intermediárias e finais.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Submeter redação e metas à validação final dos setores e da Comissão.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "PLA-02",
+      "dimensao": "Plano de ação",
+      "criterio": "Responsáveis definidos para implementação das ações",
+      "fontes": [
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "A matriz atribui responsáveis setoriais ou coordenação intersetorial às ações.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Definir corresponsáveis quando a ação exigir execução compartilhada.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "PLA-03",
+      "dimensao": "Plano de ação",
+      "criterio": "Prazos e horizonte de médio/longo prazo",
+      "fontes": [
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Horizonte 2026–2035, com revisão intermediária em 2029 e metas intermediárias/finais.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Compatibilizar cronograma com ciclos PPA/LDO/LOA e revisões periódicas.",
+      "prioridade": "Manutenção"
+    },
+    {
+      "id": "PLA-04",
+      "dimensao": "Plano de ação",
+      "criterio": "Indicadores vinculados às metas e linhas de base",
+      "fontes": [
+        "PNIPI",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Há linha de base consolidada e indicadores em várias ações; parte das metas ainda depende de validação setorial ou de indicador próprio.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html",
+        "ppa-metas-aproveitaveis.html"
+      ],
+      "providencia": "Fechar ficha de indicador para cada ação: conceito, fórmula, unidade, fonte, periodicidade, responsável e desagregações.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "PLA-05",
+      "dimensao": "Plano de ação",
+      "criterio": "Priorização colegiada das ações com justificativa e evidências",
+      "fontes": [
+        "Guia 2026"
+      ],
+      "status": "Atendido",
+      "evidencia": "Ferramenta GUDA registra Gravidade, Urgência, Desigualdade e Abrangência, com justificativas e histórico em Base Central.",
+      "referencias_internas": [
+        "priorizacao-guda.html",
+        "painel-guda.html"
+      ],
+      "providencia": "Concluir oficinas e registrar deliberação colegiada final, diferenciando apoio técnico de decisão oficial.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "ORC-01",
+      "dimensao": "Financiamento e PPA",
+      "criterio": "Articulação das ações com PPA, LDO e LOA",
+      "fontes": [
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "39 ações foram cruzadas com o PPA 2026–2029 e classificadas por grau de aderência.",
+      "referencias_internas": [
+        "ppa-alinhamento.html"
+      ],
+      "providencia": "Avançar da correspondência técnica para pactuação orçamentária com Fazenda/Planejamento e rotinas anuais LDO/LOA.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "ORC-02",
+      "dimensao": "Financiamento e PPA",
+      "criterio": "Identificação da origem dos recursos para implementação das ações",
+      "fontes": [
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "O PPA fornece ações, programas e custos relacionados, mas nem sempre permite isolar o recurso específico destinado à primeira infância.",
+      "referencias_internas": [
+        "ppa-alinhamento.html"
+      ],
+      "providencia": "Criar campo de fonte de financiamento por ação e regra para não contabilizar orçamento amplo como gasto exclusivo com primeira infância.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "ORC-03",
+      "dimensao": "Financiamento e PPA",
+      "criterio": "Transparência do orçamento e gasto público com primeira infância",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Pendente",
+      "evidencia": "Ainda não há painel municipal consolidado de orçamento executado da primeira infância.",
+      "referencias_internas": [],
+      "providencia": "Desenhar metodologia municipal de identificação, execução e divulgação anual dos recursos vinculados à primeira infância.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "MON-01",
+      "dimensao": "Monitoramento e avaliação",
+      "criterio": "Estratégia permanente de monitoramento e avaliação do PMPI",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Observatório, Matriz, GUDA, PPA e painéis já formam infraestrutura de acompanhamento; o ciclo formal de monitoramento pós-aprovação ainda precisa ser pactuado.",
+      "referencias_internas": [
+        "painel-executivo.html",
+        "matriz-acoes-metas.html",
+        "painel-guda.html"
+      ],
+      "providencia": "Definir governança de monitoramento, calendário, responsáveis, fonte de atualização e relatório anual.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "MON-02",
+      "dimensao": "Monitoramento e avaliação",
+      "criterio": "Integração e atualização periódica de dados setoriais",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026"
+      ],
+      "status": "Parcial",
+      "evidencia": "Há integração progressiva de bases de Educação, Saúde, Assistência, Proteção, território e PPA, mas ainda sem interoperabilidade automática completa.",
+      "referencias_internas": [
+        "diagnostico.html",
+        "painel-executivo.html"
+      ],
+      "providencia": "Definir conjunto mínimo municipal de dados, periodicidade e responsáveis por cada base, com regras LGPD.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "MON-03",
+      "dimensao": "Monitoramento e avaliação",
+      "criterio": "Relatórios periódicos de resultados à sociedade",
+      "fontes": [
+        "PNIPI",
+        "Guia 2026"
+      ],
+      "status": "Parcial",
+      "evidencia": "A plataforma já publica painéis e diagnóstico, mas ainda não existe ciclo anual oficial de prestação de contas do PMPI.",
+      "referencias_internas": [
+        "painel-executivo.html"
+      ],
+      "providencia": "Instituir relatório anual público e revisão intermediária de 2029.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "COM-01",
+      "dimensao": "Comunicação e transparência",
+      "criterio": "Estratégia pública de comunicação do PMPI",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Observatório/Plataforma Municipal de Inteligência Territorial, consulta pública, memória, notícias e navegação pública já estruturados.",
+      "referencias_internas": [
+        "index.html",
+        "consulta-publica.html",
+        "memoria-governanca.html"
+      ],
+      "providencia": "Manter linguagem cidadã e preparar versão resumida do PMPI após aprovação.",
+      "prioridade": "Manutenção"
+    },
+    {
+      "id": "DIR-01",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Proteção contra violências e violações de direitos",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Diagnóstico de proteção incorpora dados do Conselho Tutelar, territórios e ações intersetoriais específicas.",
+      "referencias_internas": [
+        "diagnostico-protecao.html",
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Validar séries históricas e indicadores de resultado dos protocolos de proteção.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "DIR-02",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Educação Infantil: acesso, qualidade, integralidade e inclusão",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "Dados de matrículas, rede direta/conveniada, expansão, monitoramento da Educação Infantil e ações específicas na matriz.",
+      "referencias_internas": [
+        "diagnostico.html",
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Validar cobertura oficial e demanda reprimida com denominadores populacionais compatíveis.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "DIR-03",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Saúde integral, materna, neonatal e desenvolvimento infantil",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Linha de base epidemiológica e levantamento de serviços como Projeto Desenvolver, Estimulação Precoce, Psicologia e Grupo Binômio.",
+      "referencias_internas": [
+        "diagnostico.html",
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Validar conceito de usuário/atendimento, séries históricas, cobertura e metas da Saúde antes da oficialização.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "DIR-04",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Assistência social, segurança alimentar e convivência familiar",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "CRAS, SCFV, PAEFI, Família Acolhedora, Cadastro Único e segurança alimentar aparecem no diagnóstico, PPA e matriz.",
+      "referencias_internas": [
+        "diagnostico-territorial-integrado.html",
+        "ppa-alinhamento.html",
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Aprimorar desagregação de 0–6 anos e cobertura territorial dos serviços.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "DIR-05",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Brincar, lazer, cultura, cidade e espaços públicos",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Demandas das famílias e crianças e ações de cultura, parques, praças, sombra, mobilidade e cidade estão na matriz; Esporte/Lazer não possui programa específico para 0–6.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html",
+        "territorios.html"
+      ],
+      "providencia": "Construir indicadores de acesso e cobertura para 0–6 anos e pactuar respostas setoriais onde há lacuna de oferta.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "DIR-06",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Deficiência, acessibilidade e atenção precoce",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "Há dados de PCD, AEE, Equoterapia, Cine Inclusão e serviços de estimulação precoce.",
+      "referencias_internas": [
+        "diagnostico.html",
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Integrar fluxos Educação–Saúde–Assistência e consolidar indicador municipal de atenção precoce 0–3 anos.",
+      "prioridade": "Crítica"
+    },
+    {
+      "id": "DIR-07",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Parentalidade, vínculos e apoio aos cuidadores",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "A matriz prevê ações de parentalidade positiva, vínculos familiares, saúde materna e desenvolvimento infantil.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Validar cobertura, territórios prioritários e indicadores de adesão/resultado.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "DIR-08",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Proteção de crianças no ambiente digital e educação midiática",
+      "fontes": [
+        "Guia 2026"
+      ],
+      "status": "Atendido",
+      "evidencia": "Ações específicas tratam uso equilibrado de telas, publicidade infantil, exposição de imagem, proteção de dados e segurança digital.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Criar indicador municipal de percepção/conhecimento e acompanhar cobertura das ações.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "DIR-09",
+      "dimensao": "Direitos e políticas prioritárias",
+      "criterio": "Mobilidade segura, saneamento, meio ambiente e áreas de risco",
+      "fontes": [
+        "Marco Legal",
+        "PNIPI",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Parcial",
+      "evidencia": "PPA e matriz contemplam mobilidade, acidentes, saneamento, arborização, requalificação e áreas de risco.",
+      "referencias_internas": [
+        "ppa-alinhamento.html",
+        "matriz-acoes-metas.html",
+        "diagnostico-territorial-integrado.html"
+      ],
+      "providencia": "Construir recorte específico da primeira infância e indicadores territoriais próximos a serviços frequentados por crianças.",
+      "prioridade": "Alta"
+    },
+    {
+      "id": "FOR-01",
+      "dimensao": "Capacidade institucional",
+      "criterio": "Formação continuada de profissionais para atuação intersetorial na primeira infância",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Observa PMPI"
+      ],
+      "status": "Atendido",
+      "evidencia": "A matriz prevê formação e o município já possui estrutura de formação continuada e painéis de gestão das formações.",
+      "referencias_internas": [
+        "matriz-acoes-metas.html"
+      ],
+      "providencia": "Definir trilha formativa intersetorial específica do PMPI e indicador de cobertura por setor.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "FOR-02",
+      "dimensao": "Capacidade institucional",
+      "criterio": "Articulação com redes, conselhos, sociedade civil e Sistema de Garantia de Direitos",
+      "fontes": [
+        "Marco Legal",
+        "Guia 2026",
+        "Observa PMPI",
+        "Levantamento 2026"
+      ],
+      "status": "Atendido",
+      "evidencia": "Comissão, Redinhas, Conselho Tutelar, consulta pública, conselhos e articulações intersetoriais aparecem nas evidências do processo.",
+      "referencias_internas": [
+        "memoria-governanca.html",
+        "diagnostico-protecao.html"
+      ],
+      "providencia": "Formalizar fluxos de participação e acompanhamento após aprovação do PMPI.",
+      "prioridade": "Média"
+    },
+    {
+      "id": "LEG-01",
+      "dimensao": "Aprovação e institucionalização",
+      "criterio": "Versão final do PMPI aprovada e institucionalizada por instrumento municipal competente",
+      "fontes": [
+        "Guia 2026",
+        "Cartilha UNICEF/RNPI",
+        "Levantamento 2026"
+      ],
+      "status": "Pendente",
+      "evidencia": "O PMPI encontra-se em elaboração técnica e participativa.",
+      "referencias_internas": [
+        "index.html"
+      ],
+      "providencia": "Após validação final, realizar tramitação institucional, publicação e ampla divulgação do Plano.",
+      "prioridade": "Crítica"
+    }
+  ]
+}
