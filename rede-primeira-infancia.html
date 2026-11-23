@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Rede da Primeira Infância | PMPI Embu das Artes</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.rpi-wrap{max-width:1160px;margin:auto}.rpi-kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:20px 0 28px}
+.rpi-kpi,.rpi-card{background:#fff;border:1px solid #d8e2e6;border-radius:16px}.rpi-kpi{padding:18px}.rpi-kpi strong{display:block;font-size:28px;color:#0e5775}.rpi-kpi span{font-size:12px;color:#6a7b83}
+.rpi-filtros{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:10px;margin:18px 0 22px}.rpi-filtros input,.rpi-filtros select{width:100%;padding:12px;border:1px solid #cedadf;border-radius:11px;background:#fff}
+.rpi-card{padding:18px;margin-bottom:14px}.rpi-top{display:flex;justify-content:space-between;gap:15px;align-items:flex-start}.rpi-id{background:#173f53;color:#fff;border-radius:999px;padding:6px 9px;font-size:10px;font-weight:900}.rpi-cat{font-size:11px;color:#d45b18;text-transform:uppercase;letter-spacing:.06em;font-weight:900;margin-top:7px}
+.rpi-title{font-size:20px;font-weight:850;color:#15384a;margin:6px 0}.rpi-badge{padding:7px 10px;border-radius:999px;font-size:10px;font-weight:900;white-space:nowrap}.direto{background:#e3f2e9;color:#176a4d}.compartilhado{background:#fff0c8;color:#765600}.territorial{background:#edf2f5;color:#536b77}
+.rpi-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:13px}.rpi-box{background:#f6f8f9;border-radius:11px;padding:11px}.rpi-box strong{display:block;color:#173f53;font-size:11px;margin-bottom:4px}.rpi-box span{font-size:11px;color:#566a74}
+.rpi-note{background:#fff7e7;border:1px solid #eacb83;padding:15px 17px;border-radius:14px;color:#6b5214;margin:18px 0}
+.rpi-status{margin-top:12px;font-size:11px;color:#6a7b83}.rpi-status b{color:#173f53}
+@media(max-width:850px){.rpi-kpis{grid-template-columns:repeat(2,1fr)}.rpi-filtros,.rpi-grid{grid-template-columns:1fr}.rpi-top{flex-direction:column}}
+</style></head>
+<body>
+<header>
+<div class="container topbar"><a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
+<nav class="main-nav"><a href="index.html">Início</a><a href="mapa.html">Atlas</a><a href="territorios.html">Territórios</a><a href="catalogo-dados.html">Catálogo</a><a href="diagnostico.html">Diagnóstico</a></nav></div>
+<div class="hero small"><div class="container"><div class="eyebrow">SPRINT 8.7.1 • REDE E CAPACIDADE INSTALADA</div><h1>Rede da Primeira Infância</h1><p>Equipamentos, serviços, programas e capacidades setoriais relacionados às crianças de 0 a 6 anos e seus cuidadores.</p></div></div>
+</header>
+<main><section><div class="container rpi-wrap">
+<div class="rpi-note"><strong>Regra de leitura:</strong> equipamento físico, serviço e capacidade setorial são coisas diferentes. Serviços que funcionam dentro de um equipamento devem ser vinculados ao mesmo ponto no Atlas. Registros administrativos não representam automaticamente pessoas únicas ou cobertura.</div>
+<div id="rpi-kpis" class="rpi-kpis"></div>
+<div class="kicker">Catálogo integrado</div><h2>Equipamentos, serviços e capacidades</h2>
+<p>Esta versão inicia a integração dos levantamentos setoriais. Endereços, vínculos com equipamentos e quantitativos ainda marcados como “a validar” permanecem fora da cartografia até confirmação.</p>
+<div class="rpi-filtros"><input id="rpi-busca" placeholder="Buscar serviço, secretaria ou categoria"><select id="rpi-setor"><option value="">Todos os setores</option></select><select id="rpi-tipo"><option value="">Todos os tipos</option></select><select id="rpi-rel"><option value="">Toda relação com 0–6</option><option>Direto</option><option>Compartilhado</option><option>Territorial</option></select></div>
+<div id="rpi-lista"></div>
+</div></section></main>
+<footer><div class="container footer"><div><strong>PMPI 2026–2035</strong><p>Catálogo Integrado da Rede da Primeira Infância.</p></div><div><strong>Governança dos dados</strong><p>Fontes setoriais e validação progressiva.</p></div></div></footer>
+<script src="js/rede-primeira-infancia.js?v=8.7.1"></script>
+</body></html>
