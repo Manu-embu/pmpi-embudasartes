@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Matriz de Conformidade do PMPI | Embu das Artes</title>
+<link rel="stylesheet" href="css/styles.css">
+<style>
+.conf-wrap{max-width:1160px;margin:auto}.conf-kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:20px 0 30px}
+.conf-kpi,.conf-card{background:#fff;border:1px solid #d8e2e6;border-radius:16px}.conf-kpi{padding:18px}.conf-kpi strong{display:block;font-size:28px;color:#0e5775}.conf-kpi span{font-size:12px;color:#6a7b83}
+.conf-filtros{display:grid;grid-template-columns:1.5fr 1fr 1.1fr 1.1fr;gap:10px;margin:18px 0 22px}.conf-filtros input,.conf-filtros select{width:100%;padding:12px;border:1px solid #cedadf;border-radius:11px;background:#fff}
+.conf-card{padding:20px;margin-bottom:14px}.conf-head{display:flex;justify-content:space-between;gap:16px}.conf-id{font-weight:900;background:#173f53;color:#fff;border-radius:999px;padding:6px 9px;font-size:11px}.conf-dim{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:#d45b18;font-weight:900;margin-top:7px}.conf-title{font-size:20px;font-weight:850;color:#15384a;margin:8px 0}
+.conf-status{padding:7px 10px;border-radius:999px;font-size:11px;font-weight:900;white-space:nowrap}.atendido{background:#e2f2e9;color:#176b4c}.parcial{background:#fff0c8;color:#765700}.pendente{background:#fde5e3;color:#9a3931}.nao-se-aplica{background:#edf2f5;color:#536b77}
+.conf-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:14px}.conf-box{background:#f6f8f9;border-radius:12px;padding:13px}.conf-box strong{display:block;color:#143f53;margin-bottom:5px}.conf-box p{margin:0;color:#526771}.conf-src{margin-top:12px;font-size:11px;color:#667982}.conf-links a{margin-right:10px;font-size:11px}.conf-prio{font-size:10px;font-weight:900;padding:5px 8px;border-radius:999px;background:#eef3f5;color:#48606c}.conf-prio.critica{background:#fde5e3;color:#973a31}.conf-prio.alta{background:#fff0c8;color:#755600}
+.conf-note{background:#fff7e7;border:1px solid #eacb83;padding:15px 17px;border-radius:14px;color:#6b5214;margin:18px 0}
+@media(max-width:850px){.conf-kpis{grid-template-columns:repeat(2,1fr)}.conf-filtros{grid-template-columns:1fr}.conf-grid{grid-template-columns:1fr}.conf-head{flex-direction:column}}
+</style></head>
+<body>
+<header>
+<div class="container topbar"><a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
+<nav class="main-nav"><a href="index.html">Início</a><a href="painel-executivo.html">Painel</a><a href="diagnostico.html">Diagnóstico</a><a href="matriz-acoes-metas.html">Matriz</a><a href="memoria-governanca.html">Memória</a></nav></div>
+<div class="hero small"><div class="container"><div class="eyebrow">SPRINT 8.7 • GOVERNANÇA E QUALIDADE DO PLANO</div><h1>Matriz de Conformidade do PMPI</h1><p>Auditoria técnica de prontidão do Plano Municipal pela Primeira Infância de Embu das Artes frente ao Marco Legal, à PNIPI e às principais referências metodológicas nacionais.</p></div></div>
+</header>
+<main><section><div class="container conf-wrap">
+<div class="conf-note"><strong>Como ler:</strong> “Atendido” indica que já existe estrutura/evidência suficiente no processo atual; “Parcial” indica que há avanço, mas falta validação, detalhamento ou consolidação; “Pendente” indica requisito ainda não concluído. Esta matriz não substitui análise jurídica nem deliberação da Comissão.</div>
+<div id="conf-kpis" class="conf-kpis"></div>
+<div class="kicker">Auditoria de prontidão</div><h2>Requisitos e evidências do PMPI</h2><p>Filtre por dimensão, status ou fonte normativa para localizar rapidamente pendências antes da versão oficial do Plano.</p>
+<div class="conf-filtros"><input id="conf-busca" placeholder="Buscar requisito, evidência ou providência"><select id="conf-dim"><option value="">Todas as dimensões</option></select><select id="conf-status"><option value="">Todos os status</option><option>Atendido</option><option>Parcial</option><option>Pendente</option></select><select id="conf-fonte"><option value="">Todas as referências</option></select></div>
+<div id="conf-lista"></div>
+</div></section></main>
+<footer><div class="container footer"><div><strong>PMPI 2026–2035</strong><p>Matriz técnica de conformidade e alinhamento normativo.</p></div><div><strong>Uso interno e público</strong><p>Status sujeitos à validação da Comissão Intersetorial.</p></div></div></footer>
+<script src="js/conformidade-pmpi.js?v=8.7.0"></script>
+</body></html>
