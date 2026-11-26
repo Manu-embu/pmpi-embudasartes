@@ -15,21 +15,23 @@
 .rpi-status{margin-top:12px;font-size:11px;color:#6a7b83}.rpi-status b{color:#173f53}
 @media(max-width:1050px){.rpi-kpis{grid-template-columns:repeat(3,1fr)}}
 @media(max-width:850px){.rpi-kpis{grid-template-columns:repeat(2,1fr)}.rpi-filtros,.rpi-grid{grid-template-columns:1fr}.rpi-top{flex-direction:column}}
+
+.rpi-kpis{grid-template-columns:repeat(auto-fit,minmax(150px,1fr))}.rpi-kpi strong{overflow-wrap:anywhere;font-size:clamp(19px,2vw,28px)}.rpi-kpi small{display:block;color:#526771;font-size:12px;margin-top:6px}.rpi-sector{background:#fff;border:1px solid #d8e2e6;border-radius:16px;padding:18px;margin:12px 0}.rpi-sector h3{margin:0 0 12px;color:#15384a}.rpi-sector-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}.rpi-sector .rpi-kpi{background:#f6f8f9}.rpi-sector a{display:inline-block;margin-top:12px;color:#155777}.rpi-sector p{font-size:13px;margin:12px 0 0}.rpi-box span,.rpi-status{font-size:13px;color:#405b69}.rpi-filtros select{min-width:0}.rpi-wrap #rpi-setoriais{margin-bottom:26px}
 </style></head>
 <body>
 <header>
 <div class="container topbar"><a class="brand-link" href="index.html">Plataforma Municipal de Inteligência Territorial</a>
 <nav class="main-nav"><a href="index.html">Início</a><a href="mapa.html">Atlas</a><a href="territorios.html">Territórios</a><a href="catalogo-dados.html">Catálogo</a><a href="diagnostico.html">Diagnóstico</a></nav></div>
-<div class="hero small"><div class="container"><div class="eyebrow">SPRINT 8.7.3 • REDE INTERSETORIAL</div><h1>Rede da Primeira Infância</h1><p>Equipamentos, serviços, programas e capacidades setoriais relacionados às crianças de 0 a 6 anos e seus cuidadores.</p></div></div>
+<div class="hero small"><div class="container"><div class="eyebrow">SPRINT 8.7.4 • CAPACIDADE DE ATENDIMENTO</div><h1>Rede da Primeira Infância</h1><p>Equipamentos, serviços, programas e capacidades setoriais relacionados às crianças de 0 a 6 anos e seus cuidadores.</p></div></div>
 </header>
 <main><section><div class="container rpi-wrap">
 <div class="rpi-note"><strong>Regra de leitura:</strong> equipamento físico, serviço e capacidade setorial são coisas diferentes. Serviços que funcionam dentro de um equipamento devem ser vinculados ao mesmo ponto no Atlas. Registros administrativos não representam automaticamente pessoas únicas ou cobertura.</div>
 <div id="rpi-kpis" class="rpi-kpis"></div>
 <div class="kicker">Catálogo integrado</div><h2>Equipamentos, serviços e capacidades</h2>
-<p>Educação utiliza a base original; referências cartográficas de 2021 são históricas. Nenhum novo marcador é criado. Quantitativos de setores diferentes não são somados.</p>
+<p>Educação utiliza a base original; referências cartográficas de 2021 são históricas. Nenhum novo marcador é criado. Quantitativos de atendimento são apresentados por setor e serviço, sem somas indevidas.</p>
 <div class="rpi-filtros"><input id="rpi-busca" placeholder="Buscar serviço, secretaria ou categoria"><select id="rpi-setor"><option value="">Todos os setores</option></select><select id="rpi-tipo"><option value="">Todos os tipos</option></select><select id="rpi-rel"><option value="">Toda relação com 0–6</option><option>Direto</option><option>Compartilhado</option><option>Territorial</option></select></div>
 <div class="rpi-filtros"><select id="rpi-ter"><option value="">Todos os territórios</option></select><select id="rpi-bairro"><option value="">Todos os bairros</option></select><select id="rpi-status"><option value="">Todas as situações</option></select><button type="button" id="rpi-clear" class="btn secondary">Limpar filtros</button></div><p id="rpi-msg" role="status"></p><div id="rpi-setoriais"></div><div id="rpi-lista"></div>
 </div></section></main>
 <footer><div class="container footer"><div><strong>PMPI 2026–2035</strong><p>Catálogo Integrado da Rede da Primeira Infância.</p></div><div><strong>Governança dos dados</strong><p>Fontes setoriais e validação progressiva.</p></div></div></footer>
-<script src="js/rede-primeira-infancia.js?v=8.7.3"></script>
+<script src="js/rede-primeira-infancia.js?v=8.7.4"></script>
 </body></html>
